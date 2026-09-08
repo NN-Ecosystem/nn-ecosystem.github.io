@@ -1,6 +1,6 @@
 {
   "schema": "core_factory_catalog_v1",
-  "generated_at": "2026-09-08T03:56:04.113134+00:00",
+  "generated_at": "2026-09-08T06:24:21.769368+00:00",
   "count": 100,
   "items": [
     {
@@ -6360,7 +6360,7 @@
             "build_revision": 3,
             "capability_service_version": null,
             "capabilities": [],
-            "artifact_sha256": "bf8b078c72d5ef7eef83b7c1177999a19a2660d17661d9bc9801da0ce0da700c",
+            "artifact_sha256": "6279f9123592a7e74ea21332150d2c09b60ec56104f6c5ff8b996dab3c5d5862",
             "artifact_file": "platform_releases/android/finance_plugin-1.0.0-unsigned_signed.apk",
             "release_manifest_file": "platform_releases/android/finance_plugin-1.0.0-unsigned_signed.release.json",
             "release_signature_file": "platform_releases/android/finance_plugin-1.0.0-unsigned_signed.release.sig",
@@ -6408,7 +6408,7 @@
           "architecture": "universal",
           "artifact_type": "apk",
           "download_url": "https://github.com/NN-Ecosystem/nn-ecosystem.github.io/releases/download/plugin-finance_plugin-v1.0.0/finance_plugin-1.0.0-unsigned_signed.apk",
-          "sha256": "bf8b078c72d5ef7eef83b7c1177999a19a2660d17661d9bc9801da0ce0da700c",
+          "sha256": "6279f9123592a7e74ea21332150d2c09b60ec56104f6c5ff8b996dab3c5d5862",
           "version": "1.0.0",
           "build_revision": 3,
           "execution_modes": [
