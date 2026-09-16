@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "trading_market_structure_auctions_1.0.0.nnk",
+    "size": 3326,
+    "sha256": "91280fe04ad993948c3fdf679cac9402965d7d0334a5e068a800ec1b354b52e1",
+    "content_sha256": "df1cca461efed990f27550ac146061a900572e395805d0cf9be9c2954c279bda"
+  },
+  "identity": {
+    "id": "trading_market_structure_auctions",
+    "version": "1.0.0"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-16T13:53:14.128226+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "trading_market_structure_auctions_1.0.0.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/trading_market_structure_auctions_1.0.0.nnk"
+  }
+}
