@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "trading_filter_risk_portfolio_1.7.0.nnk",
+    "size": 13924,
+    "sha256": "e9726b7d8243d4461b5cee5491d65b7cdc47c54ca1ea8da5211d3501be78f3df",
+    "content_sha256": "bbc5ff0e3a5b12b2bda478ef6da72e84d04b927e8a8b14c454962df44c5cc173"
+  },
+  "identity": {
+    "id": "trading_filter_risk_portfolio",
+    "version": "1.7.0"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-16T13:53:13.989226+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "trading_filter_risk_portfolio_1.7.0.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/trading_filter_risk_portfolio_1.7.0.nnk"
+  }
+}
