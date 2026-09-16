@@ -1,0 +1,32 @@
+{
+  "schema": "knowledge_release_index_v1",
+  "generated_at": "2026-09-16T07:29:03.460369+00:00",
+  "namespace": "/knowledge/",
+  "catalog": "catalog.json",
+  "catalog_version": "2026.09.16.1",
+  "pack_count": 4,
+  "topic_count": 106,
+  "key_id": "rsa-bc157b0ea2f00c66",
+  "files": [
+    "book_ideas_1.1.0.nnk",
+    "book_ideas_1.1.0.nnk.release.json",
+    "book_ideas_1.1.0.nnk.release.sig",
+    "book_ideas_1.1.0.nnk.sig",
+    "catalog.json",
+    "catalog.json.release.json",
+    "catalog.json.release.sig",
+    "catalog.json.sig",
+    "life_basics_1.1.0.nnk",
+    "life_basics_1.1.0.nnk.release.json",
+    "life_basics_1.1.0.nnk.release.sig",
+    "life_basics_1.1.0.nnk.sig",
+    "school_basics_1.1.0.nnk",
+    "school_basics_1.1.0.nnk.release.json",
+    "school_basics_1.1.0.nnk.release.sig",
+    "school_basics_1.1.0.nnk.sig",
+    "technical_basics_1.1.0.nnk",
+    "technical_basics_1.1.0.nnk.release.json",
+    "technical_basics_1.1.0.nnk.release.sig",
+    "technical_basics_1.1.0.nnk.sig"
+  ]
+}
