@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_catalog",
+    "filename": "catalog.json",
+    "size": 3380,
+    "sha256": "129b2342b680b2496528d591724fd5b33d1c5a21157bdb4a4a4b8e5cd712f951",
+    "content_sha256": "5ec7c098b6204542a6498a9871e5b4ec8a05a72ee6c6247f1ea81210acf918a0"
+  },
+  "identity": {
+    "id": "knowledge_catalog",
+    "version": "2026.09.16.1"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-16T07:29:03.442850+00:00",
+  "contracts": {
+    "knowledge_pack": null,
+    "knowledge_catalog": "knowledge_catalog_v1"
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "catalog.json.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/catalog.json"
+  }
+}
