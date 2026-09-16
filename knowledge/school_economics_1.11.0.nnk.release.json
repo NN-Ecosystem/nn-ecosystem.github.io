@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "school_economics_1.11.0.nnk",
+    "size": 8020,
+    "sha256": "7e87139f7fd0b35b96990b592f8a67f2d7cb5aae416a43b525ee1dc723a91730",
+    "content_sha256": "d63d2a15ef600bd333a133448f1483de8d85d064bff24c17076a80968bb083ae"
+  },
+  "identity": {
+    "id": "school_economics",
+    "version": "1.11.0"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-16T09:20:18.014552+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "school_economics_1.11.0.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/school_economics_1.11.0.nnk"
+  }
+}
