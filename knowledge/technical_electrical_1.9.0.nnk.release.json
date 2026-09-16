@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "technical_electrical_1.9.0.nnk",
+    "size": 7230,
+    "sha256": "f250d48ec76c96b680007fedfa5a8c31cda0a3ef8ce80a6a7ede74c6b127e012",
+    "content_sha256": "f6d22941f30390e158d5def987c5581505ed284517a4e1c08227eaa557a25f10"
+  },
+  "identity": {
+    "id": "technical_electrical",
+    "version": "1.9.0"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-16T09:20:17.815465+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "technical_electrical_1.9.0.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/technical_electrical_1.9.0.nnk"
+  }
+}
