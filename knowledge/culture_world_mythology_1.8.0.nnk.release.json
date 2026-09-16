@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "culture_world_mythology_1.8.0.nnk",
+    "size": 18087,
+    "sha256": "e17bca07c1507ba35af802362ebbb563396ba0bfb7b4a1122843959a2b93409d",
+    "content_sha256": "408008a846d6c01239b98cfef78148a1b87bbd320a986924008d843886884ed6"
+  },
+  "identity": {
+    "id": "culture_world_mythology",
+    "version": "1.8.0"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-16T13:53:13.802224+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "culture_world_mythology_1.8.0.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/culture_world_mythology_1.8.0.nnk"
+  }
+}
