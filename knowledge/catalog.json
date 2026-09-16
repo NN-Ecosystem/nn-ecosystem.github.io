@@ -1,0 +1,77 @@
+{
+  "schema": "knowledge_catalog_v1",
+  "catalog_version": "2026.09.16.1",
+  "generated_at": "2026-09-16T06:30:00Z",
+  "packs": [
+    {
+      "pack_id": "school_basics",
+      "title": "School Foundations",
+      "version": "1.1.0",
+      "domain": "school",
+      "language": "vi",
+      "topic_count": 47,
+      "sha256": "38f00f630acb24bf2f811212dc5fddd07b7752ec79f942fd28a3d5a07b5730e2",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/school_basics_1.1.0.nnk",
+      "size_bytes": 7999,
+      "filename": "school_basics_1.1.0.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/school_basics_1.1.0.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/school_basics_1.1.0.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/school_basics_1.1.0.nnk.release.sig"
+    },
+    {
+      "pack_id": "life_basics",
+      "title": "Life Essentials",
+      "version": "1.1.0",
+      "domain": "life",
+      "language": "vi",
+      "topic_count": 20,
+      "sha256": "763db1d89a4c5819b1f2b200f959cad4ad1dc741caa01babc5e4d03db64b41d9",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/life_basics_1.1.0.nnk",
+      "size_bytes": 4365,
+      "filename": "life_basics_1.1.0.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/life_basics_1.1.0.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/life_basics_1.1.0.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/life_basics_1.1.0.nnk.release.sig"
+    },
+    {
+      "pack_id": "technical_basics",
+      "title": "Technical Foundations",
+      "version": "1.1.0",
+      "domain": "technical",
+      "language": "vi",
+      "topic_count": 27,
+      "sha256": "5870ce58e7b8124cd214982a560ad759bc1c80553ceb67827e01175cd58ddc42",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/technical_basics_1.1.0.nnk",
+      "size_bytes": 5412,
+      "filename": "technical_basics_1.1.0.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/technical_basics_1.1.0.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/technical_basics_1.1.0.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/technical_basics_1.1.0.nnk.release.sig"
+    },
+    {
+      "pack_id": "book_ideas",
+      "title": "Book Ideas",
+      "version": "1.1.0",
+      "domain": "books",
+      "language": "vi",
+      "topic_count": 12,
+      "sha256": "9bfe8cb60dbbb93aa20c659792daf765c6421378d8ac32214db26db6516e3383",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/book_ideas_1.1.0.nnk",
+      "size_bytes": 3472,
+      "filename": "book_ideas_1.1.0.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/book_ideas_1.1.0.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/book_ideas_1.1.0.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/book_ideas_1.1.0.nnk.release.sig"
+    }
+  ],
+  "distribution": {
+    "namespace": "/knowledge/",
+    "pages_base_url": "https://nn-ecosystem.github.io",
+    "store_catalog_isolation": true
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "payload": "raw-catalog-json-bytes"
+  }
+}
