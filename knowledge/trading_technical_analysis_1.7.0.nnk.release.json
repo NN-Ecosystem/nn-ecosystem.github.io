@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "trading_technical_analysis_1.7.0.nnk",
+    "size": 4853,
+    "sha256": "b4e77e4cfa95793d167def4eea9904c79206254383aff2413fdf9ccbb1f2bebb",
+    "content_sha256": "4fd10e214316ecc1b957aa7cb1e8141136b26b665fd6fe7096ebf0f1baf0f43e"
+  },
+  "identity": {
+    "id": "trading_technical_analysis",
+    "version": "1.7.0"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-16T13:53:14.075225+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "trading_technical_analysis_1.7.0.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/trading_technical_analysis_1.7.0.nnk"
+  }
+}
