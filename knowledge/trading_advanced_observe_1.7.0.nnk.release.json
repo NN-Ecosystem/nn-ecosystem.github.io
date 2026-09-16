@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "trading_advanced_observe_1.7.0.nnk",
+    "size": 15496,
+    "sha256": "847376f50b5a95e3d7d195e6472c2fd2f792187301965d92a28319fea7d6fa8b",
+    "content_sha256": "3cdd24e9a65160e7fdcb5ea0fd96e9a934a4f8b14f4cba183e3be2e30adc4b81"
+  },
+  "identity": {
+    "id": "trading_advanced_observe",
+    "version": "1.7.0"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-16T13:53:14.034224+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "trading_advanced_observe_1.7.0.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/trading_advanced_observe_1.7.0.nnk"
+  }
+}
