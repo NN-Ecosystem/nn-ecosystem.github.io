@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "school_civics_grade6_9_official_1.8.0.nnk",
+    "size": 4430,
+    "sha256": "11ed3a2bb93ce6daaab6cb0958cc3fb2e7252145399aa1a3eae91a38e4ad4e1e",
+    "content_sha256": "825287b6d655be4762568dff8d74cb640c213e5e77f96ff071278510a07b8b3a"
+  },
+  "identity": {
+    "id": "school_civics_grade6_9_official",
+    "version": "1.8.0"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-16T13:53:13.908233+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "school_civics_grade6_9_official_1.8.0.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/school_civics_grade6_9_official_1.8.0.nnk"
+  }
+}
