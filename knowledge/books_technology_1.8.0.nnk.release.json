@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "books_technology_1.8.0.nnk",
+    "size": 8589,
+    "sha256": "1ac591361afec20b0e623a49d44a45139168386d707d969e13f2d89fa6516297",
+    "content_sha256": "d75f1a8ec0a64ee02e14d59e86f0e22d7a6dcb10efcef14f359d2f46b98d4ec8"
+  },
+  "identity": {
+    "id": "books_technology",
+    "version": "1.8.0"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-16T13:53:13.774226+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "books_technology_1.8.0.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/books_technology_1.8.0.nnk"
+  }
+}
