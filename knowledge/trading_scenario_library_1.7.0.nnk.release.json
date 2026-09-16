@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "trading_scenario_library_1.7.0.nnk",
+    "size": 11923,
+    "sha256": "ee0c5624de4b168a9ea7a6f0f3a0d9d6af561e78c7706f0a3ee2ad77baaaa890",
+    "content_sha256": "af071b82436b921f06072dc58087ca66451820f33c74d91041f367fb89d91292"
+  },
+  "identity": {
+    "id": "trading_scenario_library",
+    "version": "1.7.0"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-16T13:53:14.050226+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "trading_scenario_library_1.7.0.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/trading_scenario_library_1.7.0.nnk"
+  }
+}
