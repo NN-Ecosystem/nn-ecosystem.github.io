@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "school_geography_1.8.0.nnk",
+    "size": 11555,
+    "sha256": "51c4ff1b8625004fb76e8b5b2e24aaa8d411a8689b916e22eb52dfe5c6e314b2",
+    "content_sha256": "70b4d90282e4e9e2aae21d57031355f157d3b2d55d9312e125e69f4d228715b6"
+  },
+  "identity": {
+    "id": "school_geography",
+    "version": "1.8.0"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-16T13:53:13.664225+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "school_geography_1.8.0.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/school_geography_1.8.0.nnk"
+  }
+}
