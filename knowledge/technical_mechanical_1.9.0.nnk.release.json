@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "technical_mechanical_1.9.0.nnk",
+    "size": 10059,
+    "sha256": "007d0ad5022d6c02f00a1a48422c21f27eab3e08d168a7898465e97ba8155983",
+    "content_sha256": "0eb6c7c0c2bf75f0fb9de8a9edfaf9bcaa5ec77e81832490216053a7bb3704de"
+  },
+  "identity": {
+    "id": "technical_mechanical",
+    "version": "1.9.0"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-16T09:20:17.860009+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "technical_mechanical_1.9.0.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/technical_mechanical_1.9.0.nnk"
+  }
+}
