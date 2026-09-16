@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "school_basics_1.1.0.nnk",
+    "size": 7999,
+    "sha256": "38f00f630acb24bf2f811212dc5fddd07b7752ec79f942fd28a3d5a07b5730e2",
+    "content_sha256": "10e630254503a42951f143175e684dc53d866c000e74924262cb07dfc8f1a82e"
+  },
+  "identity": {
+    "id": "school_basics",
+    "version": "1.1.0"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-16T07:29:03.401841+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "school_basics_1.1.0.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/school_basics_1.1.0.nnk"
+  }
+}
