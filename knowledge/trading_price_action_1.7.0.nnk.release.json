@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "trading_price_action_1.7.0.nnk",
+    "size": 4600,
+    "sha256": "6524f7137671293e3d1f1b6cc1f5428ace1f0a3efafae60fcbc2b7afecbf368e",
+    "content_sha256": "be0cca9a50d0f3e2f506876dec0299051a1eb03f9ffc27acb31cebd6b7902f8e"
+  },
+  "identity": {
+    "id": "trading_price_action",
+    "version": "1.7.0"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-16T13:53:14.083226+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "trading_price_action_1.7.0.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/trading_price_action_1.7.0.nnk"
+  }
+}
