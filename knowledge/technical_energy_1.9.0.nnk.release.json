@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "technical_energy_1.9.0.nnk",
+    "size": 7091,
+    "sha256": "57ebceac3f03ae2360506d686c03b69dd923abb74ff23a4b3dd9015521d2533c",
+    "content_sha256": "63800325263a399c507c1edabc7a36c506e468639a6fa83fd7ce84f4feb8fdba"
+  },
+  "identity": {
+    "id": "technical_energy",
+    "version": "1.9.0"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-16T09:20:17.838479+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "technical_energy_1.9.0.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/technical_energy_1.9.0.nnk"
+  }
+}
