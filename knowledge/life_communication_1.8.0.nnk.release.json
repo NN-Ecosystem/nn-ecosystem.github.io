@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "life_communication_1.8.0.nnk",
+    "size": 9986,
+    "sha256": "7e5b4fdd9200c9029046a364ab7c7fc7617ea457d8825df09e427390c671adff",
+    "content_sha256": "10e26ffabe845ebc7163ace83618aa55013a9c1e3448b9c7682dd359fc4801b2"
+  },
+  "identity": {
+    "id": "life_communication",
+    "version": "1.8.0"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-16T13:53:13.512222+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "life_communication_1.8.0.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/life_communication_1.8.0.nnk"
+  }
+}
