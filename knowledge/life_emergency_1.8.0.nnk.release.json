@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "life_emergency_1.8.0.nnk",
+    "size": 10283,
+    "sha256": "bccada073085b049a967ab36d3d9df9cab22c6d442b0d0f8ffa47c850c7a440e",
+    "content_sha256": "540b326112c7cb30c1b2d5c346a91164d54779813ef77e78380d96a0c7af7608"
+  },
+  "identity": {
+    "id": "life_emergency",
+    "version": "1.8.0"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-16T13:53:13.525226+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "life_emergency_1.8.0.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/life_emergency_1.8.0.nnk"
+  }
+}
