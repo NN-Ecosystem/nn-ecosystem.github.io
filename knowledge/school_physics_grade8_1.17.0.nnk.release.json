@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "school_physics_grade8_1.17.0.nnk",
+    "size": 1960,
+    "sha256": "a8c9b0f193856fd7dd984923629043c77009bf4711cf83f49037052a585ec85e",
+    "content_sha256": "0c8a990e9c0c118398e6a2d90ba03cb4a261ff1c20504eeb381b9af8afc57acd"
+  },
+  "identity": {
+    "id": "school_physics_grade8",
+    "version": "1.17.0"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-16T09:20:18.271179+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "school_physics_grade8_1.17.0.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/school_physics_grade8_1.17.0.nnk"
+  }
+}
