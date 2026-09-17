@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "life_consumer_1.13.0.nnk",
+    "size": 18713,
+    "sha256": "a27fe7ae6db4dec8f3d68f914b6d201dd411ef794462bc6c8a37aa662549fd02",
+    "content_sha256": "62d3ee41ade36e8577ed99d87859adf8e6e7f0c413597e875d68366140b968e1"
+  },
+  "identity": {
+    "id": "life_consumer",
+    "version": "1.13.0"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-17T04:59:19.491760+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "life_consumer_1.13.0.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/life_consumer_1.13.0.nnk"
+  }
+}
