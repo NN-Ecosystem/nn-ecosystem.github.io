@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "astronomy_astrochemistry_origins_1.1.0.nnk",
+    "size": 11987,
+    "sha256": "7df8a95bfe1999de5a6cd6fcf285530b2076127deb04698df49e2d82a3402b05",
+    "content_sha256": "75613e6e7eadff2d7d177dcbc8cda81c38ee2e8f7b458f03b071582e01cb7b0a"
+  },
+  "identity": {
+    "id": "astronomy_astrochemistry_origins",
+    "version": "1.1.0"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-17T04:59:21.839130+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "astronomy_astrochemistry_origins_1.1.0.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/astronomy_astrochemistry_origins_1.1.0.nnk"
+  }
+}
