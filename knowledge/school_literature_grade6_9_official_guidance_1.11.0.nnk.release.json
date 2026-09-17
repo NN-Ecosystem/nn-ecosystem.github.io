@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "school_literature_grade6_9_official_guidance_1.11.0.nnk",
+    "size": 6295,
+    "sha256": "5d5f88f34a3896fefe514e48673962a9774d6da1bfc1cae865fa4735270ad3a3",
+    "content_sha256": "b9e19ba69a71007960740002d253b34ca558aaff2842e2e48302da2b536da68f"
+  },
+  "identity": {
+    "id": "school_literature_grade6_9_official_guidance",
+    "version": "1.11.0"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-17T04:59:19.708847+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "school_literature_grade6_9_official_guidance_1.11.0.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/school_literature_grade6_9_official_guidance_1.11.0.nnk"
+  }
+}
