@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "highschool_core_computer_science_1.8.0.nnk",
+    "size": 33634,
+    "sha256": "8eecd866b3175bbf86f5720158282664a48f2173dadd2bad6a3727f875f97590",
+    "content_sha256": "828022db5f1ddf45772ea7da4dee94b0a6213712ad75430ccc8cf9b0362d0275"
+  },
+  "identity": {
+    "id": "highschool_core_computer_science",
+    "version": "1.8.0"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-17T04:59:21.630093+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "highschool_core_computer_science_1.8.0.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_computer_science_1.8.0.nnk"
+  }
+}
