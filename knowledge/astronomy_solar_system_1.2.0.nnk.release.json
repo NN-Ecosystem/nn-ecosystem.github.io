@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "astronomy_solar_system_1.2.0.nnk",
+    "size": 18715,
+    "sha256": "b9dc03e04992102c7de7435152a4638bf48bb4cd7e7895cca13f3e11e45b0102",
+    "content_sha256": "3b88c31992521d4128ad4b9ec335434be736139a9f05db955fe4f45b45a6a42e"
+  },
+  "identity": {
+    "id": "astronomy_solar_system",
+    "version": "1.2.0"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-17T04:59:21.721594+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "astronomy_solar_system_1.2.0.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/astronomy_solar_system_1.2.0.nnk"
+  }
+}
