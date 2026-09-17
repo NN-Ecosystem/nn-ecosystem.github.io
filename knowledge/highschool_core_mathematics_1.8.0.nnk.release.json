@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "highschool_core_mathematics_1.8.0.nnk",
+    "size": 34905,
+    "sha256": "21bb010f40f109c31a8156d9b1fc66017c6de3c75fdec74ae109f1c106ae30dc",
+    "content_sha256": "0ed85f53e52e77981c8030a7bdd4ebe0c0fb13a265576c26738db654ae48cde4"
+  },
+  "identity": {
+    "id": "highschool_core_mathematics",
+    "version": "1.8.0"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-17T04:59:20.110709+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "highschool_core_mathematics_1.8.0.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_mathematics_1.8.0.nnk"
+  }
+}
