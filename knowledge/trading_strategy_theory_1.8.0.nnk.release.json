@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "trading_strategy_theory_1.8.0.nnk",
+    "size": 9563,
+    "sha256": "82a66158a278837ca8c0a5b2ec9aca0d20ac19d3b441c82f6e2ceba4102d77ef",
+    "content_sha256": "5f1404a807481344d7d0ccd6f442a739d8f6f41b8ac4872d9632b095326aeb7e"
+  },
+  "identity": {
+    "id": "trading_strategy_theory",
+    "version": "1.8.0"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-17T04:59:19.964156+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "trading_strategy_theory_1.8.0.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/trading_strategy_theory_1.8.0.nnk"
+  }
+}
