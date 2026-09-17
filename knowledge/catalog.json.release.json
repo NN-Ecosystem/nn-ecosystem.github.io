@@ -3,16 +3,16 @@
   "artifact": {
     "kind": "knowledge_catalog",
     "filename": "catalog.json",
-    "size": 109671,
-    "sha256": "4e14e90996407550e3d2041a742634205013fdcecc7d61333e5dd4c433bc4b62",
-    "content_sha256": "7408198d88b388c72b1c63af0839f1ac0bece6b387bada30ec88bbafa76f539e"
+    "size": 207658,
+    "sha256": "4f437c000eeb9520539891debb0edab3b8c3df3c7c63cca76de1366508637f22",
+    "content_sha256": "633d1d18a9d0fa62547df9e9a42e4e872a97c4db27d5d00659a1f0568b838dd4"
   },
   "identity": {
     "id": "knowledge_catalog",
-    "version": "1.33.0"
+    "version": "1.57.0"
   },
   "channel": "stable",
-  "published_at": "2026-09-16T13:53:14.184221+00:00",
+  "published_at": "2026-09-17T04:59:21.883124+00:00",
   "contracts": {
     "knowledge_pack": null,
     "knowledge_catalog": "knowledge_catalog_v1"
