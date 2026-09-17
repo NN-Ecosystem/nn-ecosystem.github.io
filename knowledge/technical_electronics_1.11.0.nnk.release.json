@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "technical_electronics_1.11.0.nnk",
+    "size": 17855,
+    "sha256": "8ab0ed5087d3fdc47f6464b9031efde43b195f6d0f1d2258c647fdaac3d6d9f4",
+    "content_sha256": "c41e1a3bfc365de468c7440224e74b0890d966e01ea09ed2011fe2998b19a80c"
+  },
+  "identity": {
+    "id": "technical_electronics",
+    "version": "1.11.0"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-17T04:59:19.306698+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "technical_electronics_1.11.0.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/technical_electronics_1.11.0.nnk"
+  }
+}
