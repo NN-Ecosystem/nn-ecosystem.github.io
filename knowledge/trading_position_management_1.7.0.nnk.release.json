@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "trading_position_management_1.7.0.nnk",
+    "size": 21272,
+    "sha256": "575dafdbdc18163288db633f0a53d2d5714ccdf23f65d45ba1f3db1fa97dc8b6",
+    "content_sha256": "863db9616e7caa111a6c31d22f935cb2aa4db7a68baaa272098920eed5703d78"
+  },
+  "identity": {
+    "id": "trading_position_management",
+    "version": "1.7.0"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-17T04:59:19.850635+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "trading_position_management_1.7.0.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/trading_position_management_1.7.0.nnk"
+  }
+}
