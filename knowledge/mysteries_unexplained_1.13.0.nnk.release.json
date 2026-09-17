@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "mysteries_unexplained_1.13.0.nnk",
+    "size": 21818,
+    "sha256": "cecbd228d643aa83910295c66fc140aa5089d896d5dbab8eaaa594f40a436469",
+    "content_sha256": "d4290b01afeb56ac601caf407a05f58db3f59ad5a593fe38c8c3241b0ca18c7e"
+  },
+  "identity": {
+    "id": "mysteries_unexplained",
+    "version": "1.13.0"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-17T04:59:19.529303+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "mysteries_unexplained_1.13.0.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/mysteries_unexplained_1.13.0.nnk"
+  }
+}
