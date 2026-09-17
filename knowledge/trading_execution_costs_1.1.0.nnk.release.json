@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "trading_execution_costs_1.1.0.nnk",
+    "size": 6022,
+    "sha256": "948a0f8bd8f8dc264bbe7f772b259a47f0c46c23eaeffebd2e11046612ac905f",
+    "content_sha256": "d9ad0894f2cdfacad5a6d94e5c86a50938d885c81f515c3846591a69d8d018b2"
+  },
+  "identity": {
+    "id": "trading_execution_costs",
+    "version": "1.1.0"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-17T04:59:20.060696+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "trading_execution_costs_1.1.0.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/trading_execution_costs_1.1.0.nnk"
+  }
+}
