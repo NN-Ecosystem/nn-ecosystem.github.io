@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "trading_market_microstructure_1.8.0.nnk",
+    "size": 13349,
+    "sha256": "a6e9dba2b575d883fc71a30095503d55bdfb575125be72eb8a7a9dedcf38f52f",
+    "content_sha256": "27b41df182339aee1b5f9fca57305052836175cba909afa63da4754fc1b624a8"
+  },
+  "identity": {
+    "id": "trading_market_microstructure",
+    "version": "1.8.0"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-17T04:59:19.913641+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "trading_market_microstructure_1.8.0.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/trading_market_microstructure_1.8.0.nnk"
+  }
+}
