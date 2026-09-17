@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "highschool_core_english_language_1.8.0.nnk",
+    "size": 30329,
+    "sha256": "e9780a95f11282ac5f1b88b74368b8d92269e130b56985f7ffc04c63654041c8",
+    "content_sha256": "96fb3141fc54801b0ea675b2880387d089a1c3ec157e858942ecd878253890af"
+  },
+  "identity": {
+    "id": "highschool_core_english_language",
+    "version": "1.8.0"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-17T04:59:21.697062+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "highschool_core_english_language_1.8.0.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_english_language_1.8.0.nnk"
+  }
+}
