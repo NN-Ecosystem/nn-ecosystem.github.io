@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "technical_automotive_1.11.0.nnk",
+    "size": 12438,
+    "sha256": "4acb8b57554bb4455a7b03b1e88afd0e7360e487c79aa526ee2e5fee3244f4ee",
+    "content_sha256": "09c720e298ca2072aa2d20acb6d00371194456c36003cd2ba708fe237dc476f1"
+  },
+  "identity": {
+    "id": "technical_automotive",
+    "version": "1.11.0"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-17T04:59:19.277694+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "technical_automotive_1.11.0.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/technical_automotive_1.11.0.nnk"
+  }
+}
