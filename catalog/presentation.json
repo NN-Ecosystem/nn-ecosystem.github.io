@@ -1,6 +1,6 @@
 {
   "schema": "core_factory_catalog_presentation_v1",
-  "generated_at": "2026-09-17T08:19:08.892374+00:00",
+  "generated_at": "2026-09-17T12:09:10.117544+00:00",
   "count": 126,
   "items": [
     {
@@ -2297,7 +2297,7 @@
         "media_library"
       ],
       "capabilities": [],
-      "taxonomy_status": "incomplete"
+      "taxonomy_status": "complete"
     },
     {
       "item_id": "media_processing_plugin",
@@ -2356,7 +2356,7 @@
         "meeting_assistant"
       ],
       "capabilities": [],
-      "taxonomy_status": "incomplete"
+      "taxonomy_status": "complete"
     },
     {
       "item_id": "notes_reminder_plugin",
@@ -2395,7 +2395,7 @@
         "personal_assistant"
       ],
       "capabilities": [],
-      "taxonomy_status": "incomplete"
+      "taxonomy_status": "complete"
     },
     {
       "item_id": "realtime_translate_plugin",
@@ -2414,7 +2414,7 @@
         "realtime_translate"
       ],
       "capabilities": [],
-      "taxonomy_status": "incomplete"
+      "taxonomy_status": "complete"
     },
     {
       "item_id": "retro_gaming_plugin",
