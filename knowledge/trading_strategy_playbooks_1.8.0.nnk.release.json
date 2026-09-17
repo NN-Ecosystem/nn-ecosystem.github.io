@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "trading_strategy_playbooks_1.8.0.nnk",
+    "size": 7454,
+    "sha256": "5d337d63808160d8feb7abf01264de9494eb1a4e63c5dbeb41f1ce1f537bc72d",
+    "content_sha256": "7d5a49484ed022cee43646e741251f7e1b2c756d8c24a5113f0ebead8dfa7fbf"
+  },
+  "identity": {
+    "id": "trading_strategy_playbooks",
+    "version": "1.8.0"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-17T04:59:19.887635+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "trading_strategy_playbooks_1.8.0.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/trading_strategy_playbooks_1.8.0.nnk"
+  }
+}
