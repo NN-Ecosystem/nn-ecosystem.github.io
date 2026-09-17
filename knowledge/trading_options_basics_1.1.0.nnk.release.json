@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "trading_options_basics_1.1.0.nnk",
+    "size": 5896,
+    "sha256": "6f21f9eaff9fcfc3630ead41051a422b4c66e736af8ff4a636b8681d6e77c627",
+    "content_sha256": "afa91c2fc32bd0dd978f19abfeda0f2b5157176b09defdd348c48554d59369fe"
+  },
+  "identity": {
+    "id": "trading_options_basics",
+    "version": "1.1.0"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-17T04:59:20.027694+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "trading_options_basics_1.1.0.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/trading_options_basics_1.1.0.nnk"
+  }
+}
