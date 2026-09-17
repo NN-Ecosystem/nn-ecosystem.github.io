@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "trading_outcomes_performance_1.8.0.nnk",
+    "size": 21711,
+    "sha256": "aa6fa599b49651bdece9f123ed91bcd16808caab78d5dc027956f0445e8751c0",
+    "content_sha256": "c10f15de05940370b6f8e4ab2708d28461f49ab67c857ba80bee5e0963b54ae6"
+  },
+  "identity": {
+    "id": "trading_outcomes_performance",
+    "version": "1.8.0"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-17T04:59:19.864634+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "trading_outcomes_performance_1.8.0.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/trading_outcomes_performance_1.8.0.nnk"
+  }
+}
