@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "school_math_grade7_1.11.0.nnk",
+    "size": 5486,
+    "sha256": "244e31dddafd3fcc620ff8a854ba5125de50b8d0471e0255160a8b0ec5d75830",
+    "content_sha256": "f097b5559dee1efdd4d02b0f64eb1a8903fd89aae5d998ad49008adcb00e8d9b"
+  },
+  "identity": {
+    "id": "school_math_grade7",
+    "version": "1.11.0"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-17T04:59:19.609310+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "school_math_grade7_1.11.0.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/school_math_grade7_1.11.0.nnk"
+  }
+}
