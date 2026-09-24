@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "school_history_1.11.1.nnk",
+    "size": 18991,
+    "sha256": "8a4129580a24bd9db2d613c0bd853a674cde24728c1e8d5e64870782cc7e9e10",
+    "content_sha256": "7a34dc7d1ef3510fb27e8d94f069e26472030b163d795ab4aad39700ee1dd3db"
+  },
+  "identity": {
+    "id": "school_history",
+    "version": "1.11.1"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-24T05:39:59.846824+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "school_history_1.11.1.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/school_history_1.11.1.nnk"
+  }
+}
