@@ -1,7 +1,7 @@
 {
   "schema": "knowledge_catalog_v1",
-  "version": "secondary_game_quality_v1_plus_existing+secondary-core-lesson-v1+secondary-subject-core-v1",
-  "updated_at": "2026-09-24T16:40:00+07:00",
+  "version": "grade10_refined_v2",
+  "updated_at": "2026-09-25",
   "classification_contract": "program_language_2axis_v2",
   "classification_rules": {
     "language": [
@@ -16,15 +16,14 @@
     "rule": "Language describes pack data. Program describes curriculum scope. Language never implies program."
   },
   "summary": {
-    "total_packs": 167,
+    "total_packs": 175,
     "language_counts": {
-      "VI": 135,
-      "EN": 28,
-      "vi": 4
+      "en": 28,
+      "vi": 147
     },
     "program_counts": {
       "global": 109,
-      "vietnam": 58
+      "vietnam": 66
     },
     "vietnam_curriculum_grades": [
       "6",
@@ -34,7 +33,8 @@
       "10"
     ],
     "secondary_core_lesson_v1_packs": 16,
-    "secondary_subject_core_v1_packs": 23
+    "secondary_subject_core_v1_packs": 23,
+    "pack_count": 175
   },
   "packs": [
     {
@@ -5014,7 +5014,7 @@
     {
       "pack_id": "vn_school_chemistry_grade10",
       "title": "Hóa học 10 · Việt Nam · Kết nối tri thức",
-      "version": "1.1.0",
+      "version": "1.3.0",
       "domain": "school",
       "subject": "Chemistry",
       "subject_id": "chemistry",
@@ -5025,21 +5025,22 @@
       "curriculum": "VN_GDPT_2018",
       "grade": "10",
       "topic_count": 22,
-      "file": "vn_school_chemistry_grade10_1.1.0.nnk",
-      "sha256": "9b6b3d683d85664ae314f106d3ea9ea3ab155359c677e088b236f3079e56a4c7",
-      "size_bytes": 47061,
-      "review_status": "machine_reviewed_v2",
+      "file": "vn_school_chemistry_grade10_1.3.0.nnk",
+      "sha256": "128411ddd35db26dc844e3c29318dc3740ec9a8706b2c3bd3ecef4dc997f5fc7",
+      "size_bytes": 74325,
+      "review_status": "machine_reviewed_v4",
       "curriculum_status": "curriculum_aligned_machine_reviewed_v1",
       "capabilities": [
         "knowledge",
         "curriculum",
-        "knowledge_game_v1"
+        "knowledge_game_v1",
+        "knowledge_lesson_core_v1"
       ],
       "classification_status": "verified_vietnam_curriculum_v1",
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 47061
+        "size_bytes": 74325
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -5054,24 +5055,25 @@
       "production_ready": false,
       "editorial_review_required": true,
       "quality_gate": {
-        "schema": "knowledge_question_quality_gate_v3",
-        "status": "release_candidate_machine_reviewed",
-        "runtime_playable": true,
+        "schema": "knowledge_question_quality_gate_v5",
+        "status": "release_candidate_deep_machine_reviewed",
         "editorial_review_required": true,
-        "semantic_normalized_diversity": 0.0208,
-        "generic_meta_ratio": 0.0,
-        "generic_meta_removed": 135
+        "lesson_core_required": true,
+        "placeholder_example_ratio": 0.0,
+        "generic_scaffold_ratio": 0.0
       },
-      "filename": "vn_school_chemistry_grade10_1.1.0.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_chemistry_grade10_1.1.0.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_chemistry_grade10_1.1.0.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_chemistry_grade10_1.1.0.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_chemistry_grade10_1.1.0.nnk.release.sig"
+      "textbook_id": null,
+      "minimum_plugin_version": "2.0.13",
+      "filename": "vn_school_chemistry_grade10_1.3.0.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_chemistry_grade10_1.3.0.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_chemistry_grade10_1.3.0.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_chemistry_grade10_1.3.0.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_chemistry_grade10_1.3.0.nnk.release.sig"
     },
     {
       "pack_id": "vn_school_civic_education_grade6",
       "title": "Giáo dục công dân 6 · Việt Nam · Kết nối tri thức",
-      "version": "1.2.0",
+      "version": "1.2.3",
       "domain": "school",
       "subject": "Civic Education",
       "subject_id": "civic_education",
@@ -5082,11 +5084,11 @@
       "curriculum": "VN_GDPT_2018",
       "grade": "6",
       "topic_count": 12,
-      "file": "vn_school_civic_education_grade6_1.2.0.nnk",
-      "sha256": "b068bfe448e0a2691ca61b3600ed0bace4a04fd0f281c276928d5d671c861ae8",
-      "size_bytes": 62293,
-      "review_status": "curriculum_aligned_machine_reviewed",
-      "curriculum_status": "curriculum_aligned_machine_reviewed_v1",
+      "file": "vn_school_civic_education_grade6_1.2.3.nnk",
+      "sha256": "12287bc0af87502336758b8f08d48e1afe18657e361fe173acb8b3d044bc3d30",
+      "size_bytes": 76679,
+      "review_status": "editorial_representative_pass15",
+      "curriculum_status": "curriculum_aligned_machine_reviewed_pass8",
       "capabilities": [
         "knowledge",
         "curriculum",
@@ -5096,7 +5098,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 62293
+        "size_bytes": 76679
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -5108,22 +5110,22 @@
       "localization_policy": "source_only",
       "runtime_translation_allowed": false,
       "content_language_policy": "single_primary_language_v1",
-      "question_bank_quality": "initial_full_coverage_v1",
+      "question_bank_quality": "editorial_pattern_refined_pass14",
       "production_ready": false,
       "editorial_review_required": true,
-      "content_profile": "sgk_lesson_core_v1",
+      "content_profile": "sgk_lesson_core_v2",
       "lesson_core_contract": "knowledge_lesson_core_v1",
       "sgk_reference_contract": "knowledge_sgk_reference_v1",
-      "filename": "vn_school_civic_education_grade6_1.2.0.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_civic_education_grade6_1.2.0.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_civic_education_grade6_1.2.0.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_civic_education_grade6_1.2.0.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_civic_education_grade6_1.2.0.nnk.release.sig"
+      "filename": "vn_school_civic_education_grade6_1.2.3.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_civic_education_grade6_1.2.3.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_civic_education_grade6_1.2.3.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_civic_education_grade6_1.2.3.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_civic_education_grade6_1.2.3.nnk.release.sig"
     },
     {
       "pack_id": "vn_school_civic_education_grade7",
       "title": "Giáo dục công dân 7 · Việt Nam · Kết nối tri thức",
-      "version": "1.1.0",
+      "version": "1.1.3",
       "domain": "school",
       "subject": "Civic Education",
       "subject_id": "civic_education",
@@ -5134,11 +5136,11 @@
       "curriculum": "VN_GDPT_2018",
       "grade": "7",
       "topic_count": 10,
-      "file": "vn_school_civic_education_grade7_1.1.0.nnk",
-      "sha256": "7e830ea9ddd4c4d08728c924e4d52ec0490444a3115601c76ca424abde259333",
-      "size_bytes": 60722,
-      "review_status": "curriculum_aligned_machine_reviewed",
-      "curriculum_status": "curriculum_aligned_machine_reviewed_v1",
+      "file": "vn_school_civic_education_grade7_1.1.3.nnk",
+      "sha256": "5ab44f301eef39d98ba92eb326ded28e6571f0be02ca3f0192c9be1cec2a7a38",
+      "size_bytes": 73130,
+      "review_status": "editorial_representative_pass15",
+      "curriculum_status": "curriculum_aligned_machine_reviewed_pass8",
       "capabilities": [
         "knowledge",
         "curriculum",
@@ -5148,7 +5150,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 60722
+        "size_bytes": 73130
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -5160,20 +5162,20 @@
       "localization_policy": "source_only",
       "runtime_translation_allowed": false,
       "content_language_policy": "single_primary_language_v1",
-      "question_bank_quality": "full_coverage_machine_reviewed_v1",
+      "question_bank_quality": "editorial_pattern_refined_pass14",
       "production_ready": false,
       "editorial_review_required": true,
       "textbook_id": "KNTT_UNIFIED_2026",
       "book_family": "KNTT_UNIFIED_2026",
       "academic_year": "2026-2027",
       "sgk_reference_contract": "knowledge_sgk_reference_v1",
-      "content_profile": "sgk_lesson_core_v1",
+      "content_profile": "sgk_lesson_core_v2",
       "lesson_core_contract": "knowledge_lesson_core_v1",
-      "filename": "vn_school_civic_education_grade7_1.1.0.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_civic_education_grade7_1.1.0.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_civic_education_grade7_1.1.0.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_civic_education_grade7_1.1.0.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_civic_education_grade7_1.1.0.nnk.release.sig"
+      "filename": "vn_school_civic_education_grade7_1.1.3.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_civic_education_grade7_1.1.3.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_civic_education_grade7_1.1.3.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_civic_education_grade7_1.1.3.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_civic_education_grade7_1.1.3.nnk.release.sig"
     },
     {
       "pack_id": "vn_school_civic_education_grade8",
@@ -5288,7 +5290,7 @@
     {
       "pack_id": "vn_school_english_grade6",
       "title": "Tiếng Anh 6 · Việt Nam · Global Success",
-      "version": "1.4.0",
+      "version": "1.4.3",
       "domain": "school",
       "subject": "English",
       "subject_id": "english",
@@ -5299,10 +5301,10 @@
       "curriculum": "VN_GDPT_2018",
       "grade": "6",
       "topic_count": 32,
-      "file": "vn_school_english_grade6_1.4.0.nnk",
-      "sha256": "0e0c6c4b292346c8c6386a9b8727ec6da56565d24e2df1454129848fb9f7a80c",
-      "size_bytes": 88060,
-      "review_status": "curriculum_aligned_machine_reviewed",
+      "file": "vn_school_english_grade6_1.4.3.nnk",
+      "sha256": "1c315366e80c8e7b399a0c12ec16bd414f05704343f59c53126715c0929df357",
+      "size_bytes": 94962,
+      "review_status": "curriculum_aligned_semantic_pass11_editorial_pending",
       "curriculum_status": "curriculum_aligned_v1",
       "capabilities": [
         "knowledge",
@@ -5313,7 +5315,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 88060
+        "size_bytes": 94962
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -5325,84 +5327,24 @@
       "localization_policy": "source_only",
       "runtime_translation_allowed": false,
       "content_language_policy": "single_primary_language_v1",
-      "question_bank_quality": "diversity_refined_v3",
+      "question_bank_quality": "knowledge_core_natural_prompt_pass11",
       "production_ready": false,
       "editorial_review_required": true,
       "textbook_id": "GLOBAL_SUCCESS_6",
       "book_family": "GLOBAL_SUCCESS",
-      "content_profile": "sgk_lesson_core_v1",
+      "content_profile": "sgk_lesson_core_semantic_v2",
       "lesson_core_contract": "knowledge_lesson_core_v1",
       "sgk_reference_contract": "knowledge_sgk_reference_v1",
-      "filename": "vn_school_english_grade6_1.4.0.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade6_1.4.0.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade6_1.4.0.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade6_1.4.0.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade6_1.4.0.nnk.release.sig"
-    },
-    {
-      "pack_id": "vn_school_english_grade6_ilearn_smart_world",
-      "title": "Tiếng Anh 6 · Việt Nam · i-Learn Smart World",
-      "version": "1.2.0",
-      "domain": "school",
-      "subject": "English",
-      "language": "vi",
-      "topic_count": 40,
-      "file": "vn_school_english_grade6_ilearn_smart_world_1.2.0.nnk",
-      "sha256": "9f9de2abd79fa95c92ce5d7840cd82cde57f4a4377958b66b455acd2ac168e20",
-      "review_status": "curriculum_aligned_machine_reviewed",
-      "verified_topics": 0,
-      "editorial_reviewed_topics": 0,
-      "size_bytes": 92356,
-      "distribution": {
-        "delivery": "official_catalog",
-        "size_bytes": 92356
-      },
-      "economic": {
-        "action": "knowledge.pack.acquire",
-        "acquisition_policy": "paid_release",
-        "billing_mode": "per_acquisition",
-        "workload_units": 1,
-        "pricing_authority": "cloud_effective_usage_policy"
-      },
-      "language_group": "vi",
-      "program": "vietnam",
-      "country": "VN",
-      "curriculum": "VN_GDPT_2018",
-      "grade": 6,
-      "classification_status": "normalized_v2",
-      "localization_policy": "source_only",
-      "runtime_translation_allowed": false,
-      "content_language_policy": {
-        "schema": "knowledge_content_language_policy_v1",
-        "primary_language": "vi",
-        "mode": "single_primary_language",
-        "runtime_translation_allowed": false,
-        "allowed_exceptions": [
-          "proper_name",
-          "official_program_name",
-          "book_or_work_title",
-          "technical_code_or_acronym",
-          "target_language_learning_material"
-        ]
-      },
-      "textbook_id": "ILEARN_SMART_WORLD_6",
-      "book_family": "ILEARN_SMART_WORLD",
-      "question_bank_quality": "secondary_game_quality_v1",
-      "production_ready": false,
-      "editorial_review_required": true,
-      "content_profile": "sgk_lesson_core_v1",
-      "lesson_core_contract": "knowledge_lesson_core_v1",
-      "sgk_reference_contract": "knowledge_sgk_reference_v1",
-      "filename": "vn_school_english_grade6_ilearn_smart_world_1.2.0.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade6_ilearn_smart_world_1.2.0.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade6_ilearn_smart_world_1.2.0.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade6_ilearn_smart_world_1.2.0.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade6_ilearn_smart_world_1.2.0.nnk.release.sig"
+      "filename": "vn_school_english_grade6_1.4.3.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade6_1.4.3.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade6_1.4.3.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade6_1.4.3.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade6_1.4.3.nnk.release.sig"
     },
     {
       "pack_id": "vn_school_english_grade7",
       "title": "Tiếng Anh 7 · Việt Nam · Global Success",
-      "version": "1.3.0",
+      "version": "1.3.3",
       "domain": "school",
       "subject": "English",
       "subject_id": "english",
@@ -5413,10 +5355,10 @@
       "curriculum": "VN_GDPT_2018",
       "grade": "7",
       "topic_count": 29,
-      "file": "vn_school_english_grade7_1.3.0.nnk",
-      "sha256": "8720492572d71b4c8afea27446d63279043cde0df96dafef662cfd640df43311",
-      "size_bytes": 100598,
-      "review_status": "curriculum_aligned_machine_reviewed",
+      "file": "vn_school_english_grade7_1.3.3.nnk",
+      "sha256": "0717f9b84191af0b828b27e2909bcfe9586b82b5a3deb1e5fdb1d29569706f0c",
+      "size_bytes": 93869,
+      "review_status": "editorial_sampling_refined_v1",
       "curriculum_status": "curriculum_aligned_machine_reviewed_v2",
       "capabilities": [
         "knowledge",
@@ -5427,7 +5369,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 100598
+        "size_bytes": 99373
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -5452,74 +5394,15 @@
       },
       "textbook_id": "GLOBAL_SUCCESS_7",
       "book_family": "GLOBAL_SUCCESS",
-      "content_profile": "sgk_lesson_core_v1",
+      "content_profile": "sgk_lesson_core_semantic_v2",
       "lesson_core_contract": "knowledge_lesson_core_v1",
       "sgk_reference_contract": "knowledge_sgk_reference_v1",
-      "filename": "vn_school_english_grade7_1.3.0.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade7_1.3.0.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade7_1.3.0.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade7_1.3.0.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade7_1.3.0.nnk.release.sig"
-    },
-    {
-      "pack_id": "vn_school_english_grade7_ilearn_smart_world",
-      "title": "Tiếng Anh 7 · Việt Nam · i-Learn Smart World",
-      "version": "1.2.0",
-      "domain": "school",
-      "subject": "English",
-      "language": "vi",
-      "topic_count": 40,
-      "file": "vn_school_english_grade7_ilearn_smart_world_1.2.0.nnk",
-      "sha256": "643cc337e291dfd5eddf3f934347279e97a664ab3cf97632c0b2c064f83f27b1",
-      "review_status": "curriculum_aligned_machine_reviewed",
-      "verified_topics": 0,
-      "editorial_reviewed_topics": 0,
-      "size_bytes": 93002,
-      "distribution": {
-        "delivery": "official_catalog",
-        "size_bytes": 93002
-      },
-      "economic": {
-        "action": "knowledge.pack.acquire",
-        "acquisition_policy": "paid_release",
-        "billing_mode": "per_acquisition",
-        "workload_units": 1,
-        "pricing_authority": "cloud_effective_usage_policy"
-      },
-      "language_group": "vi",
-      "program": "vietnam",
-      "country": "VN",
-      "curriculum": "VN_GDPT_2018",
-      "grade": 7,
-      "classification_status": "normalized_v2",
-      "localization_policy": "source_only",
-      "runtime_translation_allowed": false,
-      "content_language_policy": {
-        "schema": "knowledge_content_language_policy_v1",
-        "primary_language": "vi",
-        "mode": "single_primary_language",
-        "runtime_translation_allowed": false,
-        "allowed_exceptions": [
-          "proper_name",
-          "official_program_name",
-          "book_or_work_title",
-          "technical_code_or_acronym",
-          "target_language_learning_material"
-        ]
-      },
-      "textbook_id": "ILEARN_SMART_WORLD_7",
-      "book_family": "ILEARN_SMART_WORLD",
-      "question_bank_quality": "secondary_game_quality_v1",
-      "production_ready": false,
-      "editorial_review_required": true,
-      "content_profile": "sgk_lesson_core_v1",
-      "lesson_core_contract": "knowledge_lesson_core_v1",
-      "sgk_reference_contract": "knowledge_sgk_reference_v1",
-      "filename": "vn_school_english_grade7_ilearn_smart_world_1.2.0.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade7_ilearn_smart_world_1.2.0.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade7_ilearn_smart_world_1.2.0.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade7_ilearn_smart_world_1.2.0.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade7_ilearn_smart_world_1.2.0.nnk.release.sig"
+      "question_bank_quality": "knowledge_core_semantic_pass11",
+      "filename": "vn_school_english_grade7_1.3.3.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade7_1.3.3.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade7_1.3.3.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade7_1.3.3.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade7_1.3.3.nnk.release.sig"
     },
     {
       "pack_id": "vn_school_english_grade8",
@@ -5974,7 +5857,7 @@
     {
       "pack_id": "vn_school_history_geography_grade6",
       "title": "Lịch sử và Địa lí 6 · Việt Nam · Kết nối tri thức",
-      "version": "1.2.0",
+      "version": "1.2.4",
       "domain": "school",
       "subject": "History and Geography",
       "subject_id": "history_geography",
@@ -5985,10 +5868,10 @@
       "curriculum": "VN_GDPT_2018",
       "grade": "6",
       "topic_count": 48,
-      "file": "vn_school_history_geography_grade6_1.2.0.nnk",
-      "sha256": "6e8d2e9eac42c486ffd76d44748f99582090ae1cee818066ae93f958e1dfbd7f",
-      "size_bytes": 89984,
-      "review_status": "curriculum_aligned_machine_reviewed",
+      "file": "vn_school_history_geography_grade6_1.2.4.nnk",
+      "sha256": "910996f926726ffdb1bcb8f943edb3a853eaac50cdb8c7ffdded2de1ae1243c1",
+      "size_bytes": 123477,
+      "review_status": "curriculum_aligned_editorial_pairing_reviewed_pass13",
       "curriculum_status": "curriculum_aligned_machine_reviewed_v1",
       "capabilities": [
         "knowledge",
@@ -5999,7 +5882,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 89984
+        "size_bytes": 123477
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -6011,22 +5894,22 @@
       "localization_policy": "source_only",
       "runtime_translation_allowed": false,
       "content_language_policy": "single_primary_language_v1",
-      "question_bank_quality": "initial_full_coverage_v1",
+      "question_bank_quality": "same_topic_pairing_factory_v3_pass13",
       "production_ready": false,
       "editorial_review_required": true,
-      "content_profile": "sgk_lesson_core_v1",
+      "content_profile": "sgk_lesson_core_v2",
       "lesson_core_contract": "knowledge_lesson_core_v1",
       "sgk_reference_contract": "knowledge_sgk_reference_v1",
-      "filename": "vn_school_history_geography_grade6_1.2.0.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_history_geography_grade6_1.2.0.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_history_geography_grade6_1.2.0.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_history_geography_grade6_1.2.0.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_history_geography_grade6_1.2.0.nnk.release.sig"
+      "filename": "vn_school_history_geography_grade6_1.2.4.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_history_geography_grade6_1.2.4.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_history_geography_grade6_1.2.4.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_history_geography_grade6_1.2.4.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_history_geography_grade6_1.2.4.nnk.release.sig"
     },
     {
       "pack_id": "vn_school_history_geography_grade7",
       "title": "Lịch sử và Địa lí 7 · Việt Nam · Kết nối tri thức",
-      "version": "1.1.0",
+      "version": "1.1.4",
       "domain": "school",
       "subject": "History and Geography",
       "subject_id": "history_geography",
@@ -6037,10 +5920,10 @@
       "curriculum": "VN_GDPT_2018",
       "grade": "7",
       "topic_count": 37,
-      "file": "vn_school_history_geography_grade7_1.1.0.nnk",
-      "sha256": "bfdb64fae76c7f8668ffb33b9e292c6042c2e689ea0e265e4e7f641582b922b2",
-      "size_bytes": 92249,
-      "review_status": "curriculum_aligned_machine_reviewed",
+      "file": "vn_school_history_geography_grade7_1.1.4.nnk",
+      "sha256": "add05b8d0bfa4934012e0d64a9eb0e3035a1222d6a455c66d59bde05c96dee33",
+      "size_bytes": 119831,
+      "review_status": "curriculum_aligned_editorial_pairing_reviewed_pass13",
       "curriculum_status": "curriculum_aligned_machine_reviewed_v1",
       "capabilities": [
         "knowledge",
@@ -6051,7 +5934,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 92249
+        "size_bytes": 119831
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -6063,20 +5946,20 @@
       "localization_policy": "source_only",
       "runtime_translation_allowed": false,
       "content_language_policy": "single_primary_language_v1",
-      "question_bank_quality": "full_coverage_machine_reviewed_v1",
+      "question_bank_quality": "same_topic_pairing_factory_v3_pass13",
       "production_ready": false,
       "editorial_review_required": true,
       "textbook_id": "KNTT_UNIFIED_2026",
       "book_family": "KNTT_UNIFIED_2026",
       "academic_year": "2026-2027",
       "sgk_reference_contract": "knowledge_sgk_reference_v1",
-      "content_profile": "sgk_lesson_core_v1",
+      "content_profile": "sgk_lesson_core_v2",
       "lesson_core_contract": "knowledge_lesson_core_v1",
-      "filename": "vn_school_history_geography_grade7_1.1.0.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_history_geography_grade7_1.1.0.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_history_geography_grade7_1.1.0.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_history_geography_grade7_1.1.0.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_history_geography_grade7_1.1.0.nnk.release.sig"
+      "filename": "vn_school_history_geography_grade7_1.1.4.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_history_geography_grade7_1.1.4.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_history_geography_grade7_1.1.4.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_history_geography_grade7_1.1.4.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_history_geography_grade7_1.1.4.nnk.release.sig"
     },
     {
       "pack_id": "vn_school_history_geography_grade8",
@@ -6191,7 +6074,7 @@
     {
       "pack_id": "vn_school_informatics_grade6",
       "title": "Tin học 6 · Việt Nam · Kết nối tri thức",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "domain": "school",
       "subject": "Informatics",
       "subject_id": "informatics",
@@ -6202,11 +6085,11 @@
       "curriculum": "VN_GDPT_2018",
       "grade": "6",
       "topic_count": 17,
-      "file": "vn_school_informatics_grade6_1.2.0.nnk",
-      "sha256": "5ccc0814dc4b38f87bcf702787641b967edfb5b8ffd8034b01e1b41cfde41789",
-      "size_bytes": 73471,
-      "review_status": "curriculum_aligned_machine_reviewed",
-      "curriculum_status": "curriculum_aligned_machine_reviewed_v1",
+      "file": "vn_school_informatics_grade6_1.2.1.nnk",
+      "sha256": "4cc2b6f313919b3b07a164990c730f9ec61202dd5e97a3564a153439ca4f8204",
+      "size_bytes": 90085,
+      "review_status": "curriculum_semantic_rebuilt_pass7",
+      "curriculum_status": "curriculum_semantic_rebuilt_pass7",
       "capabilities": [
         "knowledge",
         "curriculum",
@@ -6216,7 +6099,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 73471
+        "size_bytes": 90085
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -6228,22 +6111,22 @@
       "localization_policy": "source_only",
       "runtime_translation_allowed": false,
       "content_language_policy": "single_primary_language_v1",
-      "question_bank_quality": "initial_full_coverage_v1",
+      "question_bank_quality": "semantic_sgk_aligned_v3",
       "production_ready": false,
       "editorial_review_required": true,
-      "content_profile": "sgk_lesson_core_v1",
+      "content_profile": "sgk_lesson_core_semantic_v2",
       "lesson_core_contract": "knowledge_lesson_core_v1",
       "sgk_reference_contract": "knowledge_sgk_reference_v1",
-      "filename": "vn_school_informatics_grade6_1.2.0.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_informatics_grade6_1.2.0.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_informatics_grade6_1.2.0.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_informatics_grade6_1.2.0.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_informatics_grade6_1.2.0.nnk.release.sig"
+      "filename": "vn_school_informatics_grade6_1.2.1.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_informatics_grade6_1.2.1.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_informatics_grade6_1.2.1.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_informatics_grade6_1.2.1.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_informatics_grade6_1.2.1.nnk.release.sig"
     },
     {
       "pack_id": "vn_school_informatics_grade7",
       "title": "Tin học 7 · Việt Nam · Kết nối tri thức",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "domain": "school",
       "subject": "Informatics",
       "subject_id": "informatics",
@@ -6254,11 +6137,11 @@
       "curriculum": "VN_GDPT_2018",
       "grade": "7",
       "topic_count": 16,
-      "file": "vn_school_informatics_grade7_1.1.0.nnk",
-      "sha256": "4b9588a26eb3bff8aa03e995e20aa47fbf823b65df46514635e2e771ba269b4a",
-      "size_bytes": 72540,
-      "review_status": "curriculum_aligned_machine_reviewed",
-      "curriculum_status": "curriculum_aligned_machine_reviewed_v1",
+      "file": "vn_school_informatics_grade7_1.1.1.nnk",
+      "sha256": "12816bc83d20fc2ea29818d192d7e0fdb2488b4865a1f8b3f3e2e40459a76656",
+      "size_bytes": 81809,
+      "review_status": "curriculum_semantic_rebuilt_pass7",
+      "curriculum_status": "curriculum_semantic_rebuilt_pass7",
       "capabilities": [
         "knowledge",
         "curriculum",
@@ -6268,7 +6151,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 72540
+        "size_bytes": 81809
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -6280,20 +6163,20 @@
       "localization_policy": "source_only",
       "runtime_translation_allowed": false,
       "content_language_policy": "single_primary_language_v1",
-      "question_bank_quality": "full_coverage_machine_reviewed_v1",
+      "question_bank_quality": "semantic_sgk_aligned_v3",
       "production_ready": false,
       "editorial_review_required": true,
       "textbook_id": "KNTT_UNIFIED_2026",
       "book_family": "KNTT_UNIFIED_2026",
       "academic_year": "2026-2027",
       "sgk_reference_contract": "knowledge_sgk_reference_v1",
-      "content_profile": "sgk_lesson_core_v1",
+      "content_profile": "sgk_lesson_core_semantic_v2",
       "lesson_core_contract": "knowledge_lesson_core_v1",
-      "filename": "vn_school_informatics_grade7_1.1.0.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_informatics_grade7_1.1.0.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_informatics_grade7_1.1.0.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_informatics_grade7_1.1.0.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_informatics_grade7_1.1.0.nnk.release.sig"
+      "filename": "vn_school_informatics_grade7_1.1.1.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_informatics_grade7_1.1.1.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_informatics_grade7_1.1.1.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_informatics_grade7_1.1.1.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_informatics_grade7_1.1.1.nnk.release.sig"
     },
     {
       "pack_id": "vn_school_informatics_grade8",
@@ -6408,7 +6291,7 @@
     {
       "pack_id": "vn_school_literature_grade6",
       "title": "Ngữ văn 6 · Việt Nam · Kết nối tri thức",
-      "version": "1.4.0",
+      "version": "1.4.2",
       "domain": "school",
       "subject": "Literature",
       "subject_id": "literature",
@@ -6419,10 +6302,10 @@
       "curriculum": "VN_GDPT_2018",
       "grade": "6",
       "topic_count": 32,
-      "file": "vn_school_literature_grade6_1.4.0.nnk",
-      "sha256": "cdf5872a3058212b7715467927bbaeae79f2510b5d6bcbdbf40debbb18566ccc",
-      "size_bytes": 101765,
-      "review_status": "curriculum_aligned_machine_reviewed",
+      "file": "vn_school_literature_grade6_1.4.2.nnk",
+      "sha256": "1b0bed8e564c921361f1724e350cb6b55c7fcc53935e74caa425c17afda1b5b3",
+      "size_bytes": 98967,
+      "review_status": "curriculum_aligned_editorial_pattern_reviewed_pass14",
       "curriculum_status": "curriculum_aligned_v1",
       "capabilities": [
         "knowledge",
@@ -6433,7 +6316,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 101765
+        "size_bytes": 98967
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -6445,22 +6328,22 @@
       "localization_policy": "source_only",
       "runtime_translation_allowed": false,
       "content_language_policy": "single_primary_language_v1",
-      "question_bank_quality": "secondary_game_quality_v1",
+      "question_bank_quality": "editorial_pattern_refined_pass14",
       "production_ready": false,
       "editorial_review_required": true,
-      "content_profile": "sgk_lesson_core_v1",
+      "content_profile": "sgk_lesson_core_v2",
       "lesson_core_contract": "knowledge_lesson_core_v1",
       "sgk_reference_contract": "knowledge_sgk_reference_v1",
-      "filename": "vn_school_literature_grade6_1.4.0.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade6_1.4.0.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade6_1.4.0.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade6_1.4.0.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade6_1.4.0.nnk.release.sig"
+      "filename": "vn_school_literature_grade6_1.4.2.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade6_1.4.2.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade6_1.4.2.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade6_1.4.2.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade6_1.4.2.nnk.release.sig"
     },
     {
       "pack_id": "vn_school_literature_grade7",
       "title": "Ngữ văn 7 · Việt Nam · Kết nối tri thức",
-      "version": "1.2.0",
+      "version": "1.2.3",
       "domain": "school",
       "subject": "Literature",
       "subject_id": "literature",
@@ -6471,10 +6354,10 @@
       "curriculum": "VN_GDPT_2018",
       "grade": "7",
       "topic_count": 40,
-      "file": "vn_school_literature_grade7_1.2.0.nnk",
-      "sha256": "ed9ee8369003228dc629908fc3214b9ab1569e040c72bd52cc0c833ef7dbead5",
-      "size_bytes": 108642,
-      "review_status": "curriculum_aligned_machine_reviewed",
+      "file": "vn_school_literature_grade7_1.2.3.nnk",
+      "sha256": "bc0509d2b170dd67e16bba9817137e19b9cef2b02a22fc6f3811bc1b4eaca700",
+      "size_bytes": 123578,
+      "review_status": "editorial_representative_pass15",
       "curriculum_status": "curriculum_aligned_machine_reviewed_v2",
       "capabilities": [
         "knowledge",
@@ -6485,7 +6368,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 108642
+        "size_bytes": 123578
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -6500,22 +6383,24 @@
       "production_ready": false,
       "editorial_review_required": true,
       "quality_gate": {
-        "schema": "knowledge_question_quality_gate_v1",
-        "status": "release_candidate_machine_reviewed",
+        "schema": "knowledge_question_quality_gate_v3",
+        "status": "curriculum_semantic_pass4_editorial_pending",
         "runtime_playable": true,
-        "runtime_diversity_pass": true,
         "editorial_review_required": true,
-        "prompt_diversity": 0.8,
-        "signature_diversity": 0.9808
+        "semantic_unique_answer": "required",
+        "unit_specific_objectives": "required",
+        "textbook_passage_copying": "blocked",
+        "normalized_prompt_family_count": 235
       },
-      "content_profile": "sgk_lesson_core_v1",
+      "content_profile": "sgk_unit_semantic_v2",
       "lesson_core_contract": "knowledge_lesson_core_v1",
       "sgk_reference_contract": "knowledge_sgk_reference_v1",
-      "filename": "vn_school_literature_grade7_1.2.0.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade7_1.2.0.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade7_1.2.0.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade7_1.2.0.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade7_1.2.0.nnk.release.sig"
+      "question_bank_quality": "literature_grade7_semantic_pass4",
+      "filename": "vn_school_literature_grade7_1.2.3.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade7_1.2.3.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade7_1.2.3.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade7_1.2.3.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade7_1.2.3.nnk.release.sig"
     },
     {
       "pack_id": "vn_school_literature_grade8",
@@ -6638,7 +6523,7 @@
     {
       "pack_id": "vn_school_math_grade10",
       "title": "Toán 10 · Việt Nam · Kết nối tri thức",
-      "version": "1.1.0",
+      "version": "1.3.0",
       "domain": "school",
       "subject": "Mathematics",
       "subject_id": "mathematics",
@@ -6649,21 +6534,22 @@
       "curriculum": "VN_GDPT_2018",
       "grade": "10",
       "topic_count": 27,
-      "file": "vn_school_math_grade10_1.1.0.nnk",
-      "sha256": "8c0865f708c6c626a88726f9a35fcde850c885b9008d08c78feeaff5452ec6f7",
-      "size_bytes": 47962,
-      "review_status": "machine_reviewed_v2",
+      "file": "vn_school_math_grade10_1.3.0.nnk",
+      "sha256": "0f1b1de9fe1a0322e046ba42862ea5fc17ff2363b3182ad851858d4923713c4b",
+      "size_bytes": 76094,
+      "review_status": "machine_reviewed_v4",
       "curriculum_status": "curriculum_aligned_machine_reviewed_v1",
       "capabilities": [
         "knowledge",
         "curriculum",
-        "knowledge_game_v1"
+        "knowledge_game_v1",
+        "knowledge_lesson_core_v1"
       ],
       "classification_status": "verified_vietnam_curriculum_v1",
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 47962
+        "size_bytes": 76094
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -6678,24 +6564,25 @@
       "production_ready": false,
       "editorial_review_required": true,
       "quality_gate": {
-        "schema": "knowledge_question_quality_gate_v3",
-        "status": "release_candidate_machine_reviewed",
-        "runtime_playable": true,
+        "schema": "knowledge_question_quality_gate_v5",
+        "status": "release_candidate_deep_machine_reviewed",
         "editorial_review_required": true,
-        "semantic_normalized_diversity": 0.02,
-        "generic_meta_ratio": 0.0,
-        "generic_meta_removed": 87
+        "lesson_core_required": true,
+        "placeholder_example_ratio": 0.0,
+        "generic_scaffold_ratio": 0.0
       },
-      "filename": "vn_school_math_grade10_1.1.0.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade10_1.1.0.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade10_1.1.0.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade10_1.1.0.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade10_1.1.0.nnk.release.sig"
+      "textbook_id": null,
+      "minimum_plugin_version": "2.0.13",
+      "filename": "vn_school_math_grade10_1.3.0.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade10_1.3.0.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade10_1.3.0.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade10_1.3.0.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade10_1.3.0.nnk.release.sig"
     },
     {
       "pack_id": "vn_school_math_grade6",
       "title": "Toán 6 · Việt Nam · Kết nối tri thức",
-      "version": "1.3.0",
+      "version": "1.3.4",
       "domain": "school",
       "subject": "Mathematics",
       "subject_id": "mathematics",
@@ -6706,10 +6593,10 @@
       "curriculum": "VN_GDPT_2018",
       "grade": "6",
       "topic_count": 32,
-      "file": "vn_school_math_grade6_1.3.0.nnk",
-      "sha256": "fc66c41fe36c581309dcbdb3fdd509bb0646af44efc6cfd174e5a126fd14cd35",
-      "size_bytes": 81280,
-      "review_status": "curriculum_aligned_machine_reviewed",
+      "file": "vn_school_math_grade6_1.3.4.nnk",
+      "sha256": "d86b5e62d3051cfe0a40a535a40347f061dd9fe9b3bd28607cd833c0fac3f580",
+      "size_bytes": 81198,
+      "review_status": "editorial_sampling_refined_v1",
       "curriculum_status": "curriculum_aligned_v1",
       "capabilities": [
         "knowledge",
@@ -6720,7 +6607,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 81280
+        "size_bytes": 81317
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -6732,22 +6619,22 @@
       "localization_policy": "source_only",
       "runtime_translation_allowed": false,
       "content_language_policy": "single_primary_language_v1",
-      "question_bank_quality": "diversity_refined_v3",
+      "question_bank_quality": "semantic_unique_answer_round_half_up_pass3",
       "production_ready": false,
       "editorial_review_required": true,
       "content_profile": "sgk_lesson_core_v1",
       "lesson_core_contract": "knowledge_lesson_core_v1",
       "sgk_reference_contract": "knowledge_sgk_reference_v1",
-      "filename": "vn_school_math_grade6_1.3.0.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade6_1.3.0.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade6_1.3.0.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade6_1.3.0.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade6_1.3.0.nnk.release.sig"
+      "filename": "vn_school_math_grade6_1.3.4.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade6_1.3.4.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade6_1.3.4.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade6_1.3.4.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade6_1.3.4.nnk.release.sig"
     },
     {
       "pack_id": "vn_school_math_grade7",
       "title": "Toán 7 · Việt Nam · Kết nối tri thức",
-      "version": "1.2.0",
+      "version": "1.2.5",
       "domain": "school",
       "subject": "Mathematics",
       "subject_id": "mathematics",
@@ -6758,10 +6645,10 @@
       "curriculum": "VN_GDPT_2018",
       "grade": "7",
       "topic_count": 37,
-      "file": "vn_school_math_grade7_1.2.0.nnk",
-      "sha256": "628c2b90077f51796be31531c86b43fa519f67d1d6a3f98079d838603b3f66e6",
-      "size_bytes": 83546,
-      "review_status": "curriculum_aligned_machine_reviewed",
+      "file": "vn_school_math_grade7_1.2.5.nnk",
+      "sha256": "dcc1d20d7ca494cc1d2db0886f1fcda0793c6764dab572931ce221f768fecb3a",
+      "size_bytes": 82240,
+      "review_status": "editorial_representative_pass15",
       "curriculum_status": "curriculum_aligned_machine_reviewed_v2",
       "capabilities": [
         "knowledge",
@@ -6772,7 +6659,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 83546
+        "size_bytes": 82240
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -6798,11 +6685,12 @@
       "content_profile": "sgk_lesson_core_v1",
       "lesson_core_contract": "knowledge_lesson_core_v1",
       "sgk_reference_contract": "knowledge_sgk_reference_v1",
-      "filename": "vn_school_math_grade7_1.2.0.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade7_1.2.0.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade7_1.2.0.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade7_1.2.0.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade7_1.2.0.nnk.release.sig"
+      "question_bank_quality": "semantic_unique_answer_pass3",
+      "filename": "vn_school_math_grade7_1.2.5.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade7_1.2.5.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade7_1.2.5.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade7_1.2.5.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade7_1.2.5.nnk.release.sig"
     },
     {
       "pack_id": "vn_school_math_grade8",
@@ -7135,7 +7023,7 @@
     {
       "pack_id": "vn_school_natural_science_grade6",
       "title": "Khoa học tự nhiên 6 · Việt Nam · Kết nối tri thức",
-      "version": "1.2.0",
+      "version": "1.2.5",
       "domain": "school",
       "subject": "Natural Science",
       "subject_id": "natural_science",
@@ -7146,11 +7034,11 @@
       "curriculum": "VN_GDPT_2018",
       "grade": "6",
       "topic_count": 46,
-      "file": "vn_school_natural_science_grade6_1.2.0.nnk",
-      "sha256": "166d3542cd2446c435ab5057d28640dde12f524fe304320dee42646600ea43a9",
-      "size_bytes": 86253,
-      "review_status": "curriculum_aligned_machine_reviewed",
-      "curriculum_status": "curriculum_aligned_machine_reviewed_v1",
+      "file": "vn_school_natural_science_grade6_1.2.5.nnk",
+      "sha256": "916755b5b059a1e58542b87d02ed0c864a0dc50fde4705654fef907a7f13bc90",
+      "size_bytes": 114028,
+      "review_status": "editorial_representative_pass15",
+      "curriculum_status": "curriculum_aligned_semantic_pass3",
       "capabilities": [
         "knowledge",
         "curriculum",
@@ -7160,7 +7048,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 86253
+        "size_bytes": 114028
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -7172,22 +7060,22 @@
       "localization_policy": "source_only",
       "runtime_translation_allowed": false,
       "content_language_policy": "single_primary_language_v1",
-      "question_bank_quality": "initial_full_coverage_v1",
+      "question_bank_quality": "semantic_pass3_same_topic",
       "production_ready": false,
       "editorial_review_required": true,
-      "content_profile": "sgk_lesson_core_v1",
+      "content_profile": "sgk_lesson_core_semantic_v3",
       "lesson_core_contract": "knowledge_lesson_core_v1",
       "sgk_reference_contract": "knowledge_sgk_reference_v1",
-      "filename": "vn_school_natural_science_grade6_1.2.0.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_natural_science_grade6_1.2.0.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_natural_science_grade6_1.2.0.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_natural_science_grade6_1.2.0.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_natural_science_grade6_1.2.0.nnk.release.sig"
+      "filename": "vn_school_natural_science_grade6_1.2.5.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_natural_science_grade6_1.2.5.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_natural_science_grade6_1.2.5.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_natural_science_grade6_1.2.5.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_natural_science_grade6_1.2.5.nnk.release.sig"
     },
     {
       "pack_id": "vn_school_natural_science_grade7",
       "title": "Khoa học tự nhiên 7 · Việt Nam · Kết nối tri thức",
-      "version": "1.1.0",
+      "version": "1.1.4",
       "domain": "school",
       "subject": "Natural Science",
       "subject_id": "natural_science",
@@ -7198,11 +7086,11 @@
       "curriculum": "VN_GDPT_2018",
       "grade": "7",
       "topic_count": 42,
-      "file": "vn_school_natural_science_grade7_1.1.0.nnk",
-      "sha256": "782a2955274c3894d79a9c786ae4fb31d1e26ada27882fc613aff2482cd14ad7",
-      "size_bytes": 85536,
-      "review_status": "curriculum_aligned_machine_reviewed",
-      "curriculum_status": "curriculum_aligned_machine_reviewed_v1",
+      "file": "vn_school_natural_science_grade7_1.1.4.nnk",
+      "sha256": "930142b21c548956b601168dd34c8e4cb29ac3b5b778958428070c99b3372b89",
+      "size_bytes": 112574,
+      "review_status": "semantic_pass11_differentiated_editorial_pending",
+      "curriculum_status": "curriculum_aligned_semantic_pass3",
       "capabilities": [
         "knowledge",
         "curriculum",
@@ -7212,7 +7100,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 85536
+        "size_bytes": 112574
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -7224,20 +7112,20 @@
       "localization_policy": "source_only",
       "runtime_translation_allowed": false,
       "content_language_policy": "single_primary_language_v1",
-      "question_bank_quality": "full_coverage_machine_reviewed_v1",
+      "question_bank_quality": "semantic_pass3_same_topic",
       "production_ready": false,
       "editorial_review_required": true,
       "textbook_id": "KNTT_UNIFIED_2026",
       "book_family": "KNTT_UNIFIED_2026",
       "academic_year": "2026-2027",
       "sgk_reference_contract": "knowledge_sgk_reference_v1",
-      "content_profile": "sgk_lesson_core_v1",
+      "content_profile": "sgk_lesson_core_semantic_v3",
       "lesson_core_contract": "knowledge_lesson_core_v1",
-      "filename": "vn_school_natural_science_grade7_1.1.0.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_natural_science_grade7_1.1.0.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_natural_science_grade7_1.1.0.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_natural_science_grade7_1.1.0.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_natural_science_grade7_1.1.0.nnk.release.sig"
+      "filename": "vn_school_natural_science_grade7_1.1.4.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_natural_science_grade7_1.1.4.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_natural_science_grade7_1.1.4.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_natural_science_grade7_1.1.4.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_natural_science_grade7_1.1.4.nnk.release.sig"
     },
     {
       "pack_id": "vn_school_natural_science_grade8",
@@ -7560,7 +7448,7 @@
     {
       "pack_id": "vn_school_physics_grade10",
       "title": "Vật lí 10 · Việt Nam · Kết nối tri thức",
-      "version": "1.1.0",
+      "version": "1.3.0",
       "domain": "school",
       "subject": "Physics",
       "subject_id": "physics",
@@ -7571,21 +7459,22 @@
       "curriculum": "VN_GDPT_2018",
       "grade": "10",
       "topic_count": 30,
-      "file": "vn_school_physics_grade10_1.1.0.nnk",
-      "sha256": "f2857d0ba17bb5a1539e68445fa433a5dda4ad82eba631b58eb230922ae86f64",
-      "size_bytes": 55577,
-      "review_status": "machine_reviewed_v2",
+      "file": "vn_school_physics_grade10_1.3.0.nnk",
+      "sha256": "ae52543076e6cc42bfda943f0d6bd0aa34da6522bea97a6c3a8b5f7986b0c98b",
+      "size_bytes": 82808,
+      "review_status": "machine_reviewed_v4",
       "curriculum_status": "curriculum_aligned_machine_reviewed_v1",
       "capabilities": [
         "knowledge",
         "curriculum",
-        "knowledge_game_v1"
+        "knowledge_game_v1",
+        "knowledge_lesson_core_v1"
       ],
       "classification_status": "verified_vietnam_curriculum_v1",
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 55577
+        "size_bytes": 82808
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -7600,24 +7489,25 @@
       "production_ready": false,
       "editorial_review_required": true,
       "quality_gate": {
-        "schema": "knowledge_question_quality_gate_v3",
-        "status": "release_candidate_machine_reviewed",
-        "runtime_playable": true,
+        "schema": "knowledge_question_quality_gate_v5",
+        "status": "release_candidate_deep_machine_reviewed",
         "editorial_review_required": true,
-        "semantic_normalized_diversity": 0.0258,
-        "generic_meta_ratio": 0.0,
-        "generic_meta_removed": 340
+        "lesson_core_required": true,
+        "placeholder_example_ratio": 0.0,
+        "generic_scaffold_ratio": 0.0
       },
-      "filename": "vn_school_physics_grade10_1.1.0.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_physics_grade10_1.1.0.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_physics_grade10_1.1.0.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_physics_grade10_1.1.0.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_physics_grade10_1.1.0.nnk.release.sig"
+      "textbook_id": null,
+      "minimum_plugin_version": "2.0.13",
+      "filename": "vn_school_physics_grade10_1.3.0.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_physics_grade10_1.3.0.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_physics_grade10_1.3.0.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_physics_grade10_1.3.0.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_physics_grade10_1.3.0.nnk.release.sig"
     },
     {
       "pack_id": "vn_school_technology_grade6",
       "title": "Công nghệ 6 · Việt Nam · Kết nối tri thức",
-      "version": "1.2.0",
+      "version": "1.2.3",
       "domain": "school",
       "subject": "Technology",
       "subject_id": "technology",
@@ -7628,11 +7518,11 @@
       "curriculum": "VN_GDPT_2018",
       "grade": "6",
       "topic_count": 17,
-      "file": "vn_school_technology_grade6_1.2.0.nnk",
-      "sha256": "7f398a4464783bf2d9bfa723101f43b02a72a70fe7360500fd21444b8fe9f4bd",
-      "size_bytes": 69351,
-      "review_status": "curriculum_aligned_machine_reviewed",
-      "curriculum_status": "curriculum_aligned_machine_reviewed_v1",
+      "file": "vn_school_technology_grade6_1.2.3.nnk",
+      "sha256": "e703fdf20d15b4282fea062b821900963da9dcc3bad21ea2402510d0d68681e4",
+      "size_bytes": 106257,
+      "review_status": "editorial_representative_pass15",
+      "curriculum_status": "curriculum_aligned_machine_reviewed_pass8",
       "capabilities": [
         "knowledge",
         "curriculum",
@@ -7642,7 +7532,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 69351
+        "size_bytes": 106257
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -7654,22 +7544,22 @@
       "localization_policy": "source_only",
       "runtime_translation_allowed": false,
       "content_language_policy": "single_primary_language_v1",
-      "question_bank_quality": "initial_full_coverage_v1",
+      "question_bank_quality": "editorial_pattern_refined_pass14",
       "production_ready": false,
       "editorial_review_required": true,
-      "content_profile": "sgk_lesson_core_v1",
+      "content_profile": "sgk_lesson_core_v2",
       "lesson_core_contract": "knowledge_lesson_core_v1",
       "sgk_reference_contract": "knowledge_sgk_reference_v1",
-      "filename": "vn_school_technology_grade6_1.2.0.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_technology_grade6_1.2.0.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_technology_grade6_1.2.0.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_technology_grade6_1.2.0.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_technology_grade6_1.2.0.nnk.release.sig"
+      "filename": "vn_school_technology_grade6_1.2.3.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_technology_grade6_1.2.3.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_technology_grade6_1.2.3.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_technology_grade6_1.2.3.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_technology_grade6_1.2.3.nnk.release.sig"
     },
     {
       "pack_id": "vn_school_technology_grade7",
       "title": "Công nghệ 7 · Việt Nam · Kết nối tri thức",
-      "version": "1.1.0",
+      "version": "1.1.3",
       "domain": "school",
       "subject": "Technology",
       "subject_id": "technology",
@@ -7680,11 +7570,11 @@
       "curriculum": "VN_GDPT_2018",
       "grade": "7",
       "topic_count": 16,
-      "file": "vn_school_technology_grade7_1.1.0.nnk",
-      "sha256": "57f3fa20df7e285528567d669daa686a6427f7cd6e7905fad05a5e3c81271c78",
-      "size_bytes": 65954,
-      "review_status": "curriculum_aligned_machine_reviewed",
-      "curriculum_status": "curriculum_aligned_machine_reviewed_v1",
+      "file": "vn_school_technology_grade7_1.1.3.nnk",
+      "sha256": "b82e87171631fb863c55be14952a7037509d2fd645dfe59548f785800ed1cae1",
+      "size_bytes": 103926,
+      "review_status": "editorial_representative_pass15",
+      "curriculum_status": "curriculum_aligned_machine_reviewed_pass8",
       "capabilities": [
         "knowledge",
         "curriculum",
@@ -7694,7 +7584,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 65954
+        "size_bytes": 103926
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -7706,20 +7596,20 @@
       "localization_policy": "source_only",
       "runtime_translation_allowed": false,
       "content_language_policy": "single_primary_language_v1",
-      "question_bank_quality": "full_coverage_machine_reviewed_v1",
+      "question_bank_quality": "editorial_pattern_refined_pass14",
       "production_ready": false,
       "editorial_review_required": true,
       "textbook_id": "KNTT_UNIFIED_2026",
       "book_family": "KNTT_UNIFIED_2026",
       "academic_year": "2026-2027",
       "sgk_reference_contract": "knowledge_sgk_reference_v1",
-      "content_profile": "sgk_lesson_core_v1",
+      "content_profile": "sgk_lesson_core_v2",
       "lesson_core_contract": "knowledge_lesson_core_v1",
-      "filename": "vn_school_technology_grade7_1.1.0.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_technology_grade7_1.1.0.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_technology_grade7_1.1.0.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_technology_grade7_1.1.0.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_technology_grade7_1.1.0.nnk.release.sig"
+      "filename": "vn_school_technology_grade7_1.1.3.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_technology_grade7_1.1.3.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_technology_grade7_1.1.3.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_technology_grade7_1.1.3.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_technology_grade7_1.1.3.nnk.release.sig"
     },
     {
       "pack_id": "vn_school_technology_grade8",
@@ -8203,10 +8093,490 @@
       "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_visual_arts_grade9_1.0.0.nnk.sig",
       "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_visual_arts_grade9_1.0.0.nnk.release.json",
       "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_visual_arts_grade9_1.0.0.nnk.release.sig"
+    },
+    {
+      "pack_id": "vn_school_literature_grade10",
+      "title": "Ngữ văn 10 · Việt Nam",
+      "version": "1.1.0",
+      "file": "vn_school_literature_grade10_1.1.0.nnk",
+      "sha256": "5889cc90d9b9985b59f0238a610ea25e09f0f0a9afa8f8307a4e034bdcc4abf3",
+      "size_bytes": 83283,
+      "topic_count": 27,
+      "domain": "school",
+      "subject": "Literature",
+      "language": "vi",
+      "program": "vietnam",
+      "country": "VN",
+      "curriculum": "VN_GDPT_2018",
+      "grade": "10",
+      "textbook_id": "KNTT_UNIFIED_2026",
+      "book_family": "KNTT_UNIFIED",
+      "academic_year": "2026-2027",
+      "capabilities": [
+        "knowledge",
+        "curriculum",
+        "knowledge_game_v1",
+        "knowledge_lesson_core_v1"
+      ],
+      "minimum_plugin_version": "2.0.13",
+      "release_channel": "paid_release",
+      "workload_units": 1,
+      "review_status": "machine_reviewed_v4",
+      "production_ready": false,
+      "editorial_review_required": true,
+      "quality_gate": {
+        "schema": "knowledge_question_quality_gate_v5",
+        "status": "release_candidate_deep_machine_reviewed",
+        "editorial_review_required": true,
+        "lesson_core_required": true,
+        "placeholder_example_ratio": 0.0,
+        "generic_scaffold_ratio": 0.0
+      },
+      "distribution": {
+        "size_bytes": 83283
+      },
+      "curriculum_status": "curriculum_aligned_machine_reviewed_v1",
+      "filename": "vn_school_literature_grade10_1.1.0.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade10_1.1.0.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade10_1.1.0.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade10_1.1.0.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade10_1.1.0.nnk.release.sig"
+    },
+    {
+      "pack_id": "vn_school_english_grade10",
+      "title": "Tiếng Anh · Global Success 10 · Việt Nam",
+      "version": "1.1.0",
+      "file": "vn_school_english_grade10_1.1.0.nnk",
+      "sha256": "56d9bc29243ecd2715806300cbb6e9de1319c106d2a7eae787df93eed453c859",
+      "size_bytes": 79431,
+      "topic_count": 30,
+      "domain": "school",
+      "subject": "English",
+      "language": "vi",
+      "program": "vietnam",
+      "country": "VN",
+      "curriculum": "VN_GDPT_2018",
+      "grade": "10",
+      "textbook_id": "GLOBAL_SUCCESS_10",
+      "book_family": "GLOBAL_SUCCESS",
+      "academic_year": "2026-2027",
+      "capabilities": [
+        "knowledge",
+        "curriculum",
+        "knowledge_game_v1",
+        "knowledge_lesson_core_v1"
+      ],
+      "minimum_plugin_version": "2.0.13",
+      "release_channel": "paid_release",
+      "workload_units": 1,
+      "review_status": "machine_reviewed_v4",
+      "production_ready": false,
+      "editorial_review_required": true,
+      "quality_gate": {
+        "schema": "knowledge_question_quality_gate_v5",
+        "status": "release_candidate_deep_machine_reviewed",
+        "editorial_review_required": true,
+        "lesson_core_required": true,
+        "placeholder_example_ratio": 0.0,
+        "generic_scaffold_ratio": 0.0
+      },
+      "distribution": {
+        "size_bytes": 79431
+      },
+      "curriculum_status": "curriculum_aligned_machine_reviewed_v1",
+      "filename": "vn_school_english_grade10_1.1.0.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade10_1.1.0.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade10_1.1.0.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade10_1.1.0.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade10_1.1.0.nnk.release.sig"
+    },
+    {
+      "pack_id": "vn_school_english_grade10_ilearn_smart_world",
+      "title": "Tiếng Anh · i-Learn Smart World 10 · Việt Nam",
+      "version": "1.1.0",
+      "file": "vn_school_english_grade10_ilearn_smart_world_1.1.0.nnk",
+      "sha256": "e120ba57bc52aa61b541b11d459083a39371a49b9111b1bff033c9373086d3f1",
+      "size_bytes": 79048,
+      "topic_count": 30,
+      "domain": "school",
+      "subject": "English",
+      "language": "vi",
+      "program": "vietnam",
+      "country": "VN",
+      "curriculum": "VN_GDPT_2018",
+      "grade": "10",
+      "textbook_id": "ILEARN_SMART_WORLD_10",
+      "book_family": "ILEARN_SMART_WORLD",
+      "academic_year": "2026-2027",
+      "capabilities": [
+        "knowledge",
+        "curriculum",
+        "knowledge_game_v1",
+        "knowledge_lesson_core_v1"
+      ],
+      "minimum_plugin_version": "2.0.13",
+      "release_channel": "paid_release",
+      "workload_units": 1,
+      "review_status": "machine_reviewed_v4",
+      "production_ready": false,
+      "editorial_review_required": true,
+      "quality_gate": {
+        "schema": "knowledge_question_quality_gate_v5",
+        "status": "release_candidate_deep_machine_reviewed",
+        "editorial_review_required": true,
+        "lesson_core_required": true,
+        "placeholder_example_ratio": 0.0,
+        "generic_scaffold_ratio": 0.0
+      },
+      "distribution": {
+        "size_bytes": 79048
+      },
+      "curriculum_status": "curriculum_aligned_machine_reviewed_v1",
+      "filename": "vn_school_english_grade10_ilearn_smart_world_1.1.0.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade10_ilearn_smart_world_1.1.0.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade10_ilearn_smart_world_1.1.0.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade10_ilearn_smart_world_1.1.0.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade10_ilearn_smart_world_1.1.0.nnk.release.sig"
+    },
+    {
+      "pack_id": "vn_school_biology_grade10",
+      "title": "Sinh học 10 · Việt Nam",
+      "version": "1.1.0",
+      "file": "vn_school_biology_grade10_1.1.0.nnk",
+      "sha256": "4e369a44b056063eac3a21cec9aacc0747c8b19366d893963a537ed2b3004ab5",
+      "size_bytes": 86538,
+      "topic_count": 21,
+      "domain": "school",
+      "subject": "Biology",
+      "language": "vi",
+      "program": "vietnam",
+      "country": "VN",
+      "curriculum": "VN_GDPT_2018",
+      "grade": "10",
+      "textbook_id": "KNTT_UNIFIED_2026",
+      "book_family": "KNTT_UNIFIED",
+      "academic_year": "2026-2027",
+      "capabilities": [
+        "knowledge",
+        "curriculum",
+        "knowledge_game_v1",
+        "knowledge_lesson_core_v1"
+      ],
+      "minimum_plugin_version": "2.0.13",
+      "release_channel": "paid_release",
+      "workload_units": 1,
+      "review_status": "machine_reviewed_v4",
+      "production_ready": false,
+      "editorial_review_required": true,
+      "quality_gate": {
+        "schema": "knowledge_question_quality_gate_v5",
+        "status": "release_candidate_deep_machine_reviewed",
+        "editorial_review_required": true,
+        "lesson_core_required": true,
+        "placeholder_example_ratio": 0.0,
+        "generic_scaffold_ratio": 0.0
+      },
+      "distribution": {
+        "size_bytes": 86538
+      },
+      "curriculum_status": "curriculum_aligned_machine_reviewed_v1",
+      "filename": "vn_school_biology_grade10_1.1.0.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_biology_grade10_1.1.0.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_biology_grade10_1.1.0.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_biology_grade10_1.1.0.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_biology_grade10_1.1.0.nnk.release.sig"
+    },
+    {
+      "pack_id": "vn_school_history_grade10",
+      "title": "Lịch sử 10 · Việt Nam",
+      "version": "1.1.0",
+      "file": "vn_school_history_grade10_1.1.0.nnk",
+      "sha256": "2786796b8b4df6ad976029b406cdc5060fe3c9026c1222b2b71a895f5057b10c",
+      "size_bytes": 88858,
+      "topic_count": 19,
+      "domain": "school",
+      "subject": "History",
+      "language": "vi",
+      "program": "vietnam",
+      "country": "VN",
+      "curriculum": "VN_GDPT_2018",
+      "grade": "10",
+      "textbook_id": "KNTT_UNIFIED_2026",
+      "book_family": "KNTT_UNIFIED",
+      "academic_year": "2026-2027",
+      "capabilities": [
+        "knowledge",
+        "curriculum",
+        "knowledge_game_v1",
+        "knowledge_lesson_core_v1"
+      ],
+      "minimum_plugin_version": "2.0.13",
+      "release_channel": "paid_release",
+      "workload_units": 1,
+      "review_status": "machine_reviewed_v4",
+      "production_ready": false,
+      "editorial_review_required": true,
+      "quality_gate": {
+        "schema": "knowledge_question_quality_gate_v5",
+        "status": "release_candidate_deep_machine_reviewed",
+        "editorial_review_required": true,
+        "lesson_core_required": true,
+        "placeholder_example_ratio": 0.0,
+        "generic_scaffold_ratio": 0.0
+      },
+      "distribution": {
+        "size_bytes": 88858
+      },
+      "curriculum_status": "curriculum_aligned_machine_reviewed_v1",
+      "filename": "vn_school_history_grade10_1.1.0.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_history_grade10_1.1.0.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_history_grade10_1.1.0.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_history_grade10_1.1.0.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_history_grade10_1.1.0.nnk.release.sig"
+    },
+    {
+      "pack_id": "vn_school_geography_grade10",
+      "title": "Địa lí 10 · Việt Nam",
+      "version": "1.1.0",
+      "file": "vn_school_geography_grade10_1.1.0.nnk",
+      "sha256": "9910607610af300338981cb6d21946fc74651d2ac0d9dc4caab0c59ddf6a8670",
+      "size_bytes": 89153,
+      "topic_count": 32,
+      "domain": "school",
+      "subject": "Geography",
+      "language": "vi",
+      "program": "vietnam",
+      "country": "VN",
+      "curriculum": "VN_GDPT_2018",
+      "grade": "10",
+      "textbook_id": "KNTT_UNIFIED_2026",
+      "book_family": "KNTT_UNIFIED",
+      "academic_year": "2026-2027",
+      "capabilities": [
+        "knowledge",
+        "curriculum",
+        "knowledge_game_v1",
+        "knowledge_lesson_core_v1"
+      ],
+      "minimum_plugin_version": "2.0.13",
+      "release_channel": "paid_release",
+      "workload_units": 1,
+      "review_status": "machine_reviewed_v4",
+      "production_ready": false,
+      "editorial_review_required": true,
+      "quality_gate": {
+        "schema": "knowledge_question_quality_gate_v5",
+        "status": "release_candidate_deep_machine_reviewed",
+        "editorial_review_required": true,
+        "lesson_core_required": true,
+        "placeholder_example_ratio": 0.0,
+        "generic_scaffold_ratio": 0.0
+      },
+      "distribution": {
+        "size_bytes": 89153
+      },
+      "curriculum_status": "curriculum_aligned_machine_reviewed_v1",
+      "filename": "vn_school_geography_grade10_1.1.0.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_geography_grade10_1.1.0.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_geography_grade10_1.1.0.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_geography_grade10_1.1.0.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_geography_grade10_1.1.0.nnk.release.sig"
+    },
+    {
+      "pack_id": "vn_school_informatics_grade10",
+      "title": "Tin học 10 · Việt Nam",
+      "version": "1.1.0",
+      "file": "vn_school_informatics_grade10_1.1.0.nnk",
+      "sha256": "c971d9fe50087d2aacfde4e23407260978928415ef52a089911e550940307c23",
+      "size_bytes": 86307,
+      "topic_count": 19,
+      "domain": "school",
+      "subject": "Informatics",
+      "language": "vi",
+      "program": "vietnam",
+      "country": "VN",
+      "curriculum": "VN_GDPT_2018",
+      "grade": "10",
+      "textbook_id": "KNTT_UNIFIED_2026",
+      "book_family": "KNTT_UNIFIED",
+      "academic_year": "2026-2027",
+      "capabilities": [
+        "knowledge",
+        "curriculum",
+        "knowledge_game_v1",
+        "knowledge_lesson_core_v1"
+      ],
+      "minimum_plugin_version": "2.0.13",
+      "release_channel": "paid_release",
+      "workload_units": 1,
+      "review_status": "machine_reviewed_v4",
+      "production_ready": false,
+      "editorial_review_required": true,
+      "quality_gate": {
+        "schema": "knowledge_question_quality_gate_v5",
+        "status": "release_candidate_deep_machine_reviewed",
+        "editorial_review_required": true,
+        "lesson_core_required": true,
+        "placeholder_example_ratio": 0.0,
+        "generic_scaffold_ratio": 0.0
+      },
+      "distribution": {
+        "size_bytes": 86307
+      },
+      "curriculum_status": "curriculum_aligned_machine_reviewed_v1",
+      "filename": "vn_school_informatics_grade10_1.1.0.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_informatics_grade10_1.1.0.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_informatics_grade10_1.1.0.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_informatics_grade10_1.1.0.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_informatics_grade10_1.1.0.nnk.release.sig"
+    },
+    {
+      "pack_id": "vn_school_economics_law_grade10",
+      "title": "Giáo dục Kinh tế và Pháp luật 10 · Việt Nam",
+      "version": "1.1.0",
+      "file": "vn_school_economics_law_grade10_1.1.0.nnk",
+      "sha256": "6de97cfa8987ab210182c5dbea26f1e7b6497aa33e76617ed17e15a10a982bcf",
+      "size_bytes": 62455,
+      "topic_count": 21,
+      "domain": "school",
+      "subject": "Economics and Law",
+      "language": "vi",
+      "program": "vietnam",
+      "country": "VN",
+      "curriculum": "VN_GDPT_2018",
+      "grade": "10",
+      "textbook_id": "KNTT_UNIFIED_2026",
+      "book_family": "KNTT_UNIFIED",
+      "academic_year": "2026-2027",
+      "capabilities": [
+        "knowledge",
+        "curriculum",
+        "knowledge_game_v1",
+        "knowledge_lesson_core_v1"
+      ],
+      "minimum_plugin_version": "2.0.13",
+      "release_channel": "paid_release",
+      "workload_units": 1,
+      "review_status": "machine_reviewed_v4",
+      "production_ready": false,
+      "editorial_review_required": true,
+      "quality_gate": {
+        "schema": "knowledge_question_quality_gate_v5",
+        "status": "release_candidate_deep_machine_reviewed",
+        "editorial_review_required": true,
+        "lesson_core_required": true,
+        "placeholder_example_ratio": 0.0,
+        "generic_scaffold_ratio": 0.0
+      },
+      "distribution": {
+        "size_bytes": 62455
+      },
+      "curriculum_status": "curriculum_aligned_machine_reviewed_v1",
+      "filename": "vn_school_economics_law_grade10_1.1.0.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_economics_law_grade10_1.1.0.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_economics_law_grade10_1.1.0.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_economics_law_grade10_1.1.0.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_economics_law_grade10_1.1.0.nnk.release.sig"
+    },
+    {
+      "pack_id": "vn_school_technology_grade10_design",
+      "title": "Công nghệ · Thiết kế và công nghệ 10 · Việt Nam",
+      "version": "1.1.0",
+      "file": "vn_school_technology_grade10_design_1.1.0.nnk",
+      "sha256": "41564ff460502fe7892796c313229b7c8b0ee11f95441ec5e6b333cae7f5fed2",
+      "size_bytes": 73383,
+      "topic_count": 13,
+      "domain": "school",
+      "subject": "Technology",
+      "language": "vi",
+      "program": "vietnam",
+      "country": "VN",
+      "curriculum": "VN_GDPT_2018",
+      "grade": "10",
+      "textbook_id": "KNTT_TECH_DESIGN_10",
+      "book_family": "KNTT_TECH_DESIGN",
+      "academic_year": "2026-2027",
+      "capabilities": [
+        "knowledge",
+        "curriculum",
+        "knowledge_game_v1",
+        "knowledge_lesson_core_v1"
+      ],
+      "minimum_plugin_version": "2.0.13",
+      "release_channel": "paid_release",
+      "workload_units": 1,
+      "review_status": "machine_reviewed_v4",
+      "production_ready": false,
+      "editorial_review_required": true,
+      "quality_gate": {
+        "schema": "knowledge_question_quality_gate_v5",
+        "status": "release_candidate_deep_machine_reviewed",
+        "editorial_review_required": true,
+        "lesson_core_required": true,
+        "placeholder_example_ratio": 0.0,
+        "generic_scaffold_ratio": 0.0
+      },
+      "distribution": {
+        "size_bytes": 73383
+      },
+      "curriculum_status": "curriculum_aligned_machine_reviewed_v1",
+      "filename": "vn_school_technology_grade10_design_1.1.0.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_technology_grade10_design_1.1.0.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_technology_grade10_design_1.1.0.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_technology_grade10_design_1.1.0.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_technology_grade10_design_1.1.0.nnk.release.sig"
+    },
+    {
+      "pack_id": "vn_school_technology_grade10_crop",
+      "title": "Công nghệ · Công nghệ trồng trọt 10 · Việt Nam",
+      "version": "1.1.0",
+      "file": "vn_school_technology_grade10_crop_1.1.0.nnk",
+      "sha256": "7b26792aea3c6ef382c431bdd4ec81d1e0ce7d11be20ade30911980e597ad430",
+      "size_bytes": 71796,
+      "topic_count": 16,
+      "domain": "school",
+      "subject": "Technology",
+      "language": "vi",
+      "program": "vietnam",
+      "country": "VN",
+      "curriculum": "VN_GDPT_2018",
+      "grade": "10",
+      "textbook_id": "KNTT_TECH_CROP_10",
+      "book_family": "KNTT_TECH_CROP",
+      "academic_year": "2026-2027",
+      "capabilities": [
+        "knowledge",
+        "curriculum",
+        "knowledge_game_v1",
+        "knowledge_lesson_core_v1"
+      ],
+      "minimum_plugin_version": "2.0.13",
+      "release_channel": "paid_release",
+      "workload_units": 1,
+      "review_status": "machine_reviewed_v4",
+      "production_ready": false,
+      "editorial_review_required": true,
+      "quality_gate": {
+        "schema": "knowledge_question_quality_gate_v5",
+        "status": "release_candidate_deep_machine_reviewed",
+        "editorial_review_required": true,
+        "lesson_core_required": true,
+        "placeholder_example_ratio": 0.0,
+        "generic_scaffold_ratio": 0.0
+      },
+      "distribution": {
+        "size_bytes": 71796
+      },
+      "curriculum_status": "curriculum_aligned_machine_reviewed_v1",
+      "filename": "vn_school_technology_grade10_crop_1.1.0.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_technology_grade10_crop_1.1.0.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_technology_grade10_crop_1.1.0.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_technology_grade10_crop_1.1.0.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_technology_grade10_crop_1.1.0.nnk.release.sig"
     }
   ],
   "content_language_contract": "single_primary_language_v1",
-  "catalog_version": "2026-09-24-secondary-game-quality-v1+secondary-core-lesson-v1+secondary-subject-core-v1",
+  "catalog_version": "grade6_7_pass15_sourcefix1",
   "distribution": {
     "namespace": "/knowledge/",
     "pages_base_url": "https://nn-ecosystem.github.io",
