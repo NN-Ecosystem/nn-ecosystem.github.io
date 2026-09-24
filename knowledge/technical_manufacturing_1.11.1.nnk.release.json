@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "technical_manufacturing_1.11.1.nnk",
+    "size": 12510,
+    "sha256": "910a32a9903b5844580a3535113fbe7c1eac237f0c6c6e35f0b1ab77d8273147",
+    "content_sha256": "fa8819a80fef8cbfc9706c81b6278720924ad40e4615009cd1da2ca027219515"
+  },
+  "identity": {
+    "id": "technical_manufacturing",
+    "version": "1.11.1"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-24T05:40:00.208428+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "technical_manufacturing_1.11.1.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/technical_manufacturing_1.11.1.nnk"
+  }
+}
