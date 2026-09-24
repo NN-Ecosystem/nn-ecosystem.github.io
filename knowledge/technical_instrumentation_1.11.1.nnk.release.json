@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "technical_instrumentation_1.11.1.nnk",
+    "size": 12902,
+    "sha256": "75eacd7967a22bf5d18bfc9859caeba207e427b0077185d24be85261d2c2a062",
+    "content_sha256": "f42ddf787fe6c30d8a3c9e84700d97c4db974775094951433e5d42ca8d2edc7f"
+  },
+  "identity": {
+    "id": "technical_instrumentation",
+    "version": "1.11.1"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-24T05:40:00.196426+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "technical_instrumentation_1.11.1.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/technical_instrumentation_1.11.1.nnk"
+  }
+}
