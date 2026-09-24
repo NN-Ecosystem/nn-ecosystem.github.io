@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "highschool_core_chemistry_1.8.2.nnk",
+    "size": 33429,
+    "sha256": "790629205b8c394216f999b2d2a57db65df79d69557cfff82163c78049dbd791",
+    "content_sha256": "824b1e9b2e00427f2d047cb8e72bee7a4ea5bf4472efa34b60d575dbe0bb6ddf"
+  },
+  "identity": {
+    "id": "highschool_core_chemistry",
+    "version": "1.8.2"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-24T23:44:23.977424+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "highschool_core_chemistry_1.8.2.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_chemistry_1.8.2.nnk"
+  }
+}
