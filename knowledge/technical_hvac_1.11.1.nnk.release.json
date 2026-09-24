@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "technical_hvac_1.11.1.nnk",
+    "size": 13517,
+    "sha256": "330d99e94d0a10ce44c28e9381c3c688beb0be0a56aa1d0f61bce52a21b88ca2",
+    "content_sha256": "5ba78373ff0c62a7ecf900a7f37cbf1f3a361555d4fa449d2c2170b64206cda6"
+  },
+  "identity": {
+    "id": "technical_hvac",
+    "version": "1.11.1"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-24T05:40:00.167427+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "technical_hvac_1.11.1.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/technical_hvac_1.11.1.nnk"
+  }
+}
