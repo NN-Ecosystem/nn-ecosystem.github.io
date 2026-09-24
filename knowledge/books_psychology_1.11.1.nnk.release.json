@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "books_psychology_1.11.1.nnk",
+    "size": 20586,
+    "sha256": "d08e0f38f88b6a19bb11bd22a65d01bd91bcd58a2677de19012f9283eeca9560",
+    "content_sha256": "ee600bc5bc05b6f70aef833c1870612e99f07adfdfdd065d6ac62f16feb95b2e"
+  },
+  "identity": {
+    "id": "books_psychology",
+    "version": "1.11.1"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-24T05:39:59.182496+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "books_psychology_1.11.1.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/books_psychology_1.11.1.nnk"
+  }
+}
