@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "astronomy_stars_exoplanets_1.2.1.nnk",
+    "size": 21133,
+    "sha256": "de8810211c3e8b7ead1e1baf88d3558423ad7ba4ee8e57e78b62d4487b4b41bb",
+    "content_sha256": "3bafaf8d3859d09ae3f34526216884936722419a6fa8d87b9e40535152401d55"
+  },
+  "identity": {
+    "id": "astronomy_stars_exoplanets",
+    "version": "1.2.1"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-24T05:39:59.085967+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "astronomy_stars_exoplanets_1.2.1.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/astronomy_stars_exoplanets_1.2.1.nnk"
+  }
+}
