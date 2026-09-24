@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "trading_derivatives_1.8.1.nnk",
+    "size": 10724,
+    "sha256": "f4ee55b0a96e1a9dc12c6ee4b5fcb094fadbfa519404088a0f12c1351c2e6c3d",
+    "content_sha256": "09a1aa0c41ea9a78bdec0acf03b3cd388ba0fc25db791aa528dd586ad5675bad"
+  },
+  "identity": {
+    "id": "trading_derivatives",
+    "version": "1.8.1"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-24T05:39:58.593268+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "trading_derivatives_1.8.1.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/trading_derivatives_1.8.1.nnk"
+  }
+}
