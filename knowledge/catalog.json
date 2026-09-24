@@ -1,14 +1,13 @@
 {
   "schema": "knowledge_catalog_v1",
-  "version": "1.1.0",
-  "updated_at": "2026-09-24T11:15:00+07:00",
+  "version": "1.1.1",
   "catalog_id": "vietnam_grade6_standardized",
   "title": "Vietnam Grade 6 Standardized Knowledge Packs",
   "packs": [
     {
       "pack_id": "vn_school_english_grade6",
       "title": "Tiếng Anh 6 · Việt Nam · Global Success",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "domain": "school",
       "subject": "English",
       "subject_id": "english",
@@ -17,9 +16,9 @@
       "curriculum": "VN_GDPT_2018",
       "grade": "6",
       "topic_count": 32,
-      "file": "vn_school_english_grade6_1.1.0.nnk",
-      "sha256": "ea39159a57c3d91fd34dca2879db3480a55de812cf155ce783041c257684c897",
-      "size_bytes": 62740,
+      "file": "vn_school_english_grade6_1.1.1.nnk",
+      "sha256": "f0d1e515630193eb7aa4d6ac1e8f70c8909f80e6ca4abf99bfd6691001d3877b",
+      "size_bytes": 62845,
       "review_status": "machine_reviewed",
       "curriculum_status": "curriculum_aligned_v1",
       "minimum_plugin_version": "2.0.0",
@@ -31,7 +30,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 62740
+        "size_bytes": 62845
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -40,16 +39,16 @@
         "workload_units": 1,
         "pricing_authority": "cloud_effective_usage_policy"
       },
-      "filename": "vn_school_english_grade6_1.1.0.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade6_1.1.0.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade6_1.1.0.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade6_1.1.0.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade6_1.1.0.nnk.release.sig"
+      "filename": "vn_school_english_grade6_1.1.1.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade6_1.1.1.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade6_1.1.1.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade6_1.1.1.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade6_1.1.1.nnk.release.sig"
     },
     {
       "pack_id": "vn_school_literature_grade6",
       "title": "Ngữ văn 6 · Việt Nam · Kết nối tri thức",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "domain": "school",
       "subject": "Literature",
       "subject_id": "literature",
@@ -58,9 +57,9 @@
       "curriculum": "VN_GDPT_2018",
       "grade": "6",
       "topic_count": 32,
-      "file": "vn_school_literature_grade6_1.1.0.nnk",
-      "sha256": "cba6ee7fa49f445a7288d58331b7c842b6c2fe73c7a20641392d3cc6fd825d89",
-      "size_bytes": 76216,
+      "file": "vn_school_literature_grade6_1.1.1.nnk",
+      "sha256": "c845b2bfb0b1cc097d43a25d3ef51e9c13d99892f7b08ff90236f15ff31b0a2b",
+      "size_bytes": 76324,
       "review_status": "machine_reviewed",
       "curriculum_status": "curriculum_aligned_v1",
       "minimum_plugin_version": "2.0.0",
@@ -72,7 +71,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 76216
+        "size_bytes": 76324
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -81,16 +80,16 @@
         "workload_units": 1,
         "pricing_authority": "cloud_effective_usage_policy"
       },
-      "filename": "vn_school_literature_grade6_1.1.0.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade6_1.1.0.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade6_1.1.0.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade6_1.1.0.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade6_1.1.0.nnk.release.sig"
+      "filename": "vn_school_literature_grade6_1.1.1.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade6_1.1.1.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade6_1.1.1.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade6_1.1.1.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade6_1.1.1.nnk.release.sig"
     },
     {
       "pack_id": "vn_school_math_grade6",
       "title": "Toán 6 · Việt Nam · Kết nối tri thức",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "domain": "school",
       "subject": "Mathematics",
       "subject_id": "mathematics",
@@ -99,9 +98,9 @@
       "curriculum": "VN_GDPT_2018",
       "grade": "6",
       "topic_count": 32,
-      "file": "vn_school_math_grade6_1.1.0.nnk",
-      "sha256": "c5c3a76309a1808e2af4f49c775f438114a04ccedda2d3bdfd855e71876d5119",
-      "size_bytes": 67058,
+      "file": "vn_school_math_grade6_1.1.1.nnk",
+      "sha256": "85ff7141ffb4ebc0c27fd43d9cb8dc3b540f6faccdcd0464e43a8a2c8efe6c0e",
+      "size_bytes": 67159,
       "review_status": "machine_reviewed",
       "curriculum_status": "curriculum_aligned_v1",
       "minimum_plugin_version": "2.0.0",
@@ -113,7 +112,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 67058
+        "size_bytes": 67159
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -122,11 +121,11 @@
         "workload_units": 1,
         "pricing_authority": "cloud_effective_usage_policy"
       },
-      "filename": "vn_school_math_grade6_1.1.0.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade6_1.1.0.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade6_1.1.0.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade6_1.1.0.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade6_1.1.0.nnk.release.sig"
+      "filename": "vn_school_math_grade6_1.1.1.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade6_1.1.1.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade6_1.1.1.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade6_1.1.1.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade6_1.1.1.nnk.release.sig"
     }
   ],
   "distribution": {
