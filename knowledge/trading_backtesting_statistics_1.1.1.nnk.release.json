@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "trading_backtesting_statistics_1.1.1.nnk",
+    "size": 9642,
+    "sha256": "5581e3971a9c15969d92281007ef66e059baf84450b3dc3e404173d2ca468e89",
+    "content_sha256": "fb9e9410bd0bcb80993297165d2ac43d95be823503fbd90bc86108ab5ed53fcf"
+  },
+  "identity": {
+    "id": "trading_backtesting_statistics",
+    "version": "1.1.1"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-24T05:39:58.576266+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "trading_backtesting_statistics_1.1.1.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/trading_backtesting_statistics_1.1.1.nnk"
+  }
+}
