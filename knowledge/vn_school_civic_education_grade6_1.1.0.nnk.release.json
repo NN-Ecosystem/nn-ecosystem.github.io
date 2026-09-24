@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "vn_school_civic_education_grade6_1.1.0.nnk",
+    "size": 65688,
+    "sha256": "387ecb28e6e3dcdceb131a71e5c2a6dc56af592c8d00cfb358c41262fc2cc672",
+    "content_sha256": "26192e122e2074cd20b2e0812380c469e22f832e429b4bb4e5bb79c6cbb5ae1f"
+  },
+  "identity": {
+    "id": "vn_school_civic_education_grade6",
+    "version": "1.1.0"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-24T07:44:50.129592+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "vn_school_civic_education_grade6_1.1.0.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/vn_school_civic_education_grade6_1.1.0.nnk"
+  }
+}
