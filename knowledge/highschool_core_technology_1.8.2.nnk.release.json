@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "highschool_core_technology_1.8.2.nnk",
+    "size": 31987,
+    "sha256": "07b013c622ee835cc363dd318cb2b98dfe778c7f322e27c9f391ed8f5d85ebac",
+    "content_sha256": "2fa7ac842e0a5c91c14213d7570fd94a8f99f9f2d2d4e7eb889bd84f5fd03580"
+  },
+  "identity": {
+    "id": "highschool_core_technology",
+    "version": "1.8.2"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-24T23:44:24.088424+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "highschool_core_technology_1.8.2.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_technology_1.8.2.nnk"
+  }
+}
