@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "trading_selector_admission_1.7.1.nnk",
+    "size": 18885,
+    "sha256": "510b815e7723135937ded07fe62da263dc65a5c4d622d22c1554402d13cb2fbc",
+    "content_sha256": "bda8598a364768f771feaddac800c69843d78a3ab26364e25500bffd9022ffb5"
+  },
+  "identity": {
+    "id": "trading_selector_admission",
+    "version": "1.7.1"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-24T05:39:58.844877+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "trading_selector_admission_1.7.1.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/trading_selector_admission_1.7.1.nnk"
+  }
+}
