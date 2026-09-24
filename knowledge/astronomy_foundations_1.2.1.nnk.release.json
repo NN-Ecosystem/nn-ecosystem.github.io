@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "astronomy_foundations_1.2.1.nnk",
+    "size": 20228,
+    "sha256": "05f39de4cb12e4b28355040098aaa9578b59b2650ce1bff2ce5fbd00b6930ca8",
+    "content_sha256": "ec0c24cd1d2a34d17efe5eab516e698628be3e3bd641d24f16a3caa78b188944"
+  },
+  "identity": {
+    "id": "astronomy_foundations",
+    "version": "1.2.1"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-24T05:39:58.933892+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "astronomy_foundations_1.2.1.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/astronomy_foundations_1.2.1.nnk"
+  }
+}
