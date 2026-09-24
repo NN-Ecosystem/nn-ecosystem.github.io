@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "vn_school_english_grade7_1.3.3.nnk",
+    "size": 93869,
+    "sha256": "0717f9b84191af0b828b27e2909bcfe9586b82b5a3deb1e5fdb1d29569706f0c",
+    "content_sha256": "3ee3467444dff6a57cc795d82d6efa51ce135b3cbe8c5153d1808cdfaf1d5891"
+  },
+  "identity": {
+    "id": "vn_school_english_grade7",
+    "version": "1.3.3"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-24T21:50:32.829072+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "vn_school_english_grade7_1.3.3.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade7_1.3.3.nnk"
+  }
+}
