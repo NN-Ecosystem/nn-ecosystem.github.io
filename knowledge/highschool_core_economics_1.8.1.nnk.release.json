@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "highschool_core_economics_1.8.1.nnk",
+    "size": 35148,
+    "sha256": "68661214a3f5b51d6668a001eb7ec406ea0c8fb7559e241c4e38f9b6e6c2edf7",
+    "content_sha256": "cc1160eee7a27c96c24a92701feb13fac73da77c56abed52bb26017089d4d3ca"
+  },
+  "identity": {
+    "id": "highschool_core_economics",
+    "version": "1.8.1"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-24T05:39:59.445117+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "highschool_core_economics_1.8.1.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_economics_1.8.1.nnk"
+  }
+}
