@@ -3,16 +3,16 @@
   "artifact": {
     "kind": "knowledge_catalog",
     "filename": "catalog.json",
-    "size": 304447,
-    "sha256": "03f1b0973debefe1ef99be6b85520957d42865660a7bf951862bad20a2faafcf",
-    "content_sha256": "be0951a01f975fecfa68bd9bfa5165079ec32681da6673d1f2b091b629133ccb"
+    "size": 360071,
+    "sha256": "b3953770dd63d9e5a78be4098e9d47029fe20480924122ac2c451b25b5a0c95b",
+    "content_sha256": "77342fe8992dbb12752e4a8a30fe95d85ae3dde1e6f56d85bcfc6d37c2a20f82"
   },
   "identity": {
     "id": "knowledge_catalog",
-    "version": "2026-09-24-grade7-full-coverage-v1"
+    "version": "2026-09-24-secondary-game-quality-v1+secondary-core-lesson-v1+secondary-subject-core-v1"
   },
   "channel": "stable",
-  "published_at": "2026-09-24T07:44:50.957379+00:00",
+  "published_at": "2026-09-24T09:09:25.252534+00:00",
   "contracts": {
     "knowledge_pack": null,
     "knowledge_catalog": "knowledge_catalog_v1"
