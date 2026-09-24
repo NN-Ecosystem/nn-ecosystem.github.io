@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "books_history_1.11.1.nnk",
+    "size": 23817,
+    "sha256": "61e233607021d3eb097e34eb411d025aa19d94c2557db6fa3505b7e53fba90cf",
+    "content_sha256": "6b529653c152fb9eeb9970a9ba32e513f75988d18bbe97746ab706ee923b0d73"
+  },
+  "identity": {
+    "id": "books_history",
+    "version": "1.11.1"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-24T05:39:59.165495+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "books_history_1.11.1.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/books_history_1.11.1.nnk"
+  }
+}
