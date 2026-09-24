@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "vn_school_visual_arts_grade8_1.0.0.nnk",
+    "size": 75910,
+    "sha256": "3d197f03bcb5460056f75a14e70353eef0ec5038f6cfca0077b59844c9144679",
+    "content_sha256": "2106c1c1b6be25e0dd8280ca4660c423e034568628cb89fa3508eb91121c849a"
+  },
+  "identity": {
+    "id": "vn_school_visual_arts_grade8",
+    "version": "1.0.0"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-24T09:09:25.193008+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "vn_school_visual_arts_grade8_1.0.0.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/vn_school_visual_arts_grade8_1.0.0.nnk"
+  }
+}
