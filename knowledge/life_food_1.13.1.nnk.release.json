@@ -12,7 +12,7 @@
     "version": "1.13.1"
   },
   "channel": "stable",
-  "published_at": "2026-09-24T05:39:59.323032+00:00",
+  "published_at": "2026-09-24T06:33:18.125521+00:00",
   "contracts": {
     "knowledge_pack": "knowledge_pack_v1",
     "knowledge_catalog": null
