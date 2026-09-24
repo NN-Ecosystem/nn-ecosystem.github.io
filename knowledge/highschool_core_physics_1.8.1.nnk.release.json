@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "highschool_core_physics_1.8.1.nnk",
+    "size": 34099,
+    "sha256": "b91e83169ebe39755773d5f5f25ec6766dcde3d820c8a98c9184065e63e7448e",
+    "content_sha256": "180572b75a805aa853d4bfe23f76aa4c6e9093ecd6aff49e5d0337211023df74"
+  },
+  "identity": {
+    "id": "highschool_core_physics",
+    "version": "1.8.1"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-24T05:39:59.583658+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "highschool_core_physics_1.8.1.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_physics_1.8.1.nnk"
+  }
+}
