@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "astronomy_planetary_climate_1.1.1.nnk",
+    "size": 11486,
+    "sha256": "26f3bff72f2b6d4636590feec8d8e31873cbd559e1c9e3459b382a0212cbc968",
+    "content_sha256": "52b5472d58af2035754b0256344e8c0b84eaab7ca45787ac5863a80e52aaf996"
+  },
+  "identity": {
+    "id": "astronomy_planetary_climate",
+    "version": "1.1.1"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-24T05:39:59.014424+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "astronomy_planetary_climate_1.1.1.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/astronomy_planetary_climate_1.1.1.nnk"
+  }
+}
