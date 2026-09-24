@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "astronomy_sun_heliophysics_1.2.1.nnk",
+    "size": 21601,
+    "sha256": "d02a5ee1247446ca7c45c5ebae74f556b119850b8558f7942aac11883c4a4777",
+    "content_sha256": "0823742f7b3e5d289c3cc200745d1c46812116198db1e0900e8fae72cb4a8a3c"
+  },
+  "identity": {
+    "id": "astronomy_sun_heliophysics",
+    "version": "1.2.1"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-24T05:39:59.112964+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "astronomy_sun_heliophysics_1.2.1.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/astronomy_sun_heliophysics_1.2.1.nnk"
+  }
+}
