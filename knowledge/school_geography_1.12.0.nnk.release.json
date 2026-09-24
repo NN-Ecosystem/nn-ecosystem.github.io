@@ -3,16 +3,16 @@
   "artifact": {
     "kind": "knowledge_pack",
     "filename": "school_geography_1.12.0.nnk",
-    "size": 8877,
-    "sha256": "279df6b90c05a1b23254707769f7210dccea9950425b6313e50c12559d00b678",
-    "content_sha256": "6c19f7d270420e0a9341b135916050fc0df9a2a56c0edf719824e3469c8470a2"
+    "size": 17849,
+    "sha256": "f208a324982cf6b2544a569f36eb588e9376aceff24caaa8de1a3c0a8f01a4ed",
+    "content_sha256": "cbe1592290c2adf4ac98b266fe3424d8d2ad6d8580117a011a6c162b5c4bb723"
   },
   "identity": {
     "id": "school_geography",
     "version": "1.12.0"
   },
   "channel": "stable",
-  "published_at": "2026-09-16T09:20:17.889011+00:00",
+  "published_at": "2026-09-24T23:44:24.278429+00:00",
   "contracts": {
     "knowledge_pack": "knowledge_pack_v1",
     "knowledge_catalog": null
