@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "trading_research_paper_1.8.1.nnk",
+    "size": 22384,
+    "sha256": "96d1642bfe12b89b88a5f643d44a50d544c48395681b7dfa85bdef797383d99b",
+    "content_sha256": "6f7743cd894bd26f738b4a719b7d3080ca25e985fc349f334816b33b8134f55c"
+  },
+  "identity": {
+    "id": "trading_research_paper",
+    "version": "1.8.1"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-24T05:39:58.791335+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "trading_research_paper_1.8.1.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/trading_research_paper_1.8.1.nnk"
+  }
+}
