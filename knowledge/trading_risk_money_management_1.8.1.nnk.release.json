@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "trading_risk_money_management_1.8.1.nnk",
+    "size": 9898,
+    "sha256": "7349b56cd3f178192a0f7b8f0f59ccf786b8af78eec430a4ca705162fd0bb613",
+    "content_sha256": "babd998718004c64b276495821cc6e55ba771e1ef43e4accca3b998dbae323e2"
+  },
+  "identity": {
+    "id": "trading_risk_money_management",
+    "version": "1.8.1"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-24T05:39:58.816335+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "trading_risk_money_management_1.8.1.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/trading_risk_money_management_1.8.1.nnk"
+  }
+}
