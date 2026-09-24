@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "astronomy_observation_space_1.2.1.nnk",
+    "size": 20906,
+    "sha256": "cbf2fa0b71eac779b6998963eba53bc3b93e4a38dbb1b89f9f85f291ae51a2b0",
+    "content_sha256": "e96f2c17ab729911ce24933b73ffbbd15d823e0ef8a99e421f646fb3e35e2140"
+  },
+  "identity": {
+    "id": "astronomy_observation_space",
+    "version": "1.2.1"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-24T05:39:58.990424+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "astronomy_observation_space_1.2.1.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/astronomy_observation_space_1.2.1.nnk"
+  }
+}
