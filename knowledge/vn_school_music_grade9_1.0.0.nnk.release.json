@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "vn_school_music_grade9_1.0.0.nnk",
+    "size": 78070,
+    "sha256": "aa17f8db6bafc7863b340b84d6f94e6ae755b1c2f0986e0f3b3534cd777ebcc4",
+    "content_sha256": "8a6cf5c2de4d50f38636ef69c1e408109def6fbb10b7febbc0e0cd8e45b3f82b"
+  },
+  "identity": {
+    "id": "vn_school_music_grade9",
+    "version": "1.0.0"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-24T09:09:24.744719+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "vn_school_music_grade9_1.0.0.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/vn_school_music_grade9_1.0.0.nnk"
+  }
+}
