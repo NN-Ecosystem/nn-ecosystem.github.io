@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "vn_school_history_geography_grade6_1.2.4.nnk",
+    "size": 123477,
+    "sha256": "910996f926726ffdb1bcb8f943edb3a853eaac50cdb8c7ffdded2de1ae1243c1",
+    "content_sha256": "a14c44cec1522311bad2ab28b96be7b60cb5aa16643e0642d67a32433f376bef"
+  },
+  "identity": {
+    "id": "vn_school_history_geography_grade6",
+    "version": "1.2.4"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-24T21:50:32.980070+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "vn_school_history_geography_grade6_1.2.4.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/vn_school_history_geography_grade6_1.2.4.nnk"
+  }
+}
