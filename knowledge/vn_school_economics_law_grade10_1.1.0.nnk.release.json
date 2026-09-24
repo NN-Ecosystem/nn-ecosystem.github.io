@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "vn_school_economics_law_grade10_1.1.0.nnk",
+    "size": 62455,
+    "sha256": "6de97cfa8987ab210182c5dbea26f1e7b6497aa33e76617ed17e15a10a982bcf",
+    "content_sha256": "81cef52baba8850f662d0910f7b636a8ecbdb0002d5c156d8ebe278e2fd3b11f"
+  },
+  "identity": {
+    "id": "vn_school_economics_law_grade10",
+    "version": "1.1.0"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-24T21:50:33.879073+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "vn_school_economics_law_grade10_1.1.0.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/vn_school_economics_law_grade10_1.1.0.nnk"
+  }
+}
