@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "astronomy_stellar_physics_1.2.1.nnk",
+    "size": 20396,
+    "sha256": "079b5dc08af9b9e6ecd2fb302e91e3658f877665b0a50d0f52a9bdc6d1b260b0",
+    "content_sha256": "7cf4ab08212bfe6a2b89e8560bb4acb181aa4bb3e4993d3be31608f76257d97d"
+  },
+  "identity": {
+    "id": "astronomy_stellar_physics",
+    "version": "1.2.1"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-24T05:39:59.098964+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "astronomy_stellar_physics_1.2.1.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/astronomy_stellar_physics_1.2.1.nnk"
+  }
+}
