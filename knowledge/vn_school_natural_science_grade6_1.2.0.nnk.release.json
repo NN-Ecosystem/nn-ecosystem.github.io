@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "vn_school_natural_science_grade6_1.2.0.nnk",
+    "size": 86253,
+    "sha256": "166d3542cd2446c435ab5057d28640dde12f524fe304320dee42646600ea43a9",
+    "content_sha256": "794f04e31f7cf51e8ebded81e9cebc5274f01dcdcdcd4bad4ae3d0b25c03b2ce"
+  },
+  "identity": {
+    "id": "vn_school_natural_science_grade6",
+    "version": "1.2.0"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-24T09:09:24.770254+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "vn_school_natural_science_grade6_1.2.0.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/vn_school_natural_science_grade6_1.2.0.nnk"
+  }
+}
