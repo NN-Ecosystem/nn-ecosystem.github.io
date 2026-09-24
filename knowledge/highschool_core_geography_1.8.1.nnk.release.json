@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "highschool_core_geography_1.8.1.nnk",
+    "size": 33945,
+    "sha256": "e1dbdedde5b3d111e2c1f2e5b2fb6fcfb06c5b1d9e91ed177abda5b7bbc88e4d",
+    "content_sha256": "d8a85476c69d4227fd73000995ac98ebe05811d0eb02dcdf62dd07218e5ae37a"
+  },
+  "identity": {
+    "id": "highschool_core_geography",
+    "version": "1.8.1"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-24T05:39:59.491119+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "highschool_core_geography_1.8.1.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_geography_1.8.1.nnk"
+  }
+}
