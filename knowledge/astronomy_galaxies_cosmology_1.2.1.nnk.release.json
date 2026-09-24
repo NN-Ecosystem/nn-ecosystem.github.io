@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "astronomy_galaxies_cosmology_1.2.1.nnk",
+    "size": 22024,
+    "sha256": "cef8d48b30e2a204fa18589cfc83c431e14f75952f6eaf6f528e0bde03e49a89",
+    "content_sha256": "7988c9b6a6e8cd5e75ea3e255897a90631486b50e1cf940865b29bf8d90137f5"
+  },
+  "identity": {
+    "id": "astronomy_galaxies_cosmology",
+    "version": "1.2.1"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-24T05:39:58.947426+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "astronomy_galaxies_cosmology_1.2.1.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/astronomy_galaxies_cosmology_1.2.1.nnk"
+  }
+}
