@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "astronomy_planetary_worlds_1.2.1.nnk",
+    "size": 20175,
+    "sha256": "f210d1542fb74b6a9878a21110984306f939743ff363fe364809a8a5cf21e801",
+    "content_sha256": "f1cf256eb613445d71c8112d55cbfa46c3712d64d7903d876f63917e9ccb738a"
+  },
+  "identity": {
+    "id": "astronomy_planetary_worlds",
+    "version": "1.2.1"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-24T05:39:59.030440+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "astronomy_planetary_worlds_1.2.1.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/astronomy_planetary_worlds_1.2.1.nnk"
+  }
+}
