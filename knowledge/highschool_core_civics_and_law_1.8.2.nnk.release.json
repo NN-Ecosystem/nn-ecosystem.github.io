@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "highschool_core_civics_and_law_1.8.2.nnk",
+    "size": 33048,
+    "sha256": "1a972653d5d085c77610e4368f4cf078ab56e2240e9fd21b6b6f358e291c515b",
+    "content_sha256": "f9db71ad16706995bd939a448b5236f6d59136a314e5b6bd9bf5c604682d6114"
+  },
+  "identity": {
+    "id": "highschool_core_civics_and_law",
+    "version": "1.8.2"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-24T23:44:23.988426+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "highschool_core_civics_and_law_1.8.2.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_civics_and_law_1.8.2.nnk"
+  }
+}
