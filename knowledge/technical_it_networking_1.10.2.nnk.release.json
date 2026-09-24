@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "technical_it_networking_1.10.2.nnk",
+    "size": 10745,
+    "sha256": "8e957ab15372f34f7965f7035de230bd614127751896faa45cfbe036f4a0a886",
+    "content_sha256": "129c7175d629f0eb77234713d7161e4c417a63079aa6e4a8a61970b4121c14ad"
+  },
+  "identity": {
+    "id": "technical_it_networking",
+    "version": "1.10.2"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-24T05:40:00.178426+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "technical_it_networking_1.10.2.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/technical_it_networking_1.10.2.nnk"
+  }
+}
