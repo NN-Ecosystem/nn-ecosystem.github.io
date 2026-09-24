@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "trading_market_input_1.8.1.nnk",
+    "size": 11138,
+    "sha256": "04067ce869baa93178a73a3f5780393ccb61dac452958af37e3979429dc6cf34",
+    "content_sha256": "72ec0042f1dc5a4a56729ce3ac673f7c6a546765c6aa1483826571f94808ad38"
+  },
+  "identity": {
+    "id": "trading_market_input",
+    "version": "1.8.1"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-24T05:39:58.657803+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "trading_market_input_1.8.1.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/trading_market_input_1.8.1.nnk"
+  }
+}
