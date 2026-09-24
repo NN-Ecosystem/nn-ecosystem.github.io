@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "astronomy_high_energy_cosmology_1.2.1.nnk",
+    "size": 21018,
+    "sha256": "a5ec135857535aeec8392aed7b2beae29d198ab5bc29c6e831a245f1f80d0f56",
+    "content_sha256": "7a1797c061d85bf4723bac98e0815bb747738d1388546f90846553f5967873fd"
+  },
+  "identity": {
+    "id": "astronomy_high_energy_cosmology",
+    "version": "1.2.1"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-24T05:39:58.961424+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "astronomy_high_energy_cosmology_1.2.1.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/astronomy_high_energy_cosmology_1.2.1.nnk"
+  }
+}
