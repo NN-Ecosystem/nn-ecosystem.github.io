@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "vn_school_technology_grade9_career_1.1.0.nnk",
+    "size": 69844,
+    "sha256": "f868f81af8b5094127ee6054b94bb3f6e543d32422bebbf0134d34fcc1b9b865",
+    "content_sha256": "933a050da62e346ab3ba279eab85c92cb43d3c31382f8e4ec4f9f7f345a7e9e2"
+  },
+  "identity": {
+    "id": "vn_school_technology_grade9_career",
+    "version": "1.1.0"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-24T09:09:25.041323+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "vn_school_technology_grade9_career_1.1.0.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/vn_school_technology_grade9_career_1.1.0.nnk"
+  }
+}
