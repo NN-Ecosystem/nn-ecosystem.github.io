@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "vn_school_physical_education_grade9_1.0.0.nnk",
+    "size": 79418,
+    "sha256": "338aa025f6455da488c9e627c30b9394ed3cda7b003c128864c2d5fb9dd3aa5e",
+    "content_sha256": "3df875260957475169fd16145ec807e0e5799ff5ea25495f92f5351c10f0ef56"
+  },
+  "identity": {
+    "id": "vn_school_physical_education_grade9",
+    "version": "1.0.0"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-24T09:09:24.931778+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "vn_school_physical_education_grade9_1.0.0.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/vn_school_physical_education_grade9_1.0.0.nnk"
+  }
+}
