@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "trading_psychology_process_1.1.1.nnk",
+    "size": 9484,
+    "sha256": "a6c835475830150a0eeeaf38d8a7b87893d9545cc376ff480d2ad0ed4d9955a6",
+    "content_sha256": "65cb767b9cd4dcf66affdcf6ec916df6780d07f6a364e3c198b487ec23088457"
+  },
+  "identity": {
+    "id": "trading_psychology_process",
+    "version": "1.1.1"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-24T05:39:58.761334+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "trading_psychology_process_1.1.1.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/trading_psychology_process_1.1.1.nnk"
+  }
+}
