@@ -3,16 +3,16 @@
   "artifact": {
     "kind": "knowledge_pack",
     "filename": "school_history_1.12.0.nnk",
-    "size": 10081,
-    "sha256": "b11f588d645386673415bccc6225bb4bd913ad28c11d4fc934d00019bc49bffd",
-    "content_sha256": "278fd66c6806ec471a1651a66a3453d7af628b87878914820b66411ea9e46b94"
+    "size": 19823,
+    "sha256": "d910da914cd82ab91a6d47ea4426552d004b21993cf7868868cbfe1086f5c1a2",
+    "content_sha256": "66559f3fbbc5340fabe378821bd37773ee29fb00808a0d2067f4dd8773fcf7a3"
   },
   "identity": {
     "id": "school_history",
     "version": "1.12.0"
   },
   "channel": "stable",
-  "published_at": "2026-09-16T09:20:17.876008+00:00",
+  "published_at": "2026-09-24T23:44:24.322426+00:00",
   "contracts": {
     "knowledge_pack": "knowledge_pack_v1",
     "knowledge_catalog": null
