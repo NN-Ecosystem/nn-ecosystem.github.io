@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "astronomy_relativity_gravity_1.1.1.nnk",
+    "size": 11597,
+    "sha256": "8c3ba5c8694f06319c873791e9362f320574477987e1e7955b97f94a832a78ee",
+    "content_sha256": "8a64621b2147aa58dbe28a3cd3f7ad9ce6194c0876af440d4b1e21582a689fb9"
+  },
+  "identity": {
+    "id": "astronomy_relativity_gravity",
+    "version": "1.1.1"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-24T05:39:59.054963+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "astronomy_relativity_gravity_1.1.1.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/astronomy_relativity_gravity_1.1.1.nnk"
+  }
+}
