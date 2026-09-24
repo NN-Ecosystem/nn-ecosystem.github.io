@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "life_digital_1.14.0.nnk",
+    "size": 8947,
+    "sha256": "184087390fee34d47e6e369024f9e705a0eabd0a48245b952ca2b068e34f8d84",
+    "content_sha256": "5e26c3c10eadc41a672333b7c1edee837c05c8f835f7a50e3bc136e9d6e1cdd1"
+  },
+  "identity": {
+    "id": "life_digital",
+    "version": "1.14.0"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-24T23:44:24.126429+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "life_digital_1.14.0.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/life_digital_1.14.0.nnk"
+  }
+}
