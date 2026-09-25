@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "technical_materials_1.12.2.nnk",
+    "size": 16276,
+    "sha256": "7d4f0f412b425eca02d21a64ced3fe709f832594ae7d43909d2b808300c8642b",
+    "content_sha256": "ee30e8ee3e8815f9ff1130d6fd266ab6a7c2de78b4420693fcf1d1033ebacc60"
+  },
+  "identity": {
+    "id": "technical_materials",
+    "version": "1.12.2"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-25T02:43:06.011441+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "technical_materials_1.12.2.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/technical_materials_1.12.2.nnk"
+  }
+}
