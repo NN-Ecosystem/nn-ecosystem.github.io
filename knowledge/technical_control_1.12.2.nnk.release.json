@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "technical_control_1.12.2.nnk",
+    "size": 20263,
+    "sha256": "d8719a9f9688b173aad03b016565fa604c32dbe9e43cafdbbd3bf2315b3bc069",
+    "content_sha256": "55beb915474a27803e253132e926a955f93c1f09743ef7dd9f41a8756e9a1fcc"
+  },
+  "identity": {
+    "id": "technical_control",
+    "version": "1.12.2"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-25T02:43:05.902906+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "technical_control_1.12.2.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/technical_control_1.12.2.nnk"
+  }
+}
