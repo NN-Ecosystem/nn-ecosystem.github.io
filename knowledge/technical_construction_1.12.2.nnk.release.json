@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "technical_construction_1.12.2.nnk",
+    "size": 13916,
+    "sha256": "c9feb529338aa3ae87b4a395f2d4c9d6474212e4d7e98bd7f88f3a85385d08b2",
+    "content_sha256": "536863b237313689edd31af66d1eb4f69ed6a4fb83c516af2e2ce01ba06711a9"
+  },
+  "identity": {
+    "id": "technical_construction",
+    "version": "1.12.2"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-25T02:43:05.888446+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "technical_construction_1.12.2.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/technical_construction_1.12.2.nnk"
+  }
+}
