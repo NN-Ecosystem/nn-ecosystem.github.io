@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "school_computing_1.12.1.nnk",
+    "size": 26047,
+    "sha256": "4bba1255a0c442ba1fc36e2a090e5598cf6bec1e436c81f81a5a2243b1c6949c",
+    "content_sha256": "a05ee9ddacd2589d69b54c8ea8b553a0b337d22e1d3b4e6be52c7b8b7099be35"
+  },
+  "identity": {
+    "id": "school_computing",
+    "version": "1.12.1"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-25T02:43:05.589849+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "school_computing_1.12.1.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/school_computing_1.12.1.nnk"
+  }
+}
