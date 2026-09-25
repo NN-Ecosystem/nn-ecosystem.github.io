@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "life_finance_1.14.1.nnk",
+    "size": 10820,
+    "sha256": "9934cd8bd2a63f17cbf11046c12ef87b09a568c1079c0cfe3c3aa37f657c6a4b",
+    "content_sha256": "eed95179e7b67fb8ec8bd204c73e28e82116e0996fc0f6bb4ca48ba0cdb40c9f"
+  },
+  "identity": {
+    "id": "life_finance",
+    "version": "1.14.1"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-25T02:43:05.422284+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "life_finance_1.14.1.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/life_finance_1.14.1.nnk"
+  }
+}
