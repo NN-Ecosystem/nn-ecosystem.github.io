@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "school_biology_grade7_1.11.2.nnk",
+    "size": 3788,
+    "sha256": "4d2b4cf0ae71a4a0e8be53a1666e38aa7c7f950e1827f4a7529cffc6ff60d75a",
+    "content_sha256": "cf882b2d48432a8c9e97fe7bc98f524df83f23f31bab0e59ac8dc9bfc807f70e"
+  },
+  "identity": {
+    "id": "school_biology_grade7",
+    "version": "1.11.2"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-25T02:43:05.494306+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "school_biology_grade7_1.11.2.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/school_biology_grade7_1.11.2.nnk"
+  }
+}
