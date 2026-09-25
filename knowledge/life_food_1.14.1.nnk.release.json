@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "life_food_1.14.1.nnk",
+    "size": 16594,
+    "sha256": "b4ef201caa696c0d6b92182e5a551a14a43a793a6f23555a810aed3c8b05d608",
+    "content_sha256": "3db8707b1867fae7a816523372aabf15f5a9b73177cfe44206f46094414a7223"
+  },
+  "identity": {
+    "id": "life_food",
+    "version": "1.14.1"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-25T02:43:05.433282+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "life_food_1.14.1.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/life_food_1.14.1.nnk"
+  }
+}
