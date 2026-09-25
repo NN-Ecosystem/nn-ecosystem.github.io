@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "technical_automation_1.10.3.nnk",
+    "size": 8048,
+    "sha256": "31b190e5af8c2b5ea41baa80f0fd61131b32d17421fe72941baf3b2474456764",
+    "content_sha256": "f06521c26d0d88132947e81dadfe9baec9495f4aa1c6f8543fdc5bc14de9522c"
+  },
+  "identity": {
+    "id": "technical_automation",
+    "version": "1.10.3"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-25T02:43:05.864431+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "technical_automation_1.10.3.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/technical_automation_1.10.3.nnk"
+  }
+}
