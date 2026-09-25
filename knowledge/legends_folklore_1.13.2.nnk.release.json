@@ -1,0 +1,31 @@
+{
+  "schema": "nn_knowledge_release_v1",
+  "artifact": {
+    "kind": "knowledge_pack",
+    "filename": "legends_folklore_1.13.2.nnk",
+    "size": 19521,
+    "sha256": "d444fc4efb8b54f005d9b0fbd23ae766fda0e6a82c96ac9c6a683dd3aa760a1d",
+    "content_sha256": "e1efb2135d7d6a43b917aa97ec05cd242d7c92a69ac89709b42506c2a1a543ee"
+  },
+  "identity": {
+    "id": "legends_folklore",
+    "version": "1.13.2"
+  },
+  "channel": "stable",
+  "published_at": "2026-09-25T02:43:05.352746+00:00",
+  "contracts": {
+    "knowledge_pack": "knowledge_pack_v1",
+    "knowledge_catalog": null
+  },
+  "signing": {
+    "algorithm": "RSA-PSS-SHA256",
+    "key_id": "rsa-bc157b0ea2f00c66",
+    "artifact_signature": "legends_folklore_1.13.2.nnk.sig",
+    "payload": "raw-artifact-bytes"
+  },
+  "distribution": {
+    "namespace": "/knowledge/",
+    "landing_base_url": "https://nn-ecosystem.github.io",
+    "suggested_url": "https://nn-ecosystem.github.io/knowledge/legends_folklore_1.13.2.nnk"
+  }
+}
