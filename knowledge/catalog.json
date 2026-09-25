@@ -1,7 +1,7 @@
 {
   "schema": "knowledge_catalog_v1",
   "version": "grade10_refined_v2",
-  "updated_at": "2026-09-25",
+  "updated_at": "2026-09-25T06:35:00+07:00",
   "classification_contract": "program_language_2axis_v2",
   "classification_rules": {
     "language": [
@@ -830,14 +830,14 @@
     {
       "pack_id": "books_core",
       "title": "Books · Core Ideas",
-      "version": "1.11.1",
+      "version": "1.12.0",
       "domain": "books",
       "subject": "Books",
       "language": "vi",
       "topic_count": 95,
-      "file": "books_core_1.11.1.nnk",
-      "sha256": "dd47e2c3a2f5c144353df4a3edea37aeea9c26d8a8758351cd17b74da6769f97",
-      "review_status": "mixed",
+      "file": "books_core_1.12.0.nnk",
+      "sha256": "736c6ee01a8b4ec02a8633fd197a279fd9c8d7ff7e81f97004043393b88f7b27",
+      "review_status": "release_candidate",
       "verified_topics": 0,
       "editorial_reviewed_topics": 0,
       "supersedes_pack_ids": [
@@ -845,13 +845,13 @@
       ],
       "graph_contract": "knowledge_graph_contract_v1.1",
       "source_contract": "knowledge_source_registry_v1.4",
-      "content_hardening": "reader_specificity_phase23",
+      "content_hardening": "global_release_pass2_editorial_rebuild",
       "reader_contract": "knowledge_reader_explanation_v10",
-      "size_bytes": 43726,
+      "size_bytes": 33708,
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 43726
+        "size_bytes": 33708
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -869,35 +869,35 @@
       "localization_policy": "source_only",
       "runtime_translation_allowed": false,
       "content_language_policy": "single_primary_language_v1",
-      "filename": "books_core_1.11.1.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/books_core_1.11.1.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/books_core_1.11.1.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/books_core_1.11.1.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/books_core_1.11.1.nnk.release.sig"
+      "filename": "books_core_1.12.0.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/books_core_1.12.0.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/books_core_1.12.0.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/books_core_1.12.0.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/books_core_1.12.0.nnk.release.sig"
     },
     {
       "pack_id": "books_history",
       "title": "Books · History",
-      "version": "1.11.1",
+      "version": "1.12.0",
       "domain": "books",
       "subject": "History Books",
       "language": "vi",
       "topic_count": 50,
-      "file": "books_history_1.11.1.nnk",
-      "sha256": "61e233607021d3eb097e34eb411d025aa19d94c2557db6fa3505b7e53fba90cf",
-      "review_status": "editorial_enriched",
+      "file": "books_history_1.12.0.nnk",
+      "sha256": "605a7c6186db8c3800232475ebaeeb494bde95cd2db9a9e05cf5c165de49563b",
+      "review_status": "release_candidate",
       "verified_topics": 0,
       "editorial_reviewed_topics": 50,
       "supersedes_pack_ids": [],
       "graph_contract": "knowledge_graph_contract_v1.1",
       "source_contract": "knowledge_source_registry_v1.4",
-      "content_hardening": "reader_specificity_phase23",
+      "content_hardening": "global_release_pass3_book_rebuild",
       "reader_contract": "knowledge_reader_explanation_v10",
-      "size_bytes": 23817,
+      "size_bytes": 18394,
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 23817
+        "size_bytes": 18394
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -915,35 +915,35 @@
       "localization_policy": "source_only",
       "runtime_translation_allowed": false,
       "content_language_policy": "single_primary_language_v1",
-      "filename": "books_history_1.11.1.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/books_history_1.11.1.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/books_history_1.11.1.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/books_history_1.11.1.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/books_history_1.11.1.nnk.release.sig"
+      "filename": "books_history_1.12.0.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/books_history_1.12.0.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/books_history_1.12.0.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/books_history_1.12.0.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/books_history_1.12.0.nnk.release.sig"
     },
     {
       "pack_id": "books_psychology",
       "title": "Books · Psychology",
-      "version": "1.11.1",
+      "version": "1.12.0",
       "domain": "books",
       "subject": "Psychology Books",
       "language": "vi",
       "topic_count": 50,
-      "file": "books_psychology_1.11.1.nnk",
-      "sha256": "d08e0f38f88b6a19bb11bd22a65d01bd91bcd58a2677de19012f9283eeca9560",
-      "review_status": "draft",
+      "file": "books_psychology_1.12.0.nnk",
+      "sha256": "8943740e4fcc8dfc4d986dec0bc8b207235eb346826b7dcba126fd917ad14e0a",
+      "review_status": "release_candidate",
       "verified_topics": 0,
       "editorial_reviewed_topics": 0,
       "supersedes_pack_ids": [],
       "graph_contract": "knowledge_graph_contract_v1.1",
       "source_contract": "knowledge_source_registry_v1.4",
-      "content_hardening": "reader_specificity_phase23",
+      "content_hardening": "global_release_pass3_book_rebuild",
       "reader_contract": "knowledge_reader_explanation_v10",
-      "size_bytes": 20586,
+      "size_bytes": 16626,
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 20586
+        "size_bytes": 16626
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -961,36 +961,36 @@
       "localization_policy": "source_only",
       "runtime_translation_allowed": false,
       "content_language_policy": "single_primary_language_v1",
-      "filename": "books_psychology_1.11.1.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/books_psychology_1.11.1.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/books_psychology_1.11.1.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/books_psychology_1.11.1.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/books_psychology_1.11.1.nnk.release.sig"
+      "filename": "books_psychology_1.12.0.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/books_psychology_1.12.0.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/books_psychology_1.12.0.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/books_psychology_1.12.0.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/books_psychology_1.12.0.nnk.release.sig"
     },
     {
       "pack_id": "books_technology",
       "title": "Books · Technology",
-      "version": "1.11.1",
+      "version": "1.12.0",
       "domain": "books",
       "subject": "Technology Books",
       "language": "vi",
       "topic_count": 50,
-      "file": "books_technology_1.11.1.nnk",
-      "sha256": "7eb2868f357789c32b1399aeb23aee38ba30518ae0ea2fc3b02a2bce7c4b8656",
-      "review_status": "draft",
+      "file": "books_technology_1.12.0.nnk",
+      "sha256": "27ff09e3c1e80f7ae03cc17c629bf7dfe684d6697db9e3217742625799072b47",
+      "review_status": "release_candidate",
       "verified_topics": 0,
       "editorial_reviewed_topics": 0,
       "epistemic_class": "editorial_summary",
       "supersedes_pack_ids": [],
       "graph_contract": "knowledge_graph_contract_v1.1",
       "source_contract": "knowledge_source_registry_v1.4",
-      "content_hardening": "reader_specificity_phase23",
+      "content_hardening": "global_release_pass2_editorial_rebuild",
       "reader_contract": "knowledge_reader_explanation_v10",
-      "size_bytes": 23168,
+      "size_bytes": 18679,
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 23168
+        "size_bytes": 18679
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -1008,11 +1008,11 @@
       "localization_policy": "source_only",
       "runtime_translation_allowed": false,
       "content_language_policy": "single_primary_language_v1",
-      "filename": "books_technology_1.11.1.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/books_technology_1.11.1.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/books_technology_1.11.1.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/books_technology_1.11.1.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/books_technology_1.11.1.nnk.release.sig"
+      "filename": "books_technology_1.12.0.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/books_technology_1.12.0.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/books_technology_1.12.0.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/books_technology_1.12.0.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/books_technology_1.12.0.nnk.release.sig"
     },
     {
       "pack_id": "culture_world_mythology",
@@ -1065,17 +1065,17 @@
     {
       "pack_id": "highschool_core_biology",
       "title": "High School Core · Biology",
-      "version": "1.8.1",
+      "version": "1.8.2",
       "domain": "school",
       "subject": "Biology",
       "language": "vi",
       "topic_count": 33,
-      "file": "highschool_core_biology_1.8.1.nnk",
-      "sha256": "72c702dd8af0e0c552d972e545f701b82de72de98830708893048b4d65d4290a",
-      "review_status": "editorial_reviewed",
+      "file": "highschool_core_biology_1.8.2.nnk",
+      "sha256": "211636c6d050ce27f49a1502f457a4d71c79d3d2eb3e3de27ac0d4e16619e79d",
+      "review_status": "release_candidate",
       "verified_topics": 0,
       "editorial_reviewed_topics": 10,
-      "content_hardening": "phase32_editorial_detemplate_and_contamination_cleanup",
+      "content_hardening": "global_release_pass2_source_hardening",
       "reader_contract": "knowledge_reader_explanation_v16",
       "curriculum_mapping_contract": "knowledge_curriculum_mapping_v1",
       "learning_contract": "knowledge_learning_assessment_v1",
@@ -1084,11 +1084,11 @@
       "worked_example_contract": "knowledge_worked_example_v4",
       "semantic_consolidation_contract": "knowledge_semantic_consolidation_v1",
       "topic_focus_contract": "knowledge_topic_focus_v2",
-      "size_bytes": 32355,
+      "size_bytes": 32834,
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 32355
+        "size_bytes": 32834
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -1106,26 +1106,26 @@
       "localization_policy": "source_only",
       "runtime_translation_allowed": false,
       "content_language_policy": "single_primary_language_v1",
-      "filename": "highschool_core_biology_1.8.1.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_biology_1.8.1.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_biology_1.8.1.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_biology_1.8.1.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_biology_1.8.1.nnk.release.sig"
+      "filename": "highschool_core_biology_1.8.2.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_biology_1.8.2.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_biology_1.8.2.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_biology_1.8.2.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_biology_1.8.2.nnk.release.sig"
     },
     {
       "pack_id": "highschool_core_chemistry",
       "title": "High School Core · Chemistry",
-      "version": "1.8.1",
+      "version": "1.8.2",
       "domain": "school",
       "subject": "Chemistry",
       "language": "vi",
       "topic_count": 32,
-      "file": "highschool_core_chemistry_1.8.1.nnk",
-      "sha256": "c3bea99cd0021a411c6b6af10c8b7697dd6effa4a147c79a3b5f8b5d85992d44",
-      "review_status": "editorial_reviewed",
+      "file": "highschool_core_chemistry_1.8.2.nnk",
+      "sha256": "790629205b8c394216f999b2d2a57db65df79d69557cfff82163c78049dbd791",
+      "review_status": "release_candidate",
       "verified_topics": 0,
       "editorial_reviewed_topics": 10,
-      "content_hardening": "phase32_editorial_detemplate_and_contamination_cleanup",
+      "content_hardening": "global_release_pass2_source_hardening",
       "reader_contract": "knowledge_reader_explanation_v16",
       "curriculum_mapping_contract": "knowledge_curriculum_mapping_v1",
       "learning_contract": "knowledge_learning_assessment_v1",
@@ -1134,11 +1134,11 @@
       "worked_example_contract": "knowledge_worked_example_v4",
       "semantic_consolidation_contract": "knowledge_semantic_consolidation_v1",
       "topic_focus_contract": "knowledge_topic_focus_v2",
-      "size_bytes": 32941,
+      "size_bytes": 33429,
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 32941
+        "size_bytes": 33429
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -1156,26 +1156,26 @@
       "localization_policy": "source_only",
       "runtime_translation_allowed": false,
       "content_language_policy": "single_primary_language_v1",
-      "filename": "highschool_core_chemistry_1.8.1.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_chemistry_1.8.1.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_chemistry_1.8.1.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_chemistry_1.8.1.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_chemistry_1.8.1.nnk.release.sig"
+      "filename": "highschool_core_chemistry_1.8.2.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_chemistry_1.8.2.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_chemistry_1.8.2.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_chemistry_1.8.2.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_chemistry_1.8.2.nnk.release.sig"
     },
     {
       "pack_id": "highschool_core_civics_and_law",
       "title": "High School Core · Civics and Law",
-      "version": "1.8.1",
+      "version": "1.8.2",
       "domain": "school",
       "subject": "Civics and Law",
       "language": "vi",
       "topic_count": 34,
-      "file": "highschool_core_civics_and_law_1.8.1.nnk",
-      "sha256": "fcff71f0a5a035acb35bd29dbd1d4a6702f316c22eee39407b47484d4743c45e",
-      "review_status": "editorial_reviewed",
+      "file": "highschool_core_civics_and_law_1.8.2.nnk",
+      "sha256": "1a972653d5d085c77610e4368f4cf078ab56e2240e9fd21b6b6f358e291c515b",
+      "review_status": "release_candidate",
       "verified_topics": 0,
       "editorial_reviewed_topics": 10,
-      "content_hardening": "phase32_editorial_detemplate_and_contamination_cleanup",
+      "content_hardening": "global_release_pass2_source_hardening",
       "reader_contract": "knowledge_reader_explanation_v16",
       "curriculum_mapping_contract": "knowledge_curriculum_mapping_v1",
       "learning_contract": "knowledge_learning_assessment_v1",
@@ -1184,11 +1184,11 @@
       "worked_example_contract": "knowledge_worked_example_v4",
       "semantic_consolidation_contract": "knowledge_semantic_consolidation_v1",
       "topic_focus_contract": "knowledge_topic_focus_v2",
-      "size_bytes": 32457,
+      "size_bytes": 33048,
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 32457
+        "size_bytes": 33048
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -1206,26 +1206,26 @@
       "localization_policy": "source_only",
       "runtime_translation_allowed": false,
       "content_language_policy": "single_primary_language_v1",
-      "filename": "highschool_core_civics_and_law_1.8.1.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_civics_and_law_1.8.1.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_civics_and_law_1.8.1.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_civics_and_law_1.8.1.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_civics_and_law_1.8.1.nnk.release.sig"
+      "filename": "highschool_core_civics_and_law_1.8.2.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_civics_and_law_1.8.2.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_civics_and_law_1.8.2.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_civics_and_law_1.8.2.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_civics_and_law_1.8.2.nnk.release.sig"
     },
     {
       "pack_id": "highschool_core_computer_science",
       "title": "High School Core · Computer Science",
-      "version": "1.8.1",
+      "version": "1.8.2",
       "domain": "school",
       "subject": "Computer Science",
       "language": "vi",
       "topic_count": 34,
-      "file": "highschool_core_computer_science_1.8.1.nnk",
-      "sha256": "5ad880b233003498401e7ca31c6e5f23f6b74cb0e7a2eec19c2d7b8c1ecd7992",
-      "review_status": "editorial_reviewed",
+      "file": "highschool_core_computer_science_1.8.2.nnk",
+      "sha256": "259b6669aaf40332638a5f3c9e6f34e860c46acd0a0aff5f9774aeb904369e12",
+      "review_status": "release_candidate",
       "verified_topics": 0,
       "editorial_reviewed_topics": 10,
-      "content_hardening": "phase32_editorial_detemplate_and_contamination_cleanup",
+      "content_hardening": "global_release_pass2_source_hardening",
       "reader_contract": "knowledge_reader_explanation_v16",
       "curriculum_mapping_contract": "knowledge_curriculum_mapping_v1",
       "learning_contract": "knowledge_learning_assessment_v1",
@@ -1234,11 +1234,11 @@
       "worked_example_contract": "knowledge_worked_example_v4",
       "semantic_consolidation_contract": "knowledge_semantic_consolidation_v1",
       "topic_focus_contract": "knowledge_topic_focus_v2",
-      "size_bytes": 33707,
+      "size_bytes": 34161,
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 33707
+        "size_bytes": 34161
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -1256,26 +1256,26 @@
       "localization_policy": "source_only",
       "runtime_translation_allowed": false,
       "content_language_policy": "single_primary_language_v1",
-      "filename": "highschool_core_computer_science_1.8.1.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_computer_science_1.8.1.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_computer_science_1.8.1.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_computer_science_1.8.1.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_computer_science_1.8.1.nnk.release.sig"
+      "filename": "highschool_core_computer_science_1.8.2.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_computer_science_1.8.2.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_computer_science_1.8.2.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_computer_science_1.8.2.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_computer_science_1.8.2.nnk.release.sig"
     },
     {
       "pack_id": "highschool_core_economics",
       "title": "High School Core · Economics",
-      "version": "1.8.1",
+      "version": "1.8.2",
       "domain": "school",
       "subject": "Economics",
       "language": "vi",
       "topic_count": 34,
-      "file": "highschool_core_economics_1.8.1.nnk",
-      "sha256": "68661214a3f5b51d6668a001eb7ec406ea0c8fb7559e241c4e38f9b6e6c2edf7",
-      "review_status": "editorial_reviewed",
+      "file": "highschool_core_economics_1.8.2.nnk",
+      "sha256": "34b49ce9c3886489f39b76c0fac52002d181c049f93178b9ef7698863c6bd707",
+      "review_status": "release_candidate",
       "verified_topics": 0,
       "editorial_reviewed_topics": 10,
-      "content_hardening": "phase32_editorial_detemplate_and_contamination_cleanup",
+      "content_hardening": "global_release_pass2_source_hardening",
       "reader_contract": "knowledge_reader_explanation_v16",
       "curriculum_mapping_contract": "knowledge_curriculum_mapping_v1",
       "learning_contract": "knowledge_learning_assessment_v1",
@@ -1284,11 +1284,11 @@
       "worked_example_contract": "knowledge_worked_example_v4",
       "semantic_consolidation_contract": "knowledge_semantic_consolidation_v1",
       "topic_focus_contract": "knowledge_topic_focus_v2",
-      "size_bytes": 35148,
+      "size_bytes": 35677,
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 35148
+        "size_bytes": 35677
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -1306,26 +1306,26 @@
       "localization_policy": "source_only",
       "runtime_translation_allowed": false,
       "content_language_policy": "single_primary_language_v1",
-      "filename": "highschool_core_economics_1.8.1.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_economics_1.8.1.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_economics_1.8.1.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_economics_1.8.1.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_economics_1.8.1.nnk.release.sig"
+      "filename": "highschool_core_economics_1.8.2.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_economics_1.8.2.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_economics_1.8.2.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_economics_1.8.2.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_economics_1.8.2.nnk.release.sig"
     },
     {
       "pack_id": "highschool_core_english_language",
       "title": "High School Core · English Language",
-      "version": "1.8.1",
+      "version": "1.8.2",
       "domain": "school",
       "subject": "English Language",
       "language": "vi",
       "topic_count": 34,
-      "file": "highschool_core_english_language_1.8.1.nnk",
-      "sha256": "2579e0098aec61658b19b672c091c11499ac16a24ba8ac8d684490f2d778c858",
-      "review_status": "editorial_reviewed",
+      "file": "highschool_core_english_language_1.8.2.nnk",
+      "sha256": "f2107b82ca94a91993a3af492fadfedc783ecec8a07860654e8f47af5287097e",
+      "review_status": "release_candidate",
       "verified_topics": 0,
       "editorial_reviewed_topics": 10,
-      "content_hardening": "phase32_editorial_detemplate_and_contamination_cleanup",
+      "content_hardening": "global_release_pass2_source_hardening",
       "reader_contract": "knowledge_reader_explanation_v16",
       "curriculum_mapping_contract": "knowledge_curriculum_mapping_v1",
       "learning_contract": "knowledge_learning_assessment_v1",
@@ -1334,11 +1334,11 @@
       "worked_example_contract": "knowledge_worked_example_v4",
       "semantic_consolidation_contract": "knowledge_semantic_consolidation_v1",
       "topic_focus_contract": "knowledge_topic_focus_v2",
-      "size_bytes": 30420,
+      "size_bytes": 30857,
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 30420
+        "size_bytes": 30857
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -1356,26 +1356,26 @@
       "localization_policy": "source_only",
       "runtime_translation_allowed": false,
       "content_language_policy": "single_primary_language_v1",
-      "filename": "highschool_core_english_language_1.8.1.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_english_language_1.8.1.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_english_language_1.8.1.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_english_language_1.8.1.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_english_language_1.8.1.nnk.release.sig"
+      "filename": "highschool_core_english_language_1.8.2.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_english_language_1.8.2.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_english_language_1.8.2.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_english_language_1.8.2.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_english_language_1.8.2.nnk.release.sig"
     },
     {
       "pack_id": "highschool_core_geography",
       "title": "High School Core · Geography",
-      "version": "1.8.1",
+      "version": "1.8.2",
       "domain": "school",
       "subject": "Geography",
       "language": "vi",
       "topic_count": 34,
-      "file": "highschool_core_geography_1.8.1.nnk",
-      "sha256": "e1dbdedde5b3d111e2c1f2e5b2fb6fcfb06c5b1d9e91ed177abda5b7bbc88e4d",
-      "review_status": "editorial_reviewed",
+      "file": "highschool_core_geography_1.8.2.nnk",
+      "sha256": "3ebc0b43814b6267734bb64883bc9e27fcdffbfe5b522b4916ea044ae0eaddee",
+      "review_status": "release_candidate",
       "verified_topics": 0,
       "editorial_reviewed_topics": 10,
-      "content_hardening": "phase32_editorial_detemplate_and_contamination_cleanup",
+      "content_hardening": "global_release_pass2_source_hardening",
       "reader_contract": "knowledge_reader_explanation_v16",
       "curriculum_mapping_contract": "knowledge_curriculum_mapping_v1",
       "learning_contract": "knowledge_learning_assessment_v1",
@@ -1384,11 +1384,11 @@
       "worked_example_contract": "knowledge_worked_example_v4",
       "semantic_consolidation_contract": "knowledge_semantic_consolidation_v1",
       "topic_focus_contract": "knowledge_topic_focus_v2",
-      "size_bytes": 33945,
+      "size_bytes": 34468,
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 33945
+        "size_bytes": 34468
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -1406,26 +1406,26 @@
       "localization_policy": "source_only",
       "runtime_translation_allowed": false,
       "content_language_policy": "single_primary_language_v1",
-      "filename": "highschool_core_geography_1.8.1.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_geography_1.8.1.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_geography_1.8.1.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_geography_1.8.1.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_geography_1.8.1.nnk.release.sig"
+      "filename": "highschool_core_geography_1.8.2.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_geography_1.8.2.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_geography_1.8.2.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_geography_1.8.2.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_geography_1.8.2.nnk.release.sig"
     },
     {
       "pack_id": "highschool_core_history",
       "title": "High School Core · History",
-      "version": "1.8.1",
+      "version": "1.8.2",
       "domain": "school",
       "subject": "History",
       "language": "vi",
       "topic_count": 33,
-      "file": "highschool_core_history_1.8.1.nnk",
-      "sha256": "fe30650a0f9be7dbc19e9fb0bd82bfaee2937df7a2f01fdd7f85560a4a607f26",
-      "review_status": "editorial_reviewed",
+      "file": "highschool_core_history_1.8.2.nnk",
+      "sha256": "12bcd7e8529d36affbedf1e49f037d1eb6de42078d03fd925dc15e84f759c6de",
+      "review_status": "release_candidate",
       "verified_topics": 0,
       "editorial_reviewed_topics": 10,
-      "content_hardening": "phase32_editorial_detemplate_and_contamination_cleanup",
+      "content_hardening": "global_release_pass2_source_hardening",
       "reader_contract": "knowledge_reader_explanation_v16",
       "curriculum_mapping_contract": "knowledge_curriculum_mapping_v1",
       "learning_contract": "knowledge_learning_assessment_v1",
@@ -1434,11 +1434,11 @@
       "worked_example_contract": "knowledge_worked_example_v4",
       "semantic_consolidation_contract": "knowledge_semantic_consolidation_v1",
       "topic_focus_contract": "knowledge_topic_focus_v2",
-      "size_bytes": 31071,
+      "size_bytes": 31559,
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 31071
+        "size_bytes": 31559
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -1456,26 +1456,26 @@
       "localization_policy": "source_only",
       "runtime_translation_allowed": false,
       "content_language_policy": "single_primary_language_v1",
-      "filename": "highschool_core_history_1.8.1.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_history_1.8.1.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_history_1.8.1.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_history_1.8.1.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_history_1.8.1.nnk.release.sig"
+      "filename": "highschool_core_history_1.8.2.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_history_1.8.2.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_history_1.8.2.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_history_1.8.2.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_history_1.8.2.nnk.release.sig"
     },
     {
       "pack_id": "highschool_core_literature",
       "title": "High School Core · Literature",
-      "version": "1.8.1",
+      "version": "1.8.2",
       "domain": "school",
       "subject": "Literature",
       "language": "vi",
       "topic_count": 34,
-      "file": "highschool_core_literature_1.8.1.nnk",
-      "sha256": "48b6047c80bc10afacf2cec7de10719e51b6c3d284873b5663a3f22e7c7a542e",
-      "review_status": "editorial_reviewed",
+      "file": "highschool_core_literature_1.8.2.nnk",
+      "sha256": "ea9cbc923fd6ceab97f9fb1ec8b0ffda5755de314afab92752e93bb10024d23d",
+      "review_status": "release_candidate",
       "verified_topics": 0,
       "editorial_reviewed_topics": 10,
-      "content_hardening": "phase32_editorial_detemplate_and_contamination_cleanup",
+      "content_hardening": "global_release_pass2_source_hardening",
       "reader_contract": "knowledge_reader_explanation_v16",
       "curriculum_mapping_contract": "knowledge_curriculum_mapping_v1",
       "learning_contract": "knowledge_learning_assessment_v1",
@@ -1484,11 +1484,11 @@
       "worked_example_contract": "knowledge_worked_example_v4",
       "semantic_consolidation_contract": "knowledge_semantic_consolidation_v1",
       "topic_focus_contract": "knowledge_topic_focus_v2",
-      "size_bytes": 31716,
+      "size_bytes": 32311,
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 31716
+        "size_bytes": 32311
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -1506,26 +1506,26 @@
       "localization_policy": "source_only",
       "runtime_translation_allowed": false,
       "content_language_policy": "single_primary_language_v1",
-      "filename": "highschool_core_literature_1.8.1.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_literature_1.8.1.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_literature_1.8.1.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_literature_1.8.1.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_literature_1.8.1.nnk.release.sig"
+      "filename": "highschool_core_literature_1.8.2.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_literature_1.8.2.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_literature_1.8.2.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_literature_1.8.2.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_literature_1.8.2.nnk.release.sig"
     },
     {
       "pack_id": "highschool_core_mathematics",
       "title": "High School Core · Mathematics",
-      "version": "1.8.1",
+      "version": "1.8.2",
       "domain": "school",
       "subject": "Mathematics",
       "language": "vi",
       "topic_count": 34,
-      "file": "highschool_core_mathematics_1.8.1.nnk",
-      "sha256": "c6e0f6369b1bd9e77a1c05972fda779995390e76b00671f8519e348046e7431e",
-      "review_status": "editorial_reviewed",
+      "file": "highschool_core_mathematics_1.8.2.nnk",
+      "sha256": "7bbecfe94faa86747d5b4cf999347cedde6c1ae1cee6b2a54840ed2b9cc17381",
+      "review_status": "release_candidate",
       "verified_topics": 0,
       "editorial_reviewed_topics": 10,
-      "content_hardening": "phase32_editorial_detemplate_and_contamination_cleanup",
+      "content_hardening": "global_release_pass2_source_hardening",
       "reader_contract": "knowledge_reader_explanation_v16",
       "curriculum_mapping_contract": "knowledge_curriculum_mapping_v1",
       "learning_contract": "knowledge_learning_assessment_v1",
@@ -1534,11 +1534,11 @@
       "worked_example_contract": "knowledge_worked_example_v4",
       "semantic_consolidation_contract": "knowledge_semantic_consolidation_v1",
       "topic_focus_contract": "knowledge_topic_focus_v2",
-      "size_bytes": 34947,
+      "size_bytes": 35405,
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 34947
+        "size_bytes": 35405
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -1556,26 +1556,26 @@
       "localization_policy": "source_only",
       "runtime_translation_allowed": false,
       "content_language_policy": "single_primary_language_v1",
-      "filename": "highschool_core_mathematics_1.8.1.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_mathematics_1.8.1.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_mathematics_1.8.1.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_mathematics_1.8.1.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_mathematics_1.8.1.nnk.release.sig"
+      "filename": "highschool_core_mathematics_1.8.2.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_mathematics_1.8.2.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_mathematics_1.8.2.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_mathematics_1.8.2.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_mathematics_1.8.2.nnk.release.sig"
     },
     {
       "pack_id": "highschool_core_physics",
       "title": "High School Core · Physics",
-      "version": "1.8.1",
+      "version": "1.8.2",
       "domain": "school",
       "subject": "Physics",
       "language": "vi",
       "topic_count": 34,
-      "file": "highschool_core_physics_1.8.1.nnk",
-      "sha256": "b91e83169ebe39755773d5f5f25ec6766dcde3d820c8a98c9184065e63e7448e",
-      "review_status": "editorial_reviewed",
+      "file": "highschool_core_physics_1.8.2.nnk",
+      "sha256": "247efcdd30c3423a41d346cfe4a2f134a9e3a2feb95cc6437aff251ac82c5c03",
+      "review_status": "release_candidate",
       "verified_topics": 0,
       "editorial_reviewed_topics": 10,
-      "content_hardening": "phase32_editorial_detemplate_and_contamination_cleanup",
+      "content_hardening": "global_release_pass2_source_hardening",
       "reader_contract": "knowledge_reader_explanation_v16",
       "curriculum_mapping_contract": "knowledge_curriculum_mapping_v1",
       "learning_contract": "knowledge_learning_assessment_v1",
@@ -1584,11 +1584,11 @@
       "worked_example_contract": "knowledge_worked_example_v4",
       "semantic_consolidation_contract": "knowledge_semantic_consolidation_v1",
       "topic_focus_contract": "knowledge_topic_focus_v2",
-      "size_bytes": 34099,
+      "size_bytes": 34593,
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 34099
+        "size_bytes": 34593
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -1606,26 +1606,26 @@
       "localization_policy": "source_only",
       "runtime_translation_allowed": false,
       "content_language_policy": "single_primary_language_v1",
-      "filename": "highschool_core_physics_1.8.1.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_physics_1.8.1.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_physics_1.8.1.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_physics_1.8.1.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_physics_1.8.1.nnk.release.sig"
+      "filename": "highschool_core_physics_1.8.2.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_physics_1.8.2.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_physics_1.8.2.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_physics_1.8.2.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_physics_1.8.2.nnk.release.sig"
     },
     {
       "pack_id": "highschool_core_technology",
       "title": "High School Core · Technology",
-      "version": "1.8.1",
+      "version": "1.8.2",
       "domain": "school",
       "subject": "Technology",
       "language": "vi",
       "topic_count": 33,
-      "file": "highschool_core_technology_1.8.1.nnk",
-      "sha256": "238efb0348a30dd1488d32cef58a47daa6e62d5f4e6db4b5c66541ad85b11b94",
-      "review_status": "editorial_reviewed",
+      "file": "highschool_core_technology_1.8.2.nnk",
+      "sha256": "07b013c622ee835cc363dd318cb2b98dfe778c7f322e27c9f391ed8f5d85ebac",
+      "review_status": "release_candidate",
       "verified_topics": 0,
       "editorial_reviewed_topics": 10,
-      "content_hardening": "phase32_editorial_detemplate_and_contamination_cleanup",
+      "content_hardening": "global_release_pass2_source_hardening",
       "reader_contract": "knowledge_reader_explanation_v16",
       "curriculum_mapping_contract": "knowledge_curriculum_mapping_v1",
       "learning_contract": "knowledge_learning_assessment_v1",
@@ -1634,11 +1634,11 @@
       "worked_example_contract": "knowledge_worked_example_v4",
       "semantic_consolidation_contract": "knowledge_semantic_consolidation_v1",
       "topic_focus_contract": "knowledge_topic_focus_v2",
-      "size_bytes": 31425,
+      "size_bytes": 31987,
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 31425
+        "size_bytes": 31987
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -1656,11 +1656,11 @@
       "localization_policy": "source_only",
       "runtime_translation_allowed": false,
       "content_language_policy": "single_primary_language_v1",
-      "filename": "highschool_core_technology_1.8.1.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_technology_1.8.1.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_technology_1.8.1.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_technology_1.8.1.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_technology_1.8.1.nnk.release.sig"
+      "filename": "highschool_core_technology_1.8.2.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_technology_1.8.2.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_technology_1.8.2.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_technology_1.8.2.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/highschool_core_technology_1.8.2.nnk.release.sig"
     },
     {
       "pack_id": "legends_folklore",
@@ -1713,25 +1713,25 @@
     {
       "pack_id": "life_communication",
       "title": "Life · Communication",
-      "version": "1.13.1",
+      "version": "1.14.0",
       "domain": "life",
       "subject": "Communication",
       "language": "vi",
       "topic_count": 40,
-      "file": "life_communication_1.13.1.nnk",
-      "sha256": "3019562f29a53666b024c54ff48e5a7fda00378a23a1944394cc8eac0e93a52f",
-      "review_status": "mixed",
-      "verified_topics": 0,
-      "editorial_reviewed_topics": 0,
+      "file": "life_communication_1.14.0.nnk",
+      "sha256": "4a562589ad61efd8786fb4fefcb00f741d707fd8c813040a2eaf011de902e6db",
+      "review_status": "release_candidate_reaudited",
+      "verified_topics": 40,
+      "editorial_reviewed_topics": 40,
       "graph_contract": "knowledge_graph_contract_v1.1",
       "source_contract": "knowledge_source_registry_v1.4",
       "content_hardening": "reader_specificity_phase23",
       "reader_contract": "knowledge_reader_explanation_v10",
-      "size_bytes": 18007,
+      "size_bytes": 14906,
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 18007
+        "size_bytes": 14906
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -1749,36 +1749,36 @@
       "localization_policy": "source_only",
       "runtime_translation_allowed": false,
       "content_language_policy": "single_primary_language_v1",
-      "filename": "life_communication_1.13.1.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/life_communication_1.13.1.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/life_communication_1.13.1.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/life_communication_1.13.1.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/life_communication_1.13.1.nnk.release.sig"
+      "filename": "life_communication_1.14.0.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/life_communication_1.14.0.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/life_communication_1.14.0.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/life_communication_1.14.0.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/life_communication_1.14.0.nnk.release.sig"
     },
     {
       "pack_id": "life_consumer",
       "title": "Life · Consumer",
-      "version": "1.13.1",
+      "version": "1.14.0",
       "domain": "life",
       "subject": "Consumer Knowledge",
       "language": "vi",
       "topic_count": 50,
-      "file": "life_consumer_1.13.1.nnk",
-      "sha256": "b7b3fcef112de400bdda3813a4f1cbf12b0c3fc35b11bf3e58a2340ec2932865",
-      "review_status": "draft",
-      "verified_topics": 0,
-      "editorial_reviewed_topics": 0,
+      "file": "life_consumer_1.14.0.nnk",
+      "sha256": "8245ac4c0ddf5756d86a2125ae521b7d23ae822280720c9398ba6afc23c5cd10",
+      "review_status": "release_candidate_reaudited",
+      "verified_topics": 50,
+      "editorial_reviewed_topics": 50,
       "epistemic_class": "practical_reference",
       "supersedes_pack_ids": [],
       "graph_contract": "knowledge_graph_contract_v1.1",
       "source_contract": "knowledge_source_registry_v1.4",
       "content_hardening": "reader_specificity_phase23",
       "reader_contract": "knowledge_reader_explanation_v10",
-      "size_bytes": 18875,
+      "size_bytes": 15135,
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 18875
+        "size_bytes": 15135
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -1796,34 +1796,34 @@
       "localization_policy": "source_only",
       "runtime_translation_allowed": false,
       "content_language_policy": "single_primary_language_v1",
-      "filename": "life_consumer_1.13.1.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/life_consumer_1.13.1.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/life_consumer_1.13.1.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/life_consumer_1.13.1.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/life_consumer_1.13.1.nnk.release.sig"
+      "filename": "life_consumer_1.14.0.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/life_consumer_1.14.0.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/life_consumer_1.14.0.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/life_consumer_1.14.0.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/life_consumer_1.14.0.nnk.release.sig"
     },
     {
       "pack_id": "life_digital",
       "title": "Life · Digital Life",
-      "version": "1.13.1",
+      "version": "1.14.0",
       "domain": "life",
       "subject": "Digital Life",
       "language": "vi",
       "topic_count": 25,
-      "file": "life_digital_1.13.1.nnk",
-      "sha256": "206cfd70293d53c4b45b47ef97cd8be847b7df27b4b435db8911c98a9806c33a",
-      "review_status": "mixed",
-      "verified_topics": 0,
-      "editorial_reviewed_topics": 5,
+      "file": "life_digital_1.14.0.nnk",
+      "sha256": "184087390fee34d47e6e369024f9e705a0eabd0a48245b952ca2b068e34f8d84",
+      "review_status": "release_candidate_reaudited",
+      "verified_topics": 25,
+      "editorial_reviewed_topics": 25,
       "graph_contract": "knowledge_graph_contract_v1.1",
       "source_contract": "knowledge_source_registry_v1.4",
       "content_hardening": "reader_specificity_phase23",
       "reader_contract": "knowledge_reader_explanation_v10",
-      "size_bytes": 10649,
+      "size_bytes": 8947,
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 10649
+        "size_bytes": 8947
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -1841,36 +1841,36 @@
       "localization_policy": "source_only",
       "runtime_translation_allowed": false,
       "content_language_policy": "single_primary_language_v1",
-      "filename": "life_digital_1.13.1.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/life_digital_1.13.1.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/life_digital_1.13.1.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/life_digital_1.13.1.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/life_digital_1.13.1.nnk.release.sig"
+      "filename": "life_digital_1.14.0.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/life_digital_1.14.0.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/life_digital_1.14.0.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/life_digital_1.14.0.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/life_digital_1.14.0.nnk.release.sig"
     },
     {
       "pack_id": "life_emergency",
       "title": "Life · Emergency Preparedness",
-      "version": "1.13.1",
+      "version": "1.14.0",
       "domain": "life",
       "subject": "Emergency Preparedness",
       "language": "vi",
       "topic_count": 50,
-      "file": "life_emergency_1.13.1.nnk",
-      "sha256": "8924e200e2fd126f5f691876f6eecbca2e0647fe30be24be15af277618202621",
-      "review_status": "draft",
-      "verified_topics": 0,
-      "editorial_reviewed_topics": 0,
+      "file": "life_emergency_1.14.0.nnk",
+      "sha256": "66ea7a3608dbdd6b95dff0500431f925b7fa6be3240aa4067797a3b0eaa90231",
+      "review_status": "release_candidate_reaudited",
+      "verified_topics": 50,
+      "editorial_reviewed_topics": 50,
       "epistemic_class": "safety_reference",
       "supersedes_pack_ids": [],
       "graph_contract": "knowledge_graph_contract_v1.1",
       "source_contract": "knowledge_source_registry_v1.4",
       "content_hardening": "reader_specificity_phase23",
       "reader_contract": "knowledge_reader_explanation_v10",
-      "size_bytes": 18946,
+      "size_bytes": 15929,
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 18946
+        "size_bytes": 15929
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -1888,34 +1888,34 @@
       "localization_policy": "source_only",
       "runtime_translation_allowed": false,
       "content_language_policy": "single_primary_language_v1",
-      "filename": "life_emergency_1.13.1.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/life_emergency_1.13.1.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/life_emergency_1.13.1.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/life_emergency_1.13.1.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/life_emergency_1.13.1.nnk.release.sig"
+      "filename": "life_emergency_1.14.0.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/life_emergency_1.14.0.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/life_emergency_1.14.0.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/life_emergency_1.14.0.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/life_emergency_1.14.0.nnk.release.sig"
     },
     {
       "pack_id": "life_finance",
       "title": "Life · Personal Finance",
-      "version": "1.13.1",
+      "version": "1.14.0",
       "domain": "life",
       "subject": "Personal Finance",
       "language": "vi",
       "topic_count": 25,
-      "file": "life_finance_1.13.1.nnk",
-      "sha256": "c608d1724b0e76df45017ed70e2eeb409dc0eeff4881b180dc70363fd416c804",
-      "review_status": "mixed",
-      "verified_topics": 5,
-      "editorial_reviewed_topics": 5,
+      "file": "life_finance_1.14.0.nnk",
+      "sha256": "ec3ac6ed8f0d30385820dd4fdc309479660d57a3c969d0e173a340eb751eb8e5",
+      "review_status": "release_candidate_reaudited",
+      "verified_topics": 25,
+      "editorial_reviewed_topics": 25,
       "graph_contract": "knowledge_graph_contract_v1.1",
       "source_contract": "knowledge_source_registry_v1.4",
       "content_hardening": "reader_specificity_phase23",
       "reader_contract": "knowledge_reader_explanation_v10",
-      "size_bytes": 11185,
+      "size_bytes": 10143,
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 11185
+        "size_bytes": 10143
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -1933,35 +1933,35 @@
       "localization_policy": "source_only",
       "runtime_translation_allowed": false,
       "content_language_policy": "single_primary_language_v1",
-      "filename": "life_finance_1.13.1.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/life_finance_1.13.1.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/life_finance_1.13.1.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/life_finance_1.13.1.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/life_finance_1.13.1.nnk.release.sig"
+      "filename": "life_finance_1.14.0.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/life_finance_1.14.0.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/life_finance_1.14.0.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/life_finance_1.14.0.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/life_finance_1.14.0.nnk.release.sig"
     },
     {
       "pack_id": "life_food",
       "title": "Life · Food",
-      "version": "1.13.1",
+      "version": "1.14.0",
       "domain": "life",
       "subject": "Food",
       "language": "vi",
       "topic_count": 50,
-      "file": "life_food_1.13.1.nnk",
-      "sha256": "22479fafbf057e4ed650716264b25364d7bcbb7124248eb19afd8603a989ff16",
-      "review_status": "draft",
-      "verified_topics": 0,
-      "editorial_reviewed_topics": 0,
+      "file": "life_food_1.14.0.nnk",
+      "sha256": "1645543a81b40574d4e26ccbdc5251378fde2ecc3c4d36cb163d194cfb92d33a",
+      "review_status": "release_candidate_reaudited",
+      "verified_topics": 50,
+      "editorial_reviewed_topics": 50,
       "supersedes_pack_ids": [],
       "graph_contract": "knowledge_graph_contract_v1.1",
       "source_contract": "knowledge_source_registry_v1.4",
       "content_hardening": "reader_specificity_phase23",
       "reader_contract": "knowledge_reader_explanation_v10",
-      "size_bytes": 18676,
+      "size_bytes": 14833,
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 18676
+        "size_bytes": 14833
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -1979,35 +1979,35 @@
       "localization_policy": "source_only",
       "runtime_translation_allowed": false,
       "content_language_policy": "single_primary_language_v1",
-      "filename": "life_food_1.13.1.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/life_food_1.13.1.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/life_food_1.13.1.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/life_food_1.13.1.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/life_food_1.13.1.nnk.release.sig"
+      "filename": "life_food_1.14.0.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/life_food_1.14.0.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/life_food_1.14.0.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/life_food_1.14.0.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/life_food_1.14.0.nnk.release.sig"
     },
     {
       "pack_id": "life_home",
       "title": "Life · Home",
-      "version": "1.13.1",
+      "version": "1.14.0",
       "domain": "life",
       "subject": "Home",
       "language": "vi",
       "topic_count": 50,
-      "file": "life_home_1.13.1.nnk",
-      "sha256": "f825b7be151a483205672cf052cbd73bf8eb34a5dd9d6e2ff72b36d838d43c85",
-      "review_status": "draft",
-      "verified_topics": 0,
-      "editorial_reviewed_topics": 0,
+      "file": "life_home_1.14.0.nnk",
+      "sha256": "a1ab5b0bb6cd3788dbd79253baaed06cf6b8d02548768935723e4be68626441a",
+      "review_status": "release_candidate_reaudited",
+      "verified_topics": 50,
+      "editorial_reviewed_topics": 50,
       "supersedes_pack_ids": [],
       "graph_contract": "knowledge_graph_contract_v1.1",
       "source_contract": "knowledge_source_registry_v1.4",
       "content_hardening": "reader_specificity_phase23",
       "reader_contract": "knowledge_reader_explanation_v10",
-      "size_bytes": 18942,
+      "size_bytes": 15094,
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 18942
+        "size_bytes": 15094
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -2025,11 +2025,11 @@
       "localization_policy": "source_only",
       "runtime_translation_allowed": false,
       "content_language_policy": "single_primary_language_v1",
-      "filename": "life_home_1.13.1.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/life_home_1.13.1.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/life_home_1.13.1.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/life_home_1.13.1.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/life_home_1.13.1.nnk.release.sig"
+      "filename": "life_home_1.14.0.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/life_home_1.14.0.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/life_home_1.14.0.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/life_home_1.14.0.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/life_home_1.14.0.nnk.release.sig"
     },
     {
       "pack_id": "mysteries_unexplained",
@@ -2082,25 +2082,25 @@
     {
       "pack_id": "school_biology",
       "title": "School · Biology",
-      "version": "1.11.1",
+      "version": "1.11.2",
       "domain": "school",
       "subject": "Biology",
       "language": "vi",
       "topic_count": 90,
-      "file": "school_biology_1.11.1.nnk",
-      "sha256": "995ceddd3f6f0c33b1777f118a37b4f96bdb49755acb7d3e92e00b1336738d4d",
-      "review_status": "mixed",
+      "file": "school_biology_1.11.2.nnk",
+      "sha256": "d3f03d12637c4b6a27bb4b16f41d1d0ddf66c179192fa78bdcb0007f11b2cdfb",
+      "review_status": "source_hardened_editorial_refinement_needed",
       "verified_topics": 0,
       "editorial_reviewed_topics": 0,
       "graph_contract": "knowledge_graph_contract_v1.1",
       "source_contract": "knowledge_source_registry_v1.4",
-      "content_hardening": "semantic_fill_phase16",
+      "content_hardening": "global_release_pass3_source_hardening",
       "reader_contract": "knowledge_reader_explanation_v5",
-      "size_bytes": 29902,
+      "size_bytes": 29155,
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 29902
+        "size_bytes": 29155
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -2118,11 +2118,11 @@
       "localization_policy": "source_only",
       "runtime_translation_allowed": false,
       "content_language_policy": "single_primary_language_v1",
-      "filename": "school_biology_1.11.1.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/school_biology_1.11.1.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/school_biology_1.11.1.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/school_biology_1.11.1.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/school_biology_1.11.1.nnk.release.sig"
+      "filename": "school_biology_1.11.2.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/school_biology_1.11.2.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/school_biology_1.11.2.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/school_biology_1.11.2.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/school_biology_1.11.2.nnk.release.sig"
     },
     {
       "pack_id": "school_biology_grade7",
@@ -2217,25 +2217,25 @@
     {
       "pack_id": "school_chemistry",
       "title": "School · Chemistry",
-      "version": "1.11.1",
+      "version": "1.11.2",
       "domain": "school",
       "subject": "Chemistry",
       "language": "vi",
       "topic_count": 90,
-      "file": "school_chemistry_1.11.1.nnk",
-      "sha256": "469c6d76a6e1f741ae9fc153b661daf9623bd1861e01eeca5eec1c0f167f3db6",
-      "review_status": "mixed",
+      "file": "school_chemistry_1.11.2.nnk",
+      "sha256": "cf88d7fcfb504e2ce19516aa79055d6e6dc7e9da04cdb3beb545f4ec277e1fae",
+      "review_status": "source_hardened_editorial_refinement_needed",
       "verified_topics": 0,
       "editorial_reviewed_topics": 0,
       "graph_contract": "knowledge_graph_contract_v1.1",
       "source_contract": "knowledge_source_registry_v1.4",
-      "content_hardening": "semantic_fill_phase16",
+      "content_hardening": "global_release_pass3_source_hardening",
       "reader_contract": "knowledge_reader_explanation_v5",
-      "size_bytes": 30398,
+      "size_bytes": 29437,
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 30398
+        "size_bytes": 29437
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -2253,11 +2253,11 @@
       "localization_policy": "source_only",
       "runtime_translation_allowed": false,
       "content_language_policy": "single_primary_language_v1",
-      "filename": "school_chemistry_1.11.1.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/school_chemistry_1.11.1.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/school_chemistry_1.11.1.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/school_chemistry_1.11.1.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/school_chemistry_1.11.1.nnk.release.sig"
+      "filename": "school_chemistry_1.11.2.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/school_chemistry_1.11.2.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/school_chemistry_1.11.2.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/school_chemistry_1.11.2.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/school_chemistry_1.11.2.nnk.release.sig"
     },
     {
       "pack_id": "school_chemistry_grade9",
@@ -2307,29 +2307,29 @@
     {
       "pack_id": "school_civics",
       "title": "School · Civics",
-      "version": "1.11.1",
+      "version": "1.12.0",
       "domain": "school",
       "subject": "Civics",
       "language": "vi",
       "topic_count": 50,
-      "file": "school_civics_1.11.1.nnk",
-      "sha256": "1ea28ebdfb406740a2aa5e74b3faceaae68c0acf80319bf4ae9aad5bb58ade0d",
-      "review_status": "draft",
+      "file": "school_civics_1.12.0.nnk",
+      "sha256": "0da2b566ee1e1ce3ecb361c688addc3a6e165b8a0ceb154908c60c636094d4a7",
+      "review_status": "release_candidate_machine_reviewed",
       "verified_topics": 0,
       "editorial_reviewed_topics": 0,
       "supersedes_pack_ids": [],
       "graph_contract": "knowledge_graph_contract_v1.1",
-      "source_contract": "knowledge_source_registry_v1.4",
+      "source_contract": "knowledge_source_registry_v1.5",
       "curriculum_mapping_status": "provisional",
       "curriculum_framework_status": "verified",
       "topic_grade_status": "provisional",
-      "content_hardening": "semantic_fill_phase16",
+      "content_hardening": "global_release_wave4_topic_specific",
       "reader_contract": "knowledge_reader_explanation_v5",
-      "size_bytes": 17469,
+      "size_bytes": 17482,
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 17469
+        "size_bytes": 17482
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -2347,11 +2347,11 @@
       "localization_policy": "source_only",
       "runtime_translation_allowed": false,
       "content_language_policy": "single_primary_language_v1",
-      "filename": "school_civics_1.11.1.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/school_civics_1.11.1.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/school_civics_1.11.1.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/school_civics_1.11.1.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/school_civics_1.11.1.nnk.release.sig"
+      "filename": "school_civics_1.12.0.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/school_civics_1.12.0.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/school_civics_1.12.0.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/school_civics_1.12.0.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/school_civics_1.12.0.nnk.release.sig"
     },
     {
       "pack_id": "school_civics_grade6_9_official",
@@ -2401,26 +2401,26 @@
     {
       "pack_id": "school_computing",
       "title": "School · Computing",
-      "version": "1.11.2",
+      "version": "1.11.3",
       "domain": "school",
       "subject": "Computing",
       "language": "vi",
       "topic_count": 70,
-      "file": "school_computing_1.11.2.nnk",
-      "sha256": "0232331549cbca1741c4aea0a81abbb87c1af770832844e98b83227fd838e88f",
-      "review_status": "mixed",
+      "file": "school_computing_1.11.3.nnk",
+      "sha256": "78f05a5e26eb0bec986687ee70105cfd0128603311476460202c34469e7230b5",
+      "review_status": "source_hardened_editorial_refinement_needed",
       "verified_topics": 0,
       "editorial_reviewed_topics": 0,
       "graph_contract": "knowledge_graph_contract_v1.1",
       "source_contract": "knowledge_source_registry_v1.4",
-      "content_hardening": "semantic_fill_phase16",
+      "content_hardening": "global_release_pass3_source_hardening",
       "reader_contract": "knowledge_reader_explanation_v5",
       "canonical_contract": "knowledge_canonical_context_v2",
-      "size_bytes": 20699,
+      "size_bytes": 20915,
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 20699
+        "size_bytes": 20915
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -2438,38 +2438,38 @@
       "localization_policy": "source_only",
       "runtime_translation_allowed": false,
       "content_language_policy": "single_primary_language_v1",
-      "filename": "school_computing_1.11.2.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/school_computing_1.11.2.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/school_computing_1.11.2.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/school_computing_1.11.2.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/school_computing_1.11.2.nnk.release.sig"
+      "filename": "school_computing_1.11.3.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/school_computing_1.11.3.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/school_computing_1.11.3.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/school_computing_1.11.3.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/school_computing_1.11.3.nnk.release.sig"
     },
     {
       "pack_id": "school_economics",
       "title": "School · Economics",
-      "version": "1.11.1",
+      "version": "1.12.0",
       "domain": "school",
       "subject": "Economics",
       "language": "vi",
       "topic_count": 50,
-      "file": "school_economics_1.11.1.nnk",
-      "sha256": "5f8e039bd8dd3df0001225397fdc5630a555f4baed3a5068eb4f82db4a1f019c",
-      "review_status": "draft",
+      "file": "school_economics_1.12.0.nnk",
+      "sha256": "2675fb75b125a6d073724c7076e96570e5dd47e1014b9e96296c3d919749a171",
+      "review_status": "release_candidate_machine_reviewed",
       "verified_topics": 0,
       "editorial_reviewed_topics": 0,
       "supersedes_pack_ids": [],
       "graph_contract": "knowledge_graph_contract_v1.1",
-      "source_contract": "knowledge_source_registry_v1.4",
+      "source_contract": "knowledge_source_registry_v1.5",
       "curriculum_mapping_status": "provisional",
       "curriculum_framework_status": "verified",
       "topic_grade_status": "provisional",
-      "content_hardening": "semantic_fill_phase16",
+      "content_hardening": "global_release_wave4_topic_specific",
       "reader_contract": "knowledge_reader_explanation_v5",
-      "size_bytes": 16647,
+      "size_bytes": 16283,
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 16647
+        "size_bytes": 16283
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -2487,39 +2487,39 @@
       "localization_policy": "source_only",
       "runtime_translation_allowed": false,
       "content_language_policy": "single_primary_language_v1",
-      "filename": "school_economics_1.11.1.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/school_economics_1.11.1.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/school_economics_1.11.1.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/school_economics_1.11.1.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/school_economics_1.11.1.nnk.release.sig"
+      "filename": "school_economics_1.12.0.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/school_economics_1.12.0.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/school_economics_1.12.0.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/school_economics_1.12.0.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/school_economics_1.12.0.nnk.release.sig"
     },
     {
       "pack_id": "school_geography",
       "title": "School · Geography",
-      "version": "1.11.1",
+      "version": "1.12.0",
       "domain": "school",
       "subject": "Geography",
       "language": "vi",
       "topic_count": 50,
-      "file": "school_geography_1.11.1.nnk",
-      "sha256": "57782957af30335ba7c7972b364d3953f6ebcd16d2f5a91dab8964cebb2db5df",
-      "review_status": "draft",
+      "file": "school_geography_1.12.0.nnk",
+      "sha256": "f208a324982cf6b2544a569f36eb588e9376aceff24caaa8de1a3c0a8f01a4ed",
+      "review_status": "release_candidate_machine_reviewed",
       "verified_topics": 0,
       "editorial_reviewed_topics": 0,
       "supersedes_pack_ids": [],
       "graph_contract": "knowledge_graph_contract_v1.1",
-      "source_contract": "knowledge_source_registry_v1.4",
+      "source_contract": "knowledge_source_registry_v1.5",
       "curriculum_mapping_status": "provisional",
       "curriculum_framework_status": "verified",
       "topic_grade_status": "provisional",
       "grade_verified_topics": 26,
-      "content_hardening": "semantic_fill_phase16",
+      "content_hardening": "global_release_wave4_topic_specific",
       "reader_contract": "knowledge_reader_explanation_v5",
-      "size_bytes": 16503,
+      "size_bytes": 17849,
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 16503
+        "size_bytes": 17849
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -2537,11 +2537,11 @@
       "localization_policy": "source_only",
       "runtime_translation_allowed": false,
       "content_language_policy": "single_primary_language_v1",
-      "filename": "school_geography_1.11.1.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/school_geography_1.11.1.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/school_geography_1.11.1.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/school_geography_1.11.1.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/school_geography_1.11.1.nnk.release.sig"
+      "filename": "school_geography_1.12.0.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/school_geography_1.12.0.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/school_geography_1.12.0.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/school_geography_1.12.0.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/school_geography_1.12.0.nnk.release.sig"
     },
     {
       "pack_id": "school_geography_grade7",
@@ -2681,30 +2681,30 @@
     {
       "pack_id": "school_history",
       "title": "School · History",
-      "version": "1.11.1",
+      "version": "1.12.0",
       "domain": "school",
       "subject": "History",
       "language": "vi",
       "topic_count": 50,
-      "file": "school_history_1.11.1.nnk",
-      "sha256": "8a4129580a24bd9db2d613c0bd853a674cde24728c1e8d5e64870782cc7e9e10",
-      "review_status": "draft",
+      "file": "school_history_1.12.0.nnk",
+      "sha256": "d910da914cd82ab91a6d47ea4426552d004b21993cf7868868cbfe1086f5c1a2",
+      "review_status": "release_candidate_machine_reviewed",
       "verified_topics": 0,
       "editorial_reviewed_topics": 0,
       "supersedes_pack_ids": [],
       "graph_contract": "knowledge_graph_contract_v1.1",
-      "source_contract": "knowledge_source_registry_v1.4",
+      "source_contract": "knowledge_source_registry_v1.5",
       "curriculum_mapping_status": "provisional",
       "curriculum_framework_status": "verified",
       "topic_grade_status": "provisional",
       "grade_verified_topics": 25,
-      "content_hardening": "semantic_fill_phase16",
+      "content_hardening": "global_release_wave4_topic_specific",
       "reader_contract": "knowledge_reader_explanation_v5",
-      "size_bytes": 18991,
+      "size_bytes": 19823,
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 18991
+        "size_bytes": 19823
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -2722,11 +2722,11 @@
       "localization_policy": "source_only",
       "runtime_translation_allowed": false,
       "content_language_policy": "single_primary_language_v1",
-      "filename": "school_history_1.11.1.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/school_history_1.11.1.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/school_history_1.11.1.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/school_history_1.11.1.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/school_history_1.11.1.nnk.release.sig"
+      "filename": "school_history_1.12.0.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/school_history_1.12.0.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/school_history_1.12.0.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/school_history_1.12.0.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/school_history_1.12.0.nnk.release.sig"
     },
     {
       "pack_id": "school_history_grade8",
@@ -2821,29 +2821,29 @@
     {
       "pack_id": "school_literature",
       "title": "School · Literature",
-      "version": "1.11.1",
+      "version": "1.12.0",
       "domain": "school",
       "subject": "Literature",
       "language": "vi",
       "topic_count": 50,
-      "file": "school_literature_1.11.1.nnk",
-      "sha256": "025580f475d790548a01b4ec7a46f790a2f2697a563e57d5262ec912bf6ddfa2",
-      "review_status": "draft",
+      "file": "school_literature_1.12.0.nnk",
+      "sha256": "5426a791451e0ffde9cc4696812c1052131966f7aa25bb7d37aac92c5dc0c6a5",
+      "review_status": "release_candidate_machine_reviewed",
       "verified_topics": 0,
       "editorial_reviewed_topics": 0,
       "supersedes_pack_ids": [],
       "graph_contract": "knowledge_graph_contract_v1.1",
-      "source_contract": "knowledge_source_registry_v1.4",
+      "source_contract": "knowledge_source_registry_v1.5",
       "curriculum_mapping_status": "provisional",
       "curriculum_framework_status": "verified",
       "topic_grade_status": "provisional",
-      "content_hardening": "semantic_fill_phase16",
+      "content_hardening": "global_release_wave4_topic_specific",
       "reader_contract": "knowledge_reader_explanation_v5",
-      "size_bytes": 17020,
+      "size_bytes": 17451,
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 17020
+        "size_bytes": 17451
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -2861,11 +2861,11 @@
       "localization_policy": "source_only",
       "runtime_translation_allowed": false,
       "content_language_policy": "single_primary_language_v1",
-      "filename": "school_literature_1.11.1.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/school_literature_1.11.1.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/school_literature_1.11.1.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/school_literature_1.11.1.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/school_literature_1.11.1.nnk.release.sig"
+      "filename": "school_literature_1.12.0.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/school_literature_1.12.0.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/school_literature_1.12.0.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/school_literature_1.12.0.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/school_literature_1.12.0.nnk.release.sig"
     },
     {
       "pack_id": "school_literature_grade6_9_official_guidance",
@@ -2915,16 +2915,16 @@
     {
       "pack_id": "school_math",
       "title": "School · Mathematics",
-      "version": "1.11.1",
+      "version": "1.12.0",
       "domain": "school",
       "subject": "Mathematics",
       "language": "vi",
       "topic_count": 50,
-      "file": "school_math_1.11.1.nnk",
-      "sha256": "40a0cbdd4a7d8602b8364f1cd56c79d5ebc486165001fa57a3a29b74ebbc5ce3",
-      "review_status": "mixed",
-      "verified_topics": 15,
-      "editorial_reviewed_topics": 15,
+      "file": "school_math_1.12.0.nnk",
+      "sha256": "811bb524ecabd230e8e9ea1d0b295f5b0ddde59ad233251422b50fa17f5c05ca",
+      "review_status": "release_candidate_reaudited",
+      "verified_topics": 50,
+      "editorial_reviewed_topics": 50,
       "supersedes_pack_ids": [
         "school_basics"
       ],
@@ -2932,11 +2932,11 @@
       "source_contract": "knowledge_source_registry_v1.4",
       "content_hardening": "semantic_fill_phase16",
       "reader_contract": "knowledge_reader_explanation_v5",
-      "size_bytes": 15563,
+      "size_bytes": 16932,
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 15563
+        "size_bytes": 16932
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -2954,11 +2954,11 @@
       "localization_policy": "source_only",
       "runtime_translation_allowed": false,
       "content_language_policy": "single_primary_language_v1",
-      "filename": "school_math_1.11.1.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/school_math_1.11.1.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/school_math_1.11.1.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/school_math_1.11.1.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/school_math_1.11.1.nnk.release.sig"
+      "filename": "school_math_1.12.0.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/school_math_1.12.0.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/school_math_1.12.0.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/school_math_1.12.0.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/school_math_1.12.0.nnk.release.sig"
     },
     {
       "pack_id": "school_math_grade7",
@@ -3098,26 +3098,26 @@
     {
       "pack_id": "school_physics",
       "title": "School · Physics",
-      "version": "1.11.2",
+      "version": "1.12.0",
       "domain": "school",
       "subject": "Physics",
       "language": "vi",
       "topic_count": 50,
-      "file": "school_physics_1.11.2.nnk",
-      "sha256": "d3a6ae62f56c66be3441dd6e172772d7bf1704effd7fed7faadf85a9780ca86f",
-      "review_status": "mixed",
+      "file": "school_physics_1.12.0.nnk",
+      "sha256": "8a13e78901cbcb5c97e2543a0b5a18838db3d59e7f3ae4b6252d8a03f199a190",
+      "review_status": "release_candidate_machine_reviewed",
       "verified_topics": 10,
       "editorial_reviewed_topics": 20,
       "graph_contract": "knowledge_graph_contract_v1.1",
-      "source_contract": "knowledge_source_registry_v1.4",
-      "content_hardening": "semantic_fill_phase16",
+      "source_contract": "knowledge_source_registry_v1.5",
+      "content_hardening": "global_release_wave4_topic_specific",
       "reader_contract": "knowledge_reader_explanation_v5",
       "canonical_contract": "knowledge_canonical_context_v2",
-      "size_bytes": 18294,
+      "size_bytes": 16224,
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 18294
+        "size_bytes": 16224
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -3135,11 +3135,11 @@
       "localization_policy": "source_only",
       "runtime_translation_allowed": false,
       "content_language_policy": "single_primary_language_v1",
-      "filename": "school_physics_1.11.2.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/school_physics_1.11.2.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/school_physics_1.11.2.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/school_physics_1.11.2.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/school_physics_1.11.2.nnk.release.sig"
+      "filename": "school_physics_1.12.0.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/school_physics_1.12.0.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/school_physics_1.12.0.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/school_physics_1.12.0.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/school_physics_1.12.0.nnk.release.sig"
     },
     {
       "pack_id": "school_physics_grade7",
@@ -3461,16 +3461,16 @@
     {
       "pack_id": "technical_electrical",
       "title": "Technical · Electrical",
-      "version": "1.10.2",
+      "version": "1.11.0",
       "domain": "technical",
       "subject": "Electrical",
       "language": "vi",
       "topic_count": 45,
-      "file": "technical_electrical_1.10.2.nnk",
-      "sha256": "adbac29450f3fc419b1ddd19ecc7e632a891aada5f27ea02e28c2083fe380c7c",
-      "review_status": "mixed",
-      "verified_topics": 10,
-      "editorial_reviewed_topics": 20,
+      "file": "technical_electrical_1.11.0.nnk",
+      "sha256": "9bd2463823f0e4c46c974b9cef153d075dc596046a1e86e2a91484ad4ccda41e",
+      "review_status": "release_candidate_reaudited",
+      "verified_topics": 45,
+      "editorial_reviewed_topics": 45,
       "supersedes_pack_ids": [
         "technical_basics"
       ],
@@ -3479,11 +3479,11 @@
       "content_hardening": "non_school_semantic_hardening_phase21",
       "reader_contract": "knowledge_reader_explanation_v8",
       "canonical_contract": "knowledge_canonical_context_v2",
-      "size_bytes": 12564,
+      "size_bytes": 14825,
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 12564
+        "size_bytes": 14825
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -3501,11 +3501,11 @@
       "localization_policy": "source_only",
       "runtime_translation_allowed": false,
       "content_language_policy": "single_primary_language_v1",
-      "filename": "technical_electrical_1.10.2.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/technical_electrical_1.10.2.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/technical_electrical_1.10.2.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/technical_electrical_1.10.2.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/technical_electrical_1.10.2.nnk.release.sig"
+      "filename": "technical_electrical_1.11.0.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/technical_electrical_1.11.0.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/technical_electrical_1.11.0.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/technical_electrical_1.11.0.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/technical_electrical_1.11.0.nnk.release.sig"
     },
     {
       "pack_id": "technical_electronics",
@@ -5073,7 +5073,7 @@
     {
       "pack_id": "vn_school_civic_education_grade6",
       "title": "Giáo dục công dân 6 · Việt Nam · Kết nối tri thức",
-      "version": "1.2.3",
+      "version": "1.2.6",
       "domain": "school",
       "subject": "Civic Education",
       "subject_id": "civic_education",
@@ -5084,10 +5084,10 @@
       "curriculum": "VN_GDPT_2018",
       "grade": "6",
       "topic_count": 12,
-      "file": "vn_school_civic_education_grade6_1.2.3.nnk",
-      "sha256": "12287bc0af87502336758b8f08d48e1afe18657e361fe173acb8b3d044bc3d30",
-      "size_bytes": 76679,
-      "review_status": "editorial_representative_pass15",
+      "file": "vn_school_civic_education_grade6_1.2.6.nnk",
+      "sha256": "9b039e4ed9851444ccaf526e477a2a2aae98f9c17e0354c18a5221e9a469343e",
+      "size_bytes": 65747,
+      "review_status": "content_quality_pass18_editorial_pending",
       "curriculum_status": "curriculum_aligned_machine_reviewed_pass8",
       "capabilities": [
         "knowledge",
@@ -5098,7 +5098,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 76679
+        "size_bytes": 65747
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -5116,16 +5116,22 @@
       "content_profile": "sgk_lesson_core_v2",
       "lesson_core_contract": "knowledge_lesson_core_v1",
       "sgk_reference_contract": "knowledge_sgk_reference_v1",
-      "filename": "vn_school_civic_education_grade6_1.2.3.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_civic_education_grade6_1.2.3.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_civic_education_grade6_1.2.3.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_civic_education_grade6_1.2.3.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_civic_education_grade6_1.2.3.nnk.release.sig"
+      "quality_gate": {
+        "status": "content_quality_pass18_editorial_pending",
+        "signature_diversity": 0.9,
+        "longest_correct_option_cue": 0.0,
+        "lineage_normalized": true
+      },
+      "filename": "vn_school_civic_education_grade6_1.2.6.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_civic_education_grade6_1.2.6.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_civic_education_grade6_1.2.6.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_civic_education_grade6_1.2.6.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_civic_education_grade6_1.2.6.nnk.release.sig"
     },
     {
       "pack_id": "vn_school_civic_education_grade7",
       "title": "Giáo dục công dân 7 · Việt Nam · Kết nối tri thức",
-      "version": "1.1.3",
+      "version": "1.1.6",
       "domain": "school",
       "subject": "Civic Education",
       "subject_id": "civic_education",
@@ -5136,10 +5142,10 @@
       "curriculum": "VN_GDPT_2018",
       "grade": "7",
       "topic_count": 10,
-      "file": "vn_school_civic_education_grade7_1.1.3.nnk",
-      "sha256": "5ab44f301eef39d98ba92eb326ded28e6571f0be02ca3f0192c9be1cec2a7a38",
-      "size_bytes": 73130,
-      "review_status": "editorial_representative_pass15",
+      "file": "vn_school_civic_education_grade7_1.1.6.nnk",
+      "sha256": "f1f98700a62987c825a6113a7ec5fbd9535e8763803db519a17652aa4a2dee92",
+      "size_bytes": 64130,
+      "review_status": "content_quality_pass18_editorial_pending",
       "curriculum_status": "curriculum_aligned_machine_reviewed_pass8",
       "capabilities": [
         "knowledge",
@@ -5150,7 +5156,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 73130
+        "size_bytes": 64130
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -5171,11 +5177,17 @@
       "sgk_reference_contract": "knowledge_sgk_reference_v1",
       "content_profile": "sgk_lesson_core_v2",
       "lesson_core_contract": "knowledge_lesson_core_v1",
-      "filename": "vn_school_civic_education_grade7_1.1.3.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_civic_education_grade7_1.1.3.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_civic_education_grade7_1.1.3.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_civic_education_grade7_1.1.3.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_civic_education_grade7_1.1.3.nnk.release.sig"
+      "quality_gate": {
+        "status": "content_quality_pass18_editorial_pending",
+        "signature_diversity": 0.78,
+        "longest_correct_option_cue": 0.0,
+        "lineage_normalized": true
+      },
+      "filename": "vn_school_civic_education_grade7_1.1.6.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_civic_education_grade7_1.1.6.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_civic_education_grade7_1.1.6.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_civic_education_grade7_1.1.6.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_civic_education_grade7_1.1.6.nnk.release.sig"
     },
     {
       "pack_id": "vn_school_civic_education_grade8",
@@ -5290,7 +5302,7 @@
     {
       "pack_id": "vn_school_english_grade6",
       "title": "Tiếng Anh 6 · Việt Nam · Global Success",
-      "version": "1.4.3",
+      "version": "1.4.5",
       "domain": "school",
       "subject": "English",
       "subject_id": "english",
@@ -5301,10 +5313,10 @@
       "curriculum": "VN_GDPT_2018",
       "grade": "6",
       "topic_count": 32,
-      "file": "vn_school_english_grade6_1.4.3.nnk",
-      "sha256": "1c315366e80c8e7b399a0c12ec16bd414f05704343f59c53126715c0929df357",
-      "size_bytes": 94962,
-      "review_status": "curriculum_aligned_semantic_pass11_editorial_pending",
+      "file": "vn_school_english_grade6_1.4.5.nnk",
+      "sha256": "2062b18670237b72034756aa7d8692ae5511b13a3f6b652acab5976dc5c6f107",
+      "size_bytes": 102315,
+      "review_status": "content_quality_pass18_editorial_pending",
       "curriculum_status": "curriculum_aligned_v1",
       "capabilities": [
         "knowledge",
@@ -5315,7 +5327,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 94962
+        "size_bytes": 102315
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -5335,16 +5347,22 @@
       "content_profile": "sgk_lesson_core_semantic_v2",
       "lesson_core_contract": "knowledge_lesson_core_v1",
       "sgk_reference_contract": "knowledge_sgk_reference_v1",
-      "filename": "vn_school_english_grade6_1.4.3.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade6_1.4.3.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade6_1.4.3.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade6_1.4.3.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade6_1.4.3.nnk.release.sig"
+      "quality_gate": {
+        "status": "content_quality_pass18_editorial_pending",
+        "signature_diversity": 0.56,
+        "longest_correct_option_cue": 0.2075,
+        "lineage_normalized": true
+      },
+      "filename": "vn_school_english_grade6_1.4.5.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade6_1.4.5.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade6_1.4.5.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade6_1.4.5.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade6_1.4.5.nnk.release.sig"
     },
     {
       "pack_id": "vn_school_english_grade7",
       "title": "Tiếng Anh 7 · Việt Nam · Global Success",
-      "version": "1.3.3",
+      "version": "1.3.5",
       "domain": "school",
       "subject": "English",
       "subject_id": "english",
@@ -5355,10 +5373,10 @@
       "curriculum": "VN_GDPT_2018",
       "grade": "7",
       "topic_count": 29,
-      "file": "vn_school_english_grade7_1.3.3.nnk",
-      "sha256": "0717f9b84191af0b828b27e2909bcfe9586b82b5a3deb1e5fdb1d29569706f0c",
-      "size_bytes": 93869,
-      "review_status": "editorial_sampling_refined_v1",
+      "file": "vn_school_english_grade7_1.3.5.nnk",
+      "sha256": "75c8a75f5da5ab390013ea522464fdf0f4d9050df267b68de81a363763ec26a2",
+      "size_bytes": 96767,
+      "review_status": "content_quality_pass18_editorial_pending",
       "curriculum_status": "curriculum_aligned_machine_reviewed_v2",
       "capabilities": [
         "knowledge",
@@ -5369,7 +5387,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 99373
+        "size_bytes": 96767
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -5385,12 +5403,14 @@
       "editorial_review_required": true,
       "quality_gate": {
         "schema": "knowledge_question_quality_gate_v1",
-        "status": "release_candidate_machine_reviewed",
+        "status": "content_quality_pass18_editorial_pending",
         "runtime_playable": true,
         "runtime_diversity_pass": true,
         "editorial_review_required": true,
         "prompt_diversity": 0.8192,
-        "signature_diversity": 0.9967
+        "signature_diversity": 0.6958,
+        "longest_correct_option_cue": 0.1433,
+        "lineage_normalized": true
       },
       "textbook_id": "GLOBAL_SUCCESS_7",
       "book_family": "GLOBAL_SUCCESS",
@@ -5398,11 +5418,11 @@
       "lesson_core_contract": "knowledge_lesson_core_v1",
       "sgk_reference_contract": "knowledge_sgk_reference_v1",
       "question_bank_quality": "knowledge_core_semantic_pass11",
-      "filename": "vn_school_english_grade7_1.3.3.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade7_1.3.3.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade7_1.3.3.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade7_1.3.3.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade7_1.3.3.nnk.release.sig"
+      "filename": "vn_school_english_grade7_1.3.5.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade7_1.3.5.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade7_1.3.5.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade7_1.3.5.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade7_1.3.5.nnk.release.sig"
     },
     {
       "pack_id": "vn_school_english_grade8",
@@ -5674,7 +5694,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 72381
+        "size_bytes": 76537
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -5857,7 +5877,7 @@
     {
       "pack_id": "vn_school_history_geography_grade6",
       "title": "Lịch sử và Địa lí 6 · Việt Nam · Kết nối tri thức",
-      "version": "1.2.4",
+      "version": "1.2.6",
       "domain": "school",
       "subject": "History and Geography",
       "subject_id": "history_geography",
@@ -5868,10 +5888,10 @@
       "curriculum": "VN_GDPT_2018",
       "grade": "6",
       "topic_count": 48,
-      "file": "vn_school_history_geography_grade6_1.2.4.nnk",
-      "sha256": "910996f926726ffdb1bcb8f943edb3a853eaac50cdb8c7ffdded2de1ae1243c1",
-      "size_bytes": 123477,
-      "review_status": "curriculum_aligned_editorial_pairing_reviewed_pass13",
+      "file": "vn_school_history_geography_grade6_1.2.6.nnk",
+      "sha256": "794a5e405bb06b32fc336192f9850db4d15c0ab32172177ada6b2f4fda7a036f",
+      "size_bytes": 125116,
+      "review_status": "content_quality_pass19",
       "curriculum_status": "curriculum_aligned_machine_reviewed_v1",
       "capabilities": [
         "knowledge",
@@ -5882,7 +5902,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 123477
+        "size_bytes": 125116
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -5900,16 +5920,22 @@
       "content_profile": "sgk_lesson_core_v2",
       "lesson_core_contract": "knowledge_lesson_core_v1",
       "sgk_reference_contract": "knowledge_sgk_reference_v1",
-      "filename": "vn_school_history_geography_grade6_1.2.4.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_history_geography_grade6_1.2.4.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_history_geography_grade6_1.2.4.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_history_geography_grade6_1.2.4.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_history_geography_grade6_1.2.4.nnk.release.sig"
+      "quality_gate": {
+        "status": "content_quality_pass18_editorial_pending",
+        "signature_diversity": 0.4567,
+        "longest_correct_option_cue": 0.2433,
+        "lineage_normalized": true
+      },
+      "filename": "vn_school_history_geography_grade6_1.2.6.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_history_geography_grade6_1.2.6.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_history_geography_grade6_1.2.6.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_history_geography_grade6_1.2.6.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_history_geography_grade6_1.2.6.nnk.release.sig"
     },
     {
       "pack_id": "vn_school_history_geography_grade7",
       "title": "Lịch sử và Địa lí 7 · Việt Nam · Kết nối tri thức",
-      "version": "1.1.4",
+      "version": "1.1.6",
       "domain": "school",
       "subject": "History and Geography",
       "subject_id": "history_geography",
@@ -5920,10 +5946,10 @@
       "curriculum": "VN_GDPT_2018",
       "grade": "7",
       "topic_count": 37,
-      "file": "vn_school_history_geography_grade7_1.1.4.nnk",
-      "sha256": "add05b8d0bfa4934012e0d64a9eb0e3035a1222d6a455c66d59bde05c96dee33",
-      "size_bytes": 119831,
-      "review_status": "curriculum_aligned_editorial_pairing_reviewed_pass13",
+      "file": "vn_school_history_geography_grade7_1.1.6.nnk",
+      "sha256": "1360bd1f5efe60294c5f9f03c5c4066547cfc6fc0229de36ec42c2c6f5398eea",
+      "size_bytes": 125265,
+      "review_status": "content_quality_pass19",
       "curriculum_status": "curriculum_aligned_machine_reviewed_v1",
       "capabilities": [
         "knowledge",
@@ -5934,7 +5960,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 119831
+        "size_bytes": 125265
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -5955,11 +5981,17 @@
       "sgk_reference_contract": "knowledge_sgk_reference_v1",
       "content_profile": "sgk_lesson_core_v2",
       "lesson_core_contract": "knowledge_lesson_core_v1",
-      "filename": "vn_school_history_geography_grade7_1.1.4.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_history_geography_grade7_1.1.4.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_history_geography_grade7_1.1.4.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_history_geography_grade7_1.1.4.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_history_geography_grade7_1.1.4.nnk.release.sig"
+      "quality_gate": {
+        "status": "content_quality_pass18_editorial_pending",
+        "signature_diversity": 0.3567,
+        "longest_correct_option_cue": 0.2483,
+        "lineage_normalized": true
+      },
+      "filename": "vn_school_history_geography_grade7_1.1.6.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_history_geography_grade7_1.1.6.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_history_geography_grade7_1.1.6.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_history_geography_grade7_1.1.6.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_history_geography_grade7_1.1.6.nnk.release.sig"
     },
     {
       "pack_id": "vn_school_history_geography_grade8",
@@ -6074,7 +6106,7 @@
     {
       "pack_id": "vn_school_informatics_grade6",
       "title": "Tin học 6 · Việt Nam · Kết nối tri thức",
-      "version": "1.2.1",
+      "version": "1.2.4",
       "domain": "school",
       "subject": "Informatics",
       "subject_id": "informatics",
@@ -6085,10 +6117,10 @@
       "curriculum": "VN_GDPT_2018",
       "grade": "6",
       "topic_count": 17,
-      "file": "vn_school_informatics_grade6_1.2.1.nnk",
-      "sha256": "4cc2b6f313919b3b07a164990c730f9ec61202dd5e97a3564a153439ca4f8204",
-      "size_bytes": 90085,
-      "review_status": "curriculum_semantic_rebuilt_pass7",
+      "file": "vn_school_informatics_grade6_1.2.4.nnk",
+      "sha256": "99ad47a30586b8345dbdabbc8493ad14afe31aecfbf713d43780d56542b386d6",
+      "size_bytes": 90989,
+      "review_status": "content_quality_pass18_editorial_pending",
       "curriculum_status": "curriculum_semantic_rebuilt_pass7",
       "capabilities": [
         "knowledge",
@@ -6099,7 +6131,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 90085
+        "size_bytes": 90989
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -6117,16 +6149,20 @@
       "content_profile": "sgk_lesson_core_semantic_v2",
       "lesson_core_contract": "knowledge_lesson_core_v1",
       "sgk_reference_contract": "knowledge_sgk_reference_v1",
-      "filename": "vn_school_informatics_grade6_1.2.1.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_informatics_grade6_1.2.1.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_informatics_grade6_1.2.1.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_informatics_grade6_1.2.1.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_informatics_grade6_1.2.1.nnk.release.sig"
+      "quality_gate": {
+        "lineage_normalized": true,
+        "internal_hashes_recomputed": true
+      },
+      "filename": "vn_school_informatics_grade6_1.2.4.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_informatics_grade6_1.2.4.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_informatics_grade6_1.2.4.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_informatics_grade6_1.2.4.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_informatics_grade6_1.2.4.nnk.release.sig"
     },
     {
       "pack_id": "vn_school_informatics_grade7",
       "title": "Tin học 7 · Việt Nam · Kết nối tri thức",
-      "version": "1.1.1",
+      "version": "1.1.4",
       "domain": "school",
       "subject": "Informatics",
       "subject_id": "informatics",
@@ -6137,10 +6173,10 @@
       "curriculum": "VN_GDPT_2018",
       "grade": "7",
       "topic_count": 16,
-      "file": "vn_school_informatics_grade7_1.1.1.nnk",
-      "sha256": "12816bc83d20fc2ea29818d192d7e0fdb2488b4865a1f8b3f3e2e40459a76656",
-      "size_bytes": 81809,
-      "review_status": "curriculum_semantic_rebuilt_pass7",
+      "file": "vn_school_informatics_grade7_1.1.4.nnk",
+      "sha256": "ef4f5294f747a57ab013a8c48b5e79f89af8cfd0be0978021a6e79804316ebdf",
+      "size_bytes": 83357,
+      "review_status": "content_quality_pass18_editorial_pending",
       "curriculum_status": "curriculum_semantic_rebuilt_pass7",
       "capabilities": [
         "knowledge",
@@ -6151,7 +6187,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 81809
+        "size_bytes": 83357
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -6172,11 +6208,15 @@
       "sgk_reference_contract": "knowledge_sgk_reference_v1",
       "content_profile": "sgk_lesson_core_semantic_v2",
       "lesson_core_contract": "knowledge_lesson_core_v1",
-      "filename": "vn_school_informatics_grade7_1.1.1.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_informatics_grade7_1.1.1.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_informatics_grade7_1.1.1.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_informatics_grade7_1.1.1.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_informatics_grade7_1.1.1.nnk.release.sig"
+      "quality_gate": {
+        "lineage_normalized": true,
+        "internal_hashes_recomputed": true
+      },
+      "filename": "vn_school_informatics_grade7_1.1.4.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_informatics_grade7_1.1.4.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_informatics_grade7_1.1.4.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_informatics_grade7_1.1.4.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_informatics_grade7_1.1.4.nnk.release.sig"
     },
     {
       "pack_id": "vn_school_informatics_grade8",
@@ -6291,7 +6331,7 @@
     {
       "pack_id": "vn_school_literature_grade6",
       "title": "Ngữ văn 6 · Việt Nam · Kết nối tri thức",
-      "version": "1.4.2",
+      "version": "1.4.3",
       "domain": "school",
       "subject": "Literature",
       "subject_id": "literature",
@@ -6302,10 +6342,10 @@
       "curriculum": "VN_GDPT_2018",
       "grade": "6",
       "topic_count": 32,
-      "file": "vn_school_literature_grade6_1.4.2.nnk",
-      "sha256": "1b0bed8e564c921361f1724e350cb6b55c7fcc53935e74caa425c17afda1b5b3",
-      "size_bytes": 98967,
-      "review_status": "curriculum_aligned_editorial_pattern_reviewed_pass14",
+      "file": "vn_school_literature_grade6_1.4.3.nnk",
+      "sha256": "7aed5d384ee822d307b608fa6074264f50ccb4d523f1add3c69f2b108b6c6193",
+      "size_bytes": 108202,
+      "review_status": "content_quality_pass18_editorial_pending",
       "curriculum_status": "curriculum_aligned_v1",
       "capabilities": [
         "knowledge",
@@ -6316,7 +6356,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 98967
+        "size_bytes": 108202
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -6334,16 +6374,22 @@
       "content_profile": "sgk_lesson_core_v2",
       "lesson_core_contract": "knowledge_lesson_core_v1",
       "sgk_reference_contract": "knowledge_sgk_reference_v1",
-      "filename": "vn_school_literature_grade6_1.4.2.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade6_1.4.2.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade6_1.4.2.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade6_1.4.2.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade6_1.4.2.nnk.release.sig"
+      "quality_gate": {
+        "status": "content_quality_pass18_editorial_pending",
+        "signature_diversity": 0.4108,
+        "longest_correct_option_cue": 0.0,
+        "lineage_normalized": true
+      },
+      "filename": "vn_school_literature_grade6_1.4.3.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade6_1.4.3.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade6_1.4.3.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade6_1.4.3.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade6_1.4.3.nnk.release.sig"
     },
     {
       "pack_id": "vn_school_literature_grade7",
       "title": "Ngữ văn 7 · Việt Nam · Kết nối tri thức",
-      "version": "1.2.3",
+      "version": "1.2.6",
       "domain": "school",
       "subject": "Literature",
       "subject_id": "literature",
@@ -6354,10 +6400,10 @@
       "curriculum": "VN_GDPT_2018",
       "grade": "7",
       "topic_count": 40,
-      "file": "vn_school_literature_grade7_1.2.3.nnk",
-      "sha256": "bc0509d2b170dd67e16bba9817137e19b9cef2b02a22fc6f3811bc1b4eaca700",
-      "size_bytes": 123578,
-      "review_status": "editorial_representative_pass15",
+      "file": "vn_school_literature_grade7_1.2.6.nnk",
+      "sha256": "f6986406061ed71879c0b8be3ddb01fe0baa034027bd5ed34d94c808b4814ab7",
+      "size_bytes": 124424,
+      "review_status": "content_quality_pass18_editorial_pending",
       "curriculum_status": "curriculum_aligned_machine_reviewed_v2",
       "capabilities": [
         "knowledge",
@@ -6368,7 +6414,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 123578
+        "size_bytes": 124424
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -6390,17 +6436,19 @@
         "semantic_unique_answer": "required",
         "unit_specific_objectives": "required",
         "textbook_passage_copying": "blocked",
-        "normalized_prompt_family_count": 235
+        "normalized_prompt_family_count": 235,
+        "lineage_normalized": true,
+        "internal_hashes_recomputed": true
       },
       "content_profile": "sgk_unit_semantic_v2",
       "lesson_core_contract": "knowledge_lesson_core_v1",
       "sgk_reference_contract": "knowledge_sgk_reference_v1",
       "question_bank_quality": "literature_grade7_semantic_pass4",
-      "filename": "vn_school_literature_grade7_1.2.3.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade7_1.2.3.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade7_1.2.3.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade7_1.2.3.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade7_1.2.3.nnk.release.sig"
+      "filename": "vn_school_literature_grade7_1.2.6.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade7_1.2.6.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade7_1.2.6.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade7_1.2.6.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade7_1.2.6.nnk.release.sig"
     },
     {
       "pack_id": "vn_school_literature_grade8",
@@ -6582,7 +6630,7 @@
     {
       "pack_id": "vn_school_math_grade6",
       "title": "Toán 6 · Việt Nam · Kết nối tri thức",
-      "version": "1.3.4",
+      "version": "1.3.6",
       "domain": "school",
       "subject": "Mathematics",
       "subject_id": "mathematics",
@@ -6593,10 +6641,10 @@
       "curriculum": "VN_GDPT_2018",
       "grade": "6",
       "topic_count": 32,
-      "file": "vn_school_math_grade6_1.3.4.nnk",
-      "sha256": "d86b5e62d3051cfe0a40a535a40347f061dd9fe9b3bd28607cd833c0fac3f580",
-      "size_bytes": 81198,
-      "review_status": "editorial_sampling_refined_v1",
+      "file": "vn_school_math_grade6_1.3.6.nnk",
+      "sha256": "9220941cd4a83d788f4c2532ddc63359fd17c907bbc1aac5ba4d95d5820629da",
+      "size_bytes": 79105,
+      "review_status": "content_quality_pass18_editorial_pending",
       "curriculum_status": "curriculum_aligned_v1",
       "capabilities": [
         "knowledge",
@@ -6607,7 +6655,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 81317
+        "size_bytes": 79105
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -6625,16 +6673,22 @@
       "content_profile": "sgk_lesson_core_v1",
       "lesson_core_contract": "knowledge_lesson_core_v1",
       "sgk_reference_contract": "knowledge_sgk_reference_v1",
-      "filename": "vn_school_math_grade6_1.3.4.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade6_1.3.4.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade6_1.3.4.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade6_1.3.4.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade6_1.3.4.nnk.release.sig"
+      "quality_gate": {
+        "status": "content_quality_pass18_editorial_pending",
+        "signature_diversity": 0.5358,
+        "longest_correct_option_cue": 0.0267,
+        "lineage_normalized": true
+      },
+      "filename": "vn_school_math_grade6_1.3.6.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade6_1.3.6.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade6_1.3.6.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade6_1.3.6.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade6_1.3.6.nnk.release.sig"
     },
     {
       "pack_id": "vn_school_math_grade7",
       "title": "Toán 7 · Việt Nam · Kết nối tri thức",
-      "version": "1.2.5",
+      "version": "1.2.7",
       "domain": "school",
       "subject": "Mathematics",
       "subject_id": "mathematics",
@@ -6645,10 +6699,10 @@
       "curriculum": "VN_GDPT_2018",
       "grade": "7",
       "topic_count": 37,
-      "file": "vn_school_math_grade7_1.2.5.nnk",
-      "sha256": "dcc1d20d7ca494cc1d2db0886f1fcda0793c6764dab572931ce221f768fecb3a",
-      "size_bytes": 82240,
-      "review_status": "editorial_representative_pass15",
+      "file": "vn_school_math_grade7_1.2.7.nnk",
+      "sha256": "69f684da007812d578ca3220056beb03b697cc4058afa4fb04254823233f1301",
+      "size_bytes": 105747,
+      "review_status": "content_quality_pass19",
       "curriculum_status": "curriculum_aligned_machine_reviewed_v2",
       "capabilities": [
         "knowledge",
@@ -6659,7 +6713,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 82240
+        "size_bytes": 105747
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -6675,22 +6729,24 @@
       "editorial_review_required": true,
       "quality_gate": {
         "schema": "knowledge_question_quality_gate_v1",
-        "status": "release_candidate_machine_reviewed",
+        "status": "content_quality_pass18_editorial_pending",
         "runtime_playable": true,
         "runtime_diversity_pass": true,
         "editorial_review_required": true,
         "prompt_diversity": 0.97,
-        "signature_diversity": 0.9983
+        "signature_diversity": 0.4167,
+        "longest_correct_option_cue": 0.28,
+        "lineage_normalized": true
       },
       "content_profile": "sgk_lesson_core_v1",
       "lesson_core_contract": "knowledge_lesson_core_v1",
       "sgk_reference_contract": "knowledge_sgk_reference_v1",
       "question_bank_quality": "semantic_unique_answer_pass3",
-      "filename": "vn_school_math_grade7_1.2.5.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade7_1.2.5.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade7_1.2.5.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade7_1.2.5.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade7_1.2.5.nnk.release.sig"
+      "filename": "vn_school_math_grade7_1.2.7.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade7_1.2.7.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade7_1.2.7.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade7_1.2.7.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade7_1.2.7.nnk.release.sig"
     },
     {
       "pack_id": "vn_school_math_grade8",
@@ -6840,7 +6896,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 72171
+        "size_bytes": 75287
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -7023,7 +7079,7 @@
     {
       "pack_id": "vn_school_natural_science_grade6",
       "title": "Khoa học tự nhiên 6 · Việt Nam · Kết nối tri thức",
-      "version": "1.2.5",
+      "version": "1.2.6",
       "domain": "school",
       "subject": "Natural Science",
       "subject_id": "natural_science",
@@ -7034,10 +7090,10 @@
       "curriculum": "VN_GDPT_2018",
       "grade": "6",
       "topic_count": 46,
-      "file": "vn_school_natural_science_grade6_1.2.5.nnk",
-      "sha256": "916755b5b059a1e58542b87d02ed0c864a0dc50fde4705654fef907a7f13bc90",
-      "size_bytes": 114028,
-      "review_status": "editorial_representative_pass15",
+      "file": "vn_school_natural_science_grade6_1.2.6.nnk",
+      "sha256": "dbc7c36c85856eedaf1bbb37a698cae6f3fd5355e21ada64fd6f626edd862faa",
+      "size_bytes": 111633,
+      "review_status": "content_quality_pass18_editorial_pending",
       "curriculum_status": "curriculum_aligned_semantic_pass3",
       "capabilities": [
         "knowledge",
@@ -7048,7 +7104,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 114028
+        "size_bytes": 111633
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -7066,16 +7122,22 @@
       "content_profile": "sgk_lesson_core_semantic_v3",
       "lesson_core_contract": "knowledge_lesson_core_v1",
       "sgk_reference_contract": "knowledge_sgk_reference_v1",
-      "filename": "vn_school_natural_science_grade6_1.2.5.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_natural_science_grade6_1.2.5.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_natural_science_grade6_1.2.5.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_natural_science_grade6_1.2.5.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_natural_science_grade6_1.2.5.nnk.release.sig"
+      "quality_gate": {
+        "status": "content_quality_pass18_editorial_pending",
+        "signature_diversity": 0.7158,
+        "longest_correct_option_cue": 0.0,
+        "lineage_normalized": true
+      },
+      "filename": "vn_school_natural_science_grade6_1.2.6.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_natural_science_grade6_1.2.6.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_natural_science_grade6_1.2.6.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_natural_science_grade6_1.2.6.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_natural_science_grade6_1.2.6.nnk.release.sig"
     },
     {
       "pack_id": "vn_school_natural_science_grade7",
       "title": "Khoa học tự nhiên 7 · Việt Nam · Kết nối tri thức",
-      "version": "1.1.4",
+      "version": "1.1.6",
       "domain": "school",
       "subject": "Natural Science",
       "subject_id": "natural_science",
@@ -7086,10 +7148,10 @@
       "curriculum": "VN_GDPT_2018",
       "grade": "7",
       "topic_count": 42,
-      "file": "vn_school_natural_science_grade7_1.1.4.nnk",
-      "sha256": "930142b21c548956b601168dd34c8e4cb29ac3b5b778958428070c99b3372b89",
-      "size_bytes": 112574,
-      "review_status": "semantic_pass11_differentiated_editorial_pending",
+      "file": "vn_school_natural_science_grade7_1.1.6.nnk",
+      "sha256": "8320af2c315ead4b357d65321878e0d7de0b5059e8288cdd9a1517b7d5befe54",
+      "size_bytes": 109763,
+      "review_status": "content_quality_pass18_editorial_pending",
       "curriculum_status": "curriculum_aligned_semantic_pass3",
       "capabilities": [
         "knowledge",
@@ -7100,7 +7162,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 112574
+        "size_bytes": 109763
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -7121,11 +7183,15 @@
       "sgk_reference_contract": "knowledge_sgk_reference_v1",
       "content_profile": "sgk_lesson_core_semantic_v3",
       "lesson_core_contract": "knowledge_lesson_core_v1",
-      "filename": "vn_school_natural_science_grade7_1.1.4.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_natural_science_grade7_1.1.4.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_natural_science_grade7_1.1.4.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_natural_science_grade7_1.1.4.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_natural_science_grade7_1.1.4.nnk.release.sig"
+      "quality_gate": {
+        "lineage_normalized": true,
+        "internal_hashes_recomputed": true
+      },
+      "filename": "vn_school_natural_science_grade7_1.1.6.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_natural_science_grade7_1.1.6.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_natural_science_grade7_1.1.6.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_natural_science_grade7_1.1.6.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_natural_science_grade7_1.1.6.nnk.release.sig"
     },
     {
       "pack_id": "vn_school_natural_science_grade8",
@@ -7265,7 +7331,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 70862
+        "size_bytes": 75404
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -7507,7 +7573,7 @@
     {
       "pack_id": "vn_school_technology_grade6",
       "title": "Công nghệ 6 · Việt Nam · Kết nối tri thức",
-      "version": "1.2.3",
+      "version": "1.2.6",
       "domain": "school",
       "subject": "Technology",
       "subject_id": "technology",
@@ -7518,10 +7584,10 @@
       "curriculum": "VN_GDPT_2018",
       "grade": "6",
       "topic_count": 17,
-      "file": "vn_school_technology_grade6_1.2.3.nnk",
-      "sha256": "e703fdf20d15b4282fea062b821900963da9dcc3bad21ea2402510d0d68681e4",
-      "size_bytes": 106257,
-      "review_status": "editorial_representative_pass15",
+      "file": "vn_school_technology_grade6_1.2.6.nnk",
+      "sha256": "6e72a212d9497d461799a30da36364baac1095551dddfb99056012d1020a9b63",
+      "size_bytes": 84508,
+      "review_status": "content_quality_pass18_editorial_pending",
       "curriculum_status": "curriculum_aligned_machine_reviewed_pass8",
       "capabilities": [
         "knowledge",
@@ -7532,7 +7598,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 106257
+        "size_bytes": 84508
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -7550,16 +7616,22 @@
       "content_profile": "sgk_lesson_core_v2",
       "lesson_core_contract": "knowledge_lesson_core_v1",
       "sgk_reference_contract": "knowledge_sgk_reference_v1",
-      "filename": "vn_school_technology_grade6_1.2.3.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_technology_grade6_1.2.3.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_technology_grade6_1.2.3.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_technology_grade6_1.2.3.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_technology_grade6_1.2.3.nnk.release.sig"
+      "quality_gate": {
+        "status": "content_quality_pass18_editorial_pending",
+        "signature_diversity": 0.97,
+        "longest_correct_option_cue": 0.0,
+        "lineage_normalized": true
+      },
+      "filename": "vn_school_technology_grade6_1.2.6.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_technology_grade6_1.2.6.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_technology_grade6_1.2.6.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_technology_grade6_1.2.6.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_technology_grade6_1.2.6.nnk.release.sig"
     },
     {
       "pack_id": "vn_school_technology_grade7",
       "title": "Công nghệ 7 · Việt Nam · Kết nối tri thức",
-      "version": "1.1.3",
+      "version": "1.1.6",
       "domain": "school",
       "subject": "Technology",
       "subject_id": "technology",
@@ -7570,10 +7642,10 @@
       "curriculum": "VN_GDPT_2018",
       "grade": "7",
       "topic_count": 16,
-      "file": "vn_school_technology_grade7_1.1.3.nnk",
-      "sha256": "b82e87171631fb863c55be14952a7037509d2fd645dfe59548f785800ed1cae1",
-      "size_bytes": 103926,
-      "review_status": "editorial_representative_pass15",
+      "file": "vn_school_technology_grade7_1.1.6.nnk",
+      "sha256": "952f0febc647c1aa88bb17d3fc3f6d7d40bbe62342b815884299e6b589dfcb61",
+      "size_bytes": 81649,
+      "review_status": "content_quality_pass18_editorial_pending",
       "curriculum_status": "curriculum_aligned_machine_reviewed_pass8",
       "capabilities": [
         "knowledge",
@@ -7584,7 +7656,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 103926
+        "size_bytes": 81649
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -7605,11 +7677,17 @@
       "sgk_reference_contract": "knowledge_sgk_reference_v1",
       "content_profile": "sgk_lesson_core_v2",
       "lesson_core_contract": "knowledge_lesson_core_v1",
-      "filename": "vn_school_technology_grade7_1.1.3.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_technology_grade7_1.1.3.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_technology_grade7_1.1.3.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_technology_grade7_1.1.3.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_technology_grade7_1.1.3.nnk.release.sig"
+      "quality_gate": {
+        "status": "content_quality_pass18_editorial_pending",
+        "signature_diversity": 0.88,
+        "longest_correct_option_cue": 0.0,
+        "lineage_normalized": true
+      },
+      "filename": "vn_school_technology_grade7_1.1.6.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_technology_grade7_1.1.6.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_technology_grade7_1.1.6.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_technology_grade7_1.1.6.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_technology_grade7_1.1.6.nnk.release.sig"
     },
     {
       "pack_id": "vn_school_technology_grade8",
@@ -7914,7 +7992,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 68023
+        "size_bytes": 71769
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -8576,7 +8654,7 @@
     }
   ],
   "content_language_contract": "single_primary_language_v1",
-  "catalog_version": "grade6_7_pass15_sourcefix1",
+  "catalog_version": "global_release_pass1_2026_09_25",
   "distribution": {
     "namespace": "/knowledge/",
     "pages_base_url": "https://nn-ecosystem.github.io",
