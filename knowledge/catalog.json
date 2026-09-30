@@ -1,7 +1,7 @@
 {
   "schema": "knowledge_catalog_v1",
-  "version": "global_release_pass13",
-  "updated_at": "2026-09-25",
+  "version": "global_release_pass16_game_v2_pass4R",
+  "updated_at": "2026-09-30",
   "classification_contract": "program_language_2axis_v2",
   "classification_rules": {
     "language": [
@@ -35,7 +35,8 @@
     "secondary_core_lesson_v1_packs": 16,
     "secondary_subject_core_v1_packs": 23,
     "pack_count": 175,
-    "updated_at": "2026-09-25T08:15:00+07:00"
+    "updated_at": "2026-09-30T12:00:00+07:00",
+    "game_v2_pass4R_updated_packs": 9
   },
   "packs": [
     {
@@ -868,7 +869,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 33708
+        "size_bytes": 41962
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -915,7 +916,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 18394
+        "size_bytes": 23101
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -962,7 +963,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 16626
+        "size_bytes": 20120
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -1010,7 +1011,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 18679
+        "size_bytes": 22848
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -1059,7 +1060,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 37100
+        "size_bytes": 39250
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -1365,7 +1366,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 30857
+        "size_bytes": 31259
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -1720,7 +1721,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 18844
+        "size_bytes": 19521
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -1766,7 +1767,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 14906
+        "size_bytes": 16583
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -1814,7 +1815,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 15135
+        "size_bytes": 16640
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -1860,7 +1861,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 8947
+        "size_bytes": 9578
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -1908,7 +1909,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 15929
+        "size_bytes": 17600
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -1954,7 +1955,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 10143
+        "size_bytes": 10820
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -2001,7 +2002,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 14833
+        "size_bytes": 16594
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -2048,7 +2049,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 15094
+        "size_bytes": 17166
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -2097,7 +2098,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 21979
+        "size_bytes": 22589
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -2189,7 +2190,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 3651
+        "size_bytes": 3788
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -2235,7 +2236,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 4045
+        "size_bytes": 4218
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -2281,7 +2282,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 29458
+        "size_bytes": 36237
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -2327,7 +2328,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 4430
+        "size_bytes": 4617
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -2377,7 +2378,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 17482
+        "size_bytes": 19425
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -2423,7 +2424,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 6105
+        "size_bytes": 6509
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -2470,7 +2471,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 21360
+        "size_bytes": 26047
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -2520,7 +2521,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 16283
+        "size_bytes": 17997
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -2617,7 +2618,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 15331
+        "size_bytes": 16233
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -2663,7 +2664,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 8455
+        "size_bytes": 8777
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -2709,7 +2710,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 11192
+        "size_bytes": 11625
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -2806,7 +2807,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 8343
+        "size_bytes": 8695
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -2852,7 +2853,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 9192
+        "size_bytes": 9666
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -2902,7 +2903,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 17451
+        "size_bytes": 19411
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -2948,7 +2949,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 6411
+        "size_bytes": 6830
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -3001,7 +3002,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 16932
+        "size_bytes": 21941
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -3047,7 +3048,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 5609
+        "size_bytes": 5868
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -3093,7 +3094,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 5551
+        "size_bytes": 5781
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -3139,7 +3140,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 5549
+        "size_bytes": 5831
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -3186,7 +3187,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 16224
+        "size_bytes": 20194
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -3232,7 +3233,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 3813
+        "size_bytes": 3970
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -3278,7 +3279,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 3931
+        "size_bytes": 4099
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -3324,7 +3325,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 4747
+        "size_bytes": 4952
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -3370,7 +3371,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 10945
+        "size_bytes": 8048
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -3416,7 +3417,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 11999
+        "size_bytes": 14663
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -3462,7 +3463,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 11787
+        "size_bytes": 13916
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -3655,7 +3656,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 11811
+        "size_bytes": 12442
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -3704,7 +3705,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 15550
+        "size_bytes": 16918
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -3801,7 +3802,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 10745
+        "size_bytes": 7947
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -3848,7 +3849,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 14832
+        "size_bytes": 15438
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -3897,7 +3898,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 15719
+        "size_bytes": 16276
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -5137,7 +5138,7 @@
     {
       "pack_id": "vn_school_chemistry_grade10",
       "title": "Hóa học 10 · Việt Nam · Kết nối tri thức",
-      "version": "1.3.0",
+      "version": "1.3.3",
       "domain": "school",
       "subject": "Chemistry",
       "subject_id": "chemistry",
@@ -5148,10 +5149,10 @@
       "curriculum": "VN_GDPT_2018",
       "grade": "10",
       "topic_count": 22,
-      "file": "vn_school_chemistry_grade10_1.3.0.nnk",
-      "sha256": "128411ddd35db26dc844e3c29318dc3740ec9a8706b2c3bd3ecef4dc997f5fc7",
-      "size_bytes": 74325,
-      "review_status": "machine_reviewed_v4",
+      "file": "vn_school_chemistry_grade10_1.3.3.nnk",
+      "sha256": "dc7d0be2650d485c3fc9625d3e98ca499fe1cb59d5b8aade7d19d393efc7242a",
+      "size_bytes": 120827,
+      "review_status": "game_v2_quality_pass4R_editorial_pending",
       "curriculum_status": "curriculum_aligned_machine_reviewed_v1",
       "capabilities": [
         "knowledge",
@@ -5163,7 +5164,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 74325
+        "size_bytes": 120827
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -5180,19 +5181,29 @@
       "editorial_review_required": true,
       "quality_gate": {
         "schema": "knowledge_question_quality_gate_v5",
-        "status": "release_candidate_deep_machine_reviewed",
+        "status": "game_v2_quality_pass4R_editorial_pending",
         "editorial_review_required": true,
         "lesson_core_required": true,
         "placeholder_example_ratio": 0.0,
-        "generic_scaffold_ratio": 0.0
+        "generic_scaffold_ratio": 0.0,
+        "runtime_playable": true,
+        "game_v2": true,
+        "game_v2_pass": "4R",
+        "question_count": 1096,
+        "round_count": 100,
+        "min_questions_per_round": 10,
+        "explanation_basic_coverage": 1.0,
+        "duplicate_playable_within_round": 0,
+        "production_ready": false,
+        "checked_at": "2026-09-30"
       },
       "textbook_id": null,
-      "minimum_plugin_version": "2.0.13",
-      "filename": "vn_school_chemistry_grade10_1.3.0.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_chemistry_grade10_1.3.0.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_chemistry_grade10_1.3.0.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_chemistry_grade10_1.3.0.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_chemistry_grade10_1.3.0.nnk.release.sig"
+      "minimum_plugin_version": "2.0.23",
+      "filename": "vn_school_chemistry_grade10_1.3.3.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_chemistry_grade10_1.3.3.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_chemistry_grade10_1.3.3.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_chemistry_grade10_1.3.3.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_chemistry_grade10_1.3.3.nnk.release.sig"
     },
     {
       "pack_id": "vn_school_civic_education_grade6",
@@ -5430,7 +5441,7 @@
     {
       "pack_id": "vn_school_english_grade6",
       "title": "Tiếng Anh 6 · Việt Nam · Global Success",
-      "version": "1.4.5",
+      "version": "1.4.8",
       "domain": "school",
       "subject": "English",
       "subject_id": "english",
@@ -5441,10 +5452,10 @@
       "curriculum": "VN_GDPT_2018",
       "grade": "6",
       "topic_count": 32,
-      "file": "vn_school_english_grade6_1.4.5.nnk",
-      "sha256": "2062b18670237b72034756aa7d8692ae5511b13a3f6b652acab5976dc5c6f107",
-      "size_bytes": 102315,
-      "review_status": "content_quality_pass18_editorial_pending",
+      "file": "vn_school_english_grade6_1.4.8.nnk",
+      "sha256": "18b10e14601a6348eb7c5f5782e36be101539ed35d15a6fe1da6ae082f2b82a8",
+      "size_bytes": 124653,
+      "review_status": "game_v2_quality_pass4R_editorial_pending",
       "curriculum_status": "curriculum_aligned_v1",
       "capabilities": [
         "knowledge",
@@ -5455,7 +5466,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 102315
+        "size_bytes": 124653
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -5477,21 +5488,33 @@
       "lesson_core_contract": "knowledge_lesson_core_v1",
       "sgk_reference_contract": "knowledge_sgk_reference_v1",
       "quality_gate": {
-        "status": "content_quality_pass18_editorial_pending",
+        "status": "game_v2_quality_pass4R_editorial_pending",
         "signature_diversity": 0.56,
         "longest_correct_option_cue": 0.2075,
-        "lineage_normalized": true
+        "lineage_normalized": true,
+        "runtime_playable": true,
+        "game_v2": true,
+        "game_v2_pass": "4R",
+        "question_count": 1124,
+        "round_count": 100,
+        "min_questions_per_round": 10,
+        "explanation_basic_coverage": 1.0,
+        "duplicate_playable_within_round": 0,
+        "production_ready": false,
+        "editorial_review_required": true,
+        "checked_at": "2026-09-30"
       },
-      "filename": "vn_school_english_grade6_1.4.5.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade6_1.4.5.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade6_1.4.5.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade6_1.4.5.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade6_1.4.5.nnk.release.sig"
+      "minimum_plugin_version": "2.0.23",
+      "filename": "vn_school_english_grade6_1.4.8.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade6_1.4.8.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade6_1.4.8.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade6_1.4.8.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade6_1.4.8.nnk.release.sig"
     },
     {
       "pack_id": "vn_school_english_grade7",
       "title": "Tiếng Anh 7 · Việt Nam · Global Success",
-      "version": "1.3.5",
+      "version": "1.3.8",
       "domain": "school",
       "subject": "English",
       "subject_id": "english",
@@ -5502,10 +5525,10 @@
       "curriculum": "VN_GDPT_2018",
       "grade": "7",
       "topic_count": 29,
-      "file": "vn_school_english_grade7_1.3.5.nnk",
-      "sha256": "75c8a75f5da5ab390013ea522464fdf0f4d9050df267b68de81a363763ec26a2",
-      "size_bytes": 96767,
-      "review_status": "content_quality_pass18_editorial_pending",
+      "file": "vn_school_english_grade7_1.3.8.nnk",
+      "sha256": "03f459b096fdb614ec4ca4e54b609a87701f1776ad2e1093d96d020fedee4a82",
+      "size_bytes": 122045,
+      "review_status": "game_v2_quality_pass4R_editorial_pending",
       "curriculum_status": "curriculum_aligned_machine_reviewed_v2",
       "capabilities": [
         "knowledge",
@@ -5516,7 +5539,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 96767
+        "size_bytes": 122045
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -5533,14 +5556,23 @@
       "editorial_review_required": true,
       "quality_gate": {
         "schema": "knowledge_question_quality_gate_v1",
-        "status": "content_quality_pass18_editorial_pending",
+        "status": "game_v2_quality_pass4R_editorial_pending",
         "runtime_playable": true,
         "runtime_diversity_pass": true,
         "editorial_review_required": true,
         "prompt_diversity": 0.8192,
         "signature_diversity": 0.6958,
         "longest_correct_option_cue": 0.1433,
-        "lineage_normalized": true
+        "lineage_normalized": true,
+        "game_v2": true,
+        "game_v2_pass": "4R",
+        "question_count": 1178,
+        "round_count": 100,
+        "min_questions_per_round": 10,
+        "explanation_basic_coverage": 1.0,
+        "duplicate_playable_within_round": 0,
+        "production_ready": false,
+        "checked_at": "2026-09-30"
       },
       "textbook_id": "GLOBAL_SUCCESS_7",
       "book_family": "GLOBAL_SUCCESS",
@@ -5548,11 +5580,12 @@
       "lesson_core_contract": "knowledge_lesson_core_v1",
       "sgk_reference_contract": "knowledge_sgk_reference_v1",
       "question_bank_quality": "knowledge_core_semantic_pass11",
-      "filename": "vn_school_english_grade7_1.3.5.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade7_1.3.5.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade7_1.3.5.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade7_1.3.5.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade7_1.3.5.nnk.release.sig"
+      "minimum_plugin_version": "2.0.23",
+      "filename": "vn_school_english_grade7_1.3.8.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade7_1.3.8.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade7_1.3.8.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade7_1.3.8.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_english_grade7_1.3.8.nnk.release.sig"
     },
     {
       "pack_id": "vn_school_english_grade8",
@@ -6477,7 +6510,7 @@
     {
       "pack_id": "vn_school_literature_grade6",
       "title": "Ngữ văn 6 · Việt Nam · Kết nối tri thức",
-      "version": "1.4.3",
+      "version": "1.4.6",
       "domain": "school",
       "subject": "Literature",
       "subject_id": "literature",
@@ -6488,10 +6521,10 @@
       "curriculum": "VN_GDPT_2018",
       "grade": "6",
       "topic_count": 32,
-      "file": "vn_school_literature_grade6_1.4.3.nnk",
-      "sha256": "7aed5d384ee822d307b608fa6074264f50ccb4d523f1add3c69f2b108b6c6193",
-      "size_bytes": 108202,
-      "review_status": "content_quality_pass18_editorial_pending",
+      "file": "vn_school_literature_grade6_1.4.6.nnk",
+      "sha256": "d1bdc71b5c34c0383214c78498d0c68a403ada1dfacc2aaacfb0c482e45fea54",
+      "size_bytes": 133797,
+      "review_status": "game_v2_quality_pass4R_editorial_pending",
       "curriculum_status": "curriculum_aligned_v1",
       "capabilities": [
         "knowledge",
@@ -6502,7 +6535,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 108202
+        "size_bytes": 133797
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -6522,21 +6555,33 @@
       "lesson_core_contract": "knowledge_lesson_core_v1",
       "sgk_reference_contract": "knowledge_sgk_reference_v1",
       "quality_gate": {
-        "status": "content_quality_pass18_editorial_pending",
+        "status": "game_v2_quality_pass4R_editorial_pending",
         "signature_diversity": 0.4108,
         "longest_correct_option_cue": 0.0,
-        "lineage_normalized": true
+        "lineage_normalized": true,
+        "runtime_playable": true,
+        "game_v2": true,
+        "game_v2_pass": "4R",
+        "question_count": 1199,
+        "round_count": 100,
+        "min_questions_per_round": 11,
+        "explanation_basic_coverage": 1.0,
+        "duplicate_playable_within_round": 0,
+        "production_ready": false,
+        "editorial_review_required": true,
+        "checked_at": "2026-09-30"
       },
-      "filename": "vn_school_literature_grade6_1.4.3.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade6_1.4.3.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade6_1.4.3.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade6_1.4.3.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade6_1.4.3.nnk.release.sig"
+      "minimum_plugin_version": "2.0.23",
+      "filename": "vn_school_literature_grade6_1.4.6.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade6_1.4.6.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade6_1.4.6.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade6_1.4.6.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade6_1.4.6.nnk.release.sig"
     },
     {
       "pack_id": "vn_school_literature_grade7",
       "title": "Ngữ văn 7 · Việt Nam · Kết nối tri thức",
-      "version": "1.2.6",
+      "version": "1.2.9",
       "domain": "school",
       "subject": "Literature",
       "subject_id": "literature",
@@ -6547,10 +6592,10 @@
       "curriculum": "VN_GDPT_2018",
       "grade": "7",
       "topic_count": 40,
-      "file": "vn_school_literature_grade7_1.2.6.nnk",
-      "sha256": "f6986406061ed71879c0b8be3ddb01fe0baa034027bd5ed34d94c808b4814ab7",
-      "size_bytes": 124424,
-      "review_status": "content_quality_pass18_editorial_pending",
+      "file": "vn_school_literature_grade7_1.2.9.nnk",
+      "sha256": "7391acfb80a1a08aaed87a1641010de14aa7b5d20a8db7ba72036c62264156aa",
+      "size_bytes": 146240,
+      "review_status": "game_v2_quality_pass4R_editorial_pending",
       "curriculum_status": "curriculum_aligned_machine_reviewed_v2",
       "capabilities": [
         "knowledge",
@@ -6561,7 +6606,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 124424
+        "size_bytes": 146240
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -6578,7 +6623,7 @@
       "editorial_review_required": true,
       "quality_gate": {
         "schema": "knowledge_question_quality_gate_v3",
-        "status": "curriculum_semantic_pass4_editorial_pending",
+        "status": "game_v2_quality_pass4R_editorial_pending",
         "runtime_playable": true,
         "editorial_review_required": true,
         "semantic_unique_answer": "required",
@@ -6586,17 +6631,27 @@
         "textbook_passage_copying": "blocked",
         "normalized_prompt_family_count": 235,
         "lineage_normalized": true,
-        "internal_hashes_recomputed": true
+        "internal_hashes_recomputed": true,
+        "game_v2": true,
+        "game_v2_pass": "4R",
+        "question_count": 1200,
+        "round_count": 100,
+        "min_questions_per_round": 12,
+        "explanation_basic_coverage": 1.0,
+        "duplicate_playable_within_round": 0,
+        "production_ready": false,
+        "checked_at": "2026-09-30"
       },
       "content_profile": "sgk_unit_semantic_v2",
       "lesson_core_contract": "knowledge_lesson_core_v1",
       "sgk_reference_contract": "knowledge_sgk_reference_v1",
       "question_bank_quality": "literature_grade7_semantic_pass4",
-      "filename": "vn_school_literature_grade7_1.2.6.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade7_1.2.6.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade7_1.2.6.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade7_1.2.6.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade7_1.2.6.nnk.release.sig"
+      "minimum_plugin_version": "2.0.23",
+      "filename": "vn_school_literature_grade7_1.2.9.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade7_1.2.9.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade7_1.2.9.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade7_1.2.9.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_literature_grade7_1.2.9.nnk.release.sig"
     },
     {
       "pack_id": "vn_school_literature_grade8",
@@ -6721,7 +6776,7 @@
     {
       "pack_id": "vn_school_math_grade10",
       "title": "Toán 10 · Việt Nam · Kết nối tri thức",
-      "version": "1.3.0",
+      "version": "1.3.3",
       "domain": "school",
       "subject": "Mathematics",
       "subject_id": "mathematics",
@@ -6732,10 +6787,10 @@
       "curriculum": "VN_GDPT_2018",
       "grade": "10",
       "topic_count": 27,
-      "file": "vn_school_math_grade10_1.3.0.nnk",
-      "sha256": "0f1b1de9fe1a0322e046ba42862ea5fc17ff2363b3182ad851858d4923713c4b",
-      "size_bytes": 76094,
-      "review_status": "machine_reviewed_v4",
+      "file": "vn_school_math_grade10_1.3.3.nnk",
+      "sha256": "87c8c05f6eb0a8fb8561223fa1892fa5b79a0472eaffc3f446ab9ade58ad1a99",
+      "size_bytes": 119960,
+      "review_status": "game_v2_quality_pass4R_editorial_pending",
       "curriculum_status": "curriculum_aligned_machine_reviewed_v1",
       "capabilities": [
         "knowledge",
@@ -6747,7 +6802,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 76094
+        "size_bytes": 119960
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -6764,24 +6819,34 @@
       "editorial_review_required": true,
       "quality_gate": {
         "schema": "knowledge_question_quality_gate_v5",
-        "status": "release_candidate_deep_machine_reviewed",
+        "status": "game_v2_quality_pass4R_editorial_pending",
         "editorial_review_required": true,
         "lesson_core_required": true,
         "placeholder_example_ratio": 0.0,
-        "generic_scaffold_ratio": 0.0
+        "generic_scaffold_ratio": 0.0,
+        "runtime_playable": true,
+        "game_v2": true,
+        "game_v2_pass": "4R",
+        "question_count": 1086,
+        "round_count": 100,
+        "min_questions_per_round": 10,
+        "explanation_basic_coverage": 1.0,
+        "duplicate_playable_within_round": 0,
+        "production_ready": false,
+        "checked_at": "2026-09-30"
       },
       "textbook_id": null,
-      "minimum_plugin_version": "2.0.13",
-      "filename": "vn_school_math_grade10_1.3.0.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade10_1.3.0.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade10_1.3.0.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade10_1.3.0.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade10_1.3.0.nnk.release.sig"
+      "minimum_plugin_version": "2.0.23",
+      "filename": "vn_school_math_grade10_1.3.3.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade10_1.3.3.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade10_1.3.3.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade10_1.3.3.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade10_1.3.3.nnk.release.sig"
     },
     {
       "pack_id": "vn_school_math_grade6",
       "title": "Toán 6 · Việt Nam · Kết nối tri thức",
-      "version": "1.3.6",
+      "version": "1.3.9",
       "domain": "school",
       "subject": "Mathematics",
       "subject_id": "mathematics",
@@ -6792,10 +6857,10 @@
       "curriculum": "VN_GDPT_2018",
       "grade": "6",
       "topic_count": 32,
-      "file": "vn_school_math_grade6_1.3.6.nnk",
-      "sha256": "9220941cd4a83d788f4c2532ddc63359fd17c907bbc1aac5ba4d95d5820629da",
-      "size_bytes": 79105,
-      "review_status": "content_quality_pass18_editorial_pending",
+      "file": "vn_school_math_grade6_1.3.9.nnk",
+      "sha256": "b203a22744b1ee84e3bbd09ed29ea88e4e7cf599b86a114086956adab4ff544d",
+      "size_bytes": 100173,
+      "review_status": "game_v2_quality_pass4R_editorial_pending",
       "curriculum_status": "curriculum_aligned_v1",
       "capabilities": [
         "knowledge",
@@ -6806,7 +6871,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 79105
+        "size_bytes": 100173
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -6826,21 +6891,33 @@
       "lesson_core_contract": "knowledge_lesson_core_v1",
       "sgk_reference_contract": "knowledge_sgk_reference_v1",
       "quality_gate": {
-        "status": "content_quality_pass18_editorial_pending",
+        "status": "game_v2_quality_pass4R_editorial_pending",
         "signature_diversity": 0.5358,
         "longest_correct_option_cue": 0.0267,
-        "lineage_normalized": true
+        "lineage_normalized": true,
+        "runtime_playable": true,
+        "game_v2": true,
+        "game_v2_pass": "4R",
+        "question_count": 1091,
+        "round_count": 100,
+        "min_questions_per_round": 10,
+        "explanation_basic_coverage": 1.0,
+        "duplicate_playable_within_round": 0,
+        "production_ready": false,
+        "editorial_review_required": true,
+        "checked_at": "2026-09-30"
       },
-      "filename": "vn_school_math_grade6_1.3.6.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade6_1.3.6.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade6_1.3.6.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade6_1.3.6.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade6_1.3.6.nnk.release.sig"
+      "minimum_plugin_version": "2.0.23",
+      "filename": "vn_school_math_grade6_1.3.9.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade6_1.3.9.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade6_1.3.9.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade6_1.3.9.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade6_1.3.9.nnk.release.sig"
     },
     {
       "pack_id": "vn_school_math_grade7",
       "title": "Toán 7 · Việt Nam · Kết nối tri thức",
-      "version": "1.2.7",
+      "version": "1.2.11",
       "domain": "school",
       "subject": "Mathematics",
       "subject_id": "mathematics",
@@ -6851,10 +6928,10 @@
       "curriculum": "VN_GDPT_2018",
       "grade": "7",
       "topic_count": 37,
-      "file": "vn_school_math_grade7_1.2.7.nnk",
-      "sha256": "69f684da007812d578ca3220056beb03b697cc4058afa4fb04254823233f1301",
-      "size_bytes": 105747,
-      "review_status": "content_quality_pass19",
+      "file": "vn_school_math_grade7_1.2.11.nnk",
+      "sha256": "11fa31976e21bca012868a6b9bb2c7b622e19a333ad4f0d28e6635c2916500c9",
+      "size_bytes": 129774,
+      "review_status": "game_v2_quality_pass4R_editorial_pending",
       "curriculum_status": "curriculum_aligned_machine_reviewed_v2",
       "capabilities": [
         "knowledge",
@@ -6865,7 +6942,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 105747
+        "size_bytes": 129774
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -6882,24 +6959,34 @@
       "editorial_review_required": true,
       "quality_gate": {
         "schema": "knowledge_question_quality_gate_v1",
-        "status": "content_quality_pass18_editorial_pending",
+        "status": "game_v2_quality_pass4R_editorial_pending",
         "runtime_playable": true,
         "runtime_diversity_pass": true,
         "editorial_review_required": true,
         "prompt_diversity": 0.97,
         "signature_diversity": 0.4167,
         "longest_correct_option_cue": 0.28,
-        "lineage_normalized": true
+        "lineage_normalized": true,
+        "game_v2": true,
+        "game_v2_pass": "4R",
+        "question_count": 1139,
+        "round_count": 100,
+        "min_questions_per_round": 10,
+        "explanation_basic_coverage": 1.0,
+        "duplicate_playable_within_round": 0,
+        "production_ready": false,
+        "checked_at": "2026-09-30"
       },
       "content_profile": "sgk_lesson_core_v1",
       "lesson_core_contract": "knowledge_lesson_core_v1",
       "sgk_reference_contract": "knowledge_sgk_reference_v1",
       "question_bank_quality": "semantic_unique_answer_pass3",
-      "filename": "vn_school_math_grade7_1.2.7.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade7_1.2.7.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade7_1.2.7.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade7_1.2.7.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade7_1.2.7.nnk.release.sig"
+      "minimum_plugin_version": "2.0.23",
+      "filename": "vn_school_math_grade7_1.2.11.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade7_1.2.11.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade7_1.2.11.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade7_1.2.11.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_math_grade7_1.2.11.nnk.release.sig"
     },
     {
       "pack_id": "vn_school_math_grade8",
@@ -7681,7 +7768,7 @@
     {
       "pack_id": "vn_school_physics_grade10",
       "title": "Vật lí 10 · Việt Nam · Kết nối tri thức",
-      "version": "1.3.0",
+      "version": "1.3.3",
       "domain": "school",
       "subject": "Physics",
       "subject_id": "physics",
@@ -7692,10 +7779,10 @@
       "curriculum": "VN_GDPT_2018",
       "grade": "10",
       "topic_count": 30,
-      "file": "vn_school_physics_grade10_1.3.0.nnk",
-      "sha256": "ae52543076e6cc42bfda943f0d6bd0aa34da6522bea97a6c3a8b5f7986b0c98b",
-      "size_bytes": 82808,
-      "review_status": "machine_reviewed_v4",
+      "file": "vn_school_physics_grade10_1.3.3.nnk",
+      "sha256": "fd07cafe2de21b757ef0b42caa0ab8cdd849c95e6ce8a05db5f133d7d4d4d763",
+      "size_bytes": 130500,
+      "review_status": "game_v2_quality_pass4R_editorial_pending",
       "curriculum_status": "curriculum_aligned_machine_reviewed_v1",
       "capabilities": [
         "knowledge",
@@ -7707,7 +7794,7 @@
       "distribution": {
         "delivery": "download",
         "content_identity": "sha256",
-        "size_bytes": 82808
+        "size_bytes": 130500
       },
       "economic": {
         "action": "knowledge.pack.acquire",
@@ -7724,19 +7811,29 @@
       "editorial_review_required": true,
       "quality_gate": {
         "schema": "knowledge_question_quality_gate_v5",
-        "status": "release_candidate_deep_machine_reviewed",
+        "status": "game_v2_quality_pass4R_editorial_pending",
         "editorial_review_required": true,
         "lesson_core_required": true,
         "placeholder_example_ratio": 0.0,
-        "generic_scaffold_ratio": 0.0
+        "generic_scaffold_ratio": 0.0,
+        "runtime_playable": true,
+        "game_v2": true,
+        "game_v2_pass": "4R",
+        "question_count": 1126,
+        "round_count": 100,
+        "min_questions_per_round": 10,
+        "explanation_basic_coverage": 1.0,
+        "duplicate_playable_within_round": 0,
+        "production_ready": false,
+        "checked_at": "2026-09-30"
       },
       "textbook_id": null,
-      "minimum_plugin_version": "2.0.13",
-      "filename": "vn_school_physics_grade10_1.3.0.nnk",
-      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_physics_grade10_1.3.0.nnk",
-      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_physics_grade10_1.3.0.nnk.sig",
-      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_physics_grade10_1.3.0.nnk.release.json",
-      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_physics_grade10_1.3.0.nnk.release.sig"
+      "minimum_plugin_version": "2.0.23",
+      "filename": "vn_school_physics_grade10_1.3.3.nnk",
+      "download_url": "https://nn-ecosystem.github.io/knowledge/vn_school_physics_grade10_1.3.3.nnk",
+      "signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_physics_grade10_1.3.3.nnk.sig",
+      "release_metadata_url": "https://nn-ecosystem.github.io/knowledge/vn_school_physics_grade10_1.3.3.nnk.release.json",
+      "release_signature_url": "https://nn-ecosystem.github.io/knowledge/vn_school_physics_grade10_1.3.3.nnk.release.sig"
     },
     {
       "pack_id": "vn_school_technology_grade6",
@@ -8913,8 +9010,8 @@
     }
   ],
   "content_language_contract": "single_primary_language_v1",
-  "catalog_version": "global_release_pass12",
-  "release": "global_release_pass15_freeze_candidate",
+  "catalog_version": "global_release_pass16",
+  "release": "global_release_pass16_game_v2_pass4R_editorial_pending",
   "distribution": {
     "namespace": "/knowledge/",
     "pages_base_url": "https://nn-ecosystem.github.io",
