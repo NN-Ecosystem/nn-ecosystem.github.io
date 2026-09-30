@@ -3,16 +3,16 @@
   "artifact": {
     "kind": "knowledge_catalog",
     "filename": "catalog.json",
-    "size": 391603,
-    "sha256": "c5028621e77a65d1e814674cb127ba45d264e571dbdee39e5aac5d33a9101037",
-    "content_sha256": "da92caea3cc73036f2024a4f8bb14b0d8a4533d41a87c82b283272de5f146dc6"
+    "size": 394856,
+    "sha256": "8ee02822133ee1261451a47e407951d3863fa768f0d394ad8efe5699f8a0fc36",
+    "content_sha256": "aede18c1185a825d43440b38fb914e4e466c620854be7e9f464ca879f6e15f2a"
   },
   "identity": {
     "id": "knowledge_catalog",
-    "version": "global_release_pass16"
+    "version": "pass17_game_v2_sgk_pool14_20260930"
   },
   "channel": "stable",
-  "published_at": "2026-09-30T05:52:59.484663+00:00",
+  "published_at": "2026-09-30T09:02:22.695830+00:00",
   "contracts": {
     "knowledge_pack": null,
     "knowledge_catalog": "knowledge_catalog_v1"
