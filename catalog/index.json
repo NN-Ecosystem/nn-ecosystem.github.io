@@ -1,6 +1,6 @@
 {
   "schema": "core_factory_catalog_v1",
-  "generated_at": "2026-10-15T23:45:05.657856+00:00",
+  "generated_at": "2026-10-15T23:50:23.148706+00:00",
   "count": 128,
   "items": [
     {
@@ -9254,17 +9254,17 @@
       "name": "Retro Gaming",
       "title": "Retro Gaming",
       "description": "# Retro Gaming\n\n**Build one personal library for classic console games and play them through native, local emulator Engines in Core Factory.**\n\n**Category:** Entertainment · Gaming  \n**Type:** Plugin  \n**Platform:** Windows  \n**Requires:** Core Factory 3.5.2+\n\n## What It Does\n\nRetro Gaming brings multiple classic gaming systems into one unified experience.\n\nSupported systems include:\n\n- NES\n- SNES\n- Game Boy Advance\n- Game Gear\n- Master System\n- Mega Drive / Genesis\n- Nintendo 64\n- PlayStation 1\n\nGame Gear and PlayStation 1 are currently **Preview**, while ready consoles can operate independently.\n\n## Main Pipeline\n\n**YOUR GAME**\n\n↓\n\n**RETRO GAMING**\n\n↓\n\n**UNIFIED PERSONAL LIBRARY**\n\n↓\n\n**DETECT CONSOLE**\n\n↓\n\n**RESOLVE EMULATOR ENGINE**\n\n↓\n\n**NATIVE GAMEPLAY**\n\n## One Library, Multiple Consoles\n\nRetro Gaming owns the common player experience:\n\n**LIBRARY · FAVORITES · RECENT GAMES · SETTINGS**\n\nwhile each console keeps its own specialized Emulator Engine.\n\n**RETRO GAMING**\n\n↓\n\n**NES / SNES / GBA / GAME GEAR / MASTER SYSTEM / MEGA DRIVE / N64 / PS1**\n\n↓\n\n**DEDICATED EMULATOR ENGINE**\n\nThis keeps the Store simple without merging the technical emulator runtimes together.\n\n## Player Experience\n\nDepending on console capability, the Plugin provides:\n\n- Import local games\n- Browse one game library\n- Play / Pause / Resume / Stop\n- Favorites and recent history\n- Focus and fullscreen\n- Save / Load State\n- Emulator settings\n- Backend diagnostics\n- Legal / homebrew source links\n\nEmulator Engines are resolved only when their console is actually used.\n\n## Local-First\n\nGames remain local and are supplied by the user.\n\nThe Plugin does not distribute commercial ROMs or retail BIOS files.\n\nNormal local library, settings, and gameplay actions are free, with child Engine metering suppressed at the Plugin boundary.\n\n## Ecosystem Fit\n\n**USER**\n\n↓\n\n**RETRO GAMING PLUGIN**\n\n↓\n\n**ONE GAME LIBRARY & UX**\n\n↓\n\n**CONSOLE REGISTRY**\n\n↓\n\n**INDEPENDENT EMULATOR ENGINES**\n\n↓\n\n**NATIVE LOCAL GAMEPLAY**\n\n**One retro gaming library. Multiple classic systems. Independent native Engines.**",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "channel": "stable",
       "minimum_core_version": "3.5.2",
       "slug": "retro-gaming",
       "summary": "# Retro Gaming\n\n**Build one personal library for classic console games and play them through native, local emulator Engines in Core Factory.**\n\n**Category:** Entertainment · Gaming  \n**Type:** Plugin  \n**Platform:** Windows  \n**Requires:** Core Factory 3.5.2+\n\n## What It Does\n\nRetro Gaming brings multiple classic gaming systems into one unified experience.\n\nSupported systems include:\n\n- NES\n- SNES\n- Game Boy Advance\n- Game Gear\n- Master System\n- Mega Drive / Genesis\n- Nintendo 64\n- PlayStation 1\n\nGame Gear and PlayStation 1 are currently **Preview**, while ready consoles can operate independently.\n\n## Main Pipeline\n\n**YOUR GAME**\n\n↓\n\n**RETRO GAMING**\n\n↓\n\n**UNIFIED PERSONAL LIBRARY**\n\n↓\n\n**DETECT CONSOLE**\n\n↓\n\n**RESOLVE EMULATOR ENGINE**\n\n↓\n\n**NATIVE GAMEPLAY**\n\n## One Library, Multiple Consoles\n\nRetro Gaming owns the common player experience:\n\n**LIBRARY · FAVORITES · RECENT GAMES · SETTINGS**\n\nwhile each console keeps its own specialized Emulator Engine.\n\n**RETRO GAMING**\n\n↓\n\n**NES / SNES / GBA / GAME GEAR / MASTER SYSTEM / MEGA DRIVE / N64 / PS1**\n\n↓\n\n**DEDICATED EMULATOR ENGINE**\n\nThis keeps the Store simple without merging the technical emulator runtimes together.\n\n## Player Experience\n\nDepending on console capability, the Plugin provides:\n\n- Import local games\n- Browse one game library\n- Play / Pause / Resume / Stop\n- Favorites and recent history\n- Focus and fullscreen\n- Save / Load State\n- Emulator settings\n- Backend diagnostics\n- Legal / homebrew source links\n\nEmulator Engines are resolved only when their console is actually used.\n\n## Local-First\n\nGames remain local and are supplied by the user.\n\nThe Plugin does not distribute commercial ROMs or retail BIOS files.\n\nNormal local library, settings, and gameplay actions are free, with child Engine metering suppressed at the Plugin boundary.\n\n## Ecosystem Fit\n\n**USER**\n\n↓\n\n**RETRO GAMING PLUGIN**\n\n↓\n\n**ONE GAME LIBRARY & UX**\n\n↓\n\n**CONSOLE REGISTRY**\n\n↓\n\n**INDEPENDENT EMULATOR ENGINES**\n\n↓\n\n**NATIVE LOCAL GAMEPLAY**\n\n**One retro gaming library. Multiple classic systems. Independent native Engines.**",
       "status": "released",
       "image": "https://nn-ecosystem.github.io/assets/catalog/retro_gaming_plugin/retro_gaming_plugin.png",
-      "release_url": "https://github.com/NN-Ecosystem/nn-ecosystem.github.io/releases/tag/plugin-retro_gaming_plugin-v1.0.0",
-      "download_url": "https://github.com/NN-Ecosystem/nn-ecosystem.github.io/releases/download/plugin-retro_gaming_plugin-v1.0.0/retro_gaming_plugin-1.0.0-UNIFIED-1LAYER_signed.zip",
+      "release_url": "https://github.com/NN-Ecosystem/nn-ecosystem.github.io/releases/tag/plugin-retro_gaming_plugin-v1.0.1",
+      "download_url": "https://github.com/NN-Ecosystem/nn-ecosystem.github.io/releases/download/plugin-retro_gaming_plugin-v1.0.1/retro_gaming_plugin-1.0.1-NATIVE-WEB-UI_20261016_signed.zip",
       "link_store": "",
-      "artifact_sha256": "fd1418bb1937a062daf7d777d886678d96a26c878fabf23adcef3b86601db907",
+      "artifact_sha256": "a55ee563586d022ee1130cd1e370678b6debf1987ac1549f07963f07461c0512",
       "platforms": {
         "windows": {
           "available": true,
@@ -9312,9 +9312,9 @@
           "platform": "windows",
           "architecture": "x86_64",
           "artifact_type": "zip",
-          "download_url": "https://github.com/NN-Ecosystem/nn-ecosystem.github.io/releases/download/plugin-retro_gaming_plugin-v1.0.0/retro_gaming_plugin-1.0.0-UNIFIED-1LAYER_signed.zip",
-          "sha256": "fd1418bb1937a062daf7d777d886678d96a26c878fabf23adcef3b86601db907",
-          "version": "1.0.0",
+          "download_url": "https://github.com/NN-Ecosystem/nn-ecosystem.github.io/releases/download/plugin-retro_gaming_plugin-v1.0.1/retro_gaming_plugin-1.0.1-NATIVE-WEB-UI_20261016_signed.zip",
+          "sha256": "a55ee563586d022ee1130cd1e370678b6debf1987ac1549f07963f07461c0512",
+          "version": "1.0.1",
           "execution_modes": [
             "LOCAL_FULL"
           ],
